@@ -10,9 +10,9 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 | r/indiehackers | `rih` | — | — | — | — | — | paylaşılmadı |
 | r/alphaandbetausers | `rab` | — | — | — | — | — | paylaşılmadı |
 | r/coolgithubprojects | `rcg` | — | — | — | — | — | paylaşılmadı |
-| Launching Next | `ln` | — | — | — | — | — | form dolu, bot kontrolü operatörde |
-| Bluesky | `bsky` | — | — | — | — | — | e-posta doğrulaması bekleniyor |
-| Indie Hackers (yorum) | `ih` | — | — | — | — | — | onay bekleniyor |
+| Launching Next | `ln` | 0 (kuyrukta, tahmini 4 ay) | — | — | — | — | gönderildi 17:45 |
+| Bluesky | `bsky` | 0 beğeni / 0 repost (17:47) | — | — | — | — | yayında 17:46 |
+| Indie Hackers (yorum) | `ih` | — | — | — | — | — | yayında 17:48 |
 | Doğrudan / README / diğer | `direct` | — | — | — | — | — | — |
 | *Kendi testim (hariç)* | `selftest` | — | 1 | 1 | 0 | — | 16:54, QA |
 

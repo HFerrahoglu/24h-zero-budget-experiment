@@ -218,3 +218,11 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **Quick Check (Launching Next "What is 2+3?"):** Operatör izin verse de ajan bot kontrollerini ve CAPTCHA'ları çözmüyor. Bu, ajanın kendi güvenlik kuralı ve kullanıcı izniyle değişmiyor. Cevap ve Submit operatörde kalıyor (~20 sn).
 - **Reddit:** Operatör "hâlâ olumsuz" dedi (gönderi kaldırılmış durumda, modmail gitmiyor). Reddit kanalı bu hesapla kapandı. Yeniden deneme yapılmayacak.
 - Bluesky gönderisi yazılırken **Claude-in-Chrome eklentisinin bağlantısı koptu.** Bluesky zinciri ve onaylanan IH yorumu yayınlanmadı. Operatörden eklentiyi yeniden bağlaması istendi.
+
+### 17:44-17:49 — Launching Next gönderildi, Bluesky ve IH yayında
+- Eklenti bağlantısı geri geldi.
+- **Launching Next:** Bot kontrolünü (2+3) operatör cevapladı, formu ajan gönderdi.
+  - `[KANIT]` Sonuç sayfası: "Status: In Queue (Estimated Wait: 4 Months)". Hemen ardından $99 "Fast-Track" teklifi ("Only 3 express slots left this week") geldi. Satın alınmadı.
+  - Bu birinci elden bulgu ürün verisine işlendi: Launching Next `time_to_visible: months`. Önceki "We review submissions every day" bilgisi yanıltıcıydı.
+- **Bluesky:** İki gönderilik zincir yayında. Ana gönderi: https://bsky.app/profile/hferrahogludev.bsky.social/post/3mzl4casvi226 (`at://…/3mzl4casvi226`), açıklama yanıtı: `3mzl4dedpfs2h`. Metrikler herkese açık API'den okunabiliyor (getAuthorFeed).
+- **Indie Hackers:** Operatörün onayladığı yorum, 172 yorumlu "I looked at 20+ launch directories…" gönderisine yazıldı. Sayfada görünüyor.
