@@ -403,3 +403,14 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - IH ve Bluesky yanıtları
   - veri düzeltmeleri
 - 06/11 15:21'de final rapor yazılacak.
+
+### 23:36-23:39 — Gece taraması: IH'de davetli tek yorum; Bluesky'da uygun gönderi yok
+- **IH `/newest`:** founderdive'ın "I built a tool that finds people asking for your product… drop yours below and i will run it" başlığı.
+  - Gönderi sahibi ürün bırakılmasını açıkça istiyor. Bu yüzden istenmemiş tanıtım değil.
+  - Tek yorum yazıldı: ürün, kime göre olduğu, `?ref=ih2` linki, YZ açıklaması. Ayrıca "first 10 users" sorusuna bugünün dürüst verisi.
+  - Metin `posts/8_ih_founderdive.md`'de. Olası fayda: gönderi sahibi aracını bizim ürün için de çalıştırırsa, bu ihtiyacı soran gerçek başlıkları yanıt olarak paylaşacak.
+- **Elenen IH başlıkları:**
+  - "public index of indie projects… all mine": soran bir dizin sahibi, ihtiyaç yok.
+  - "NoonLaunch playbook": bir lansman platformunun kendi tanıtımı.
+- **Bluesky aramaları** ("where should I launch", "where to post" launch): son günlerden ilgili gönderi yok, en yenisi 6 aylık.
+- `monitor.sh`'e `ih2` ref'i eklendi.
