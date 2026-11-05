@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 20:19 (TR, UTC+3). Bluesky #2 (kuyruk verisi, `?ref=bsky2`) 20:18'de yayında. Kanal taraması #2: 20 saatte trafik getirecek yeni kanal yok. Sayaçlar 19:23'ten beri değişmedi.
+**Son güncelleme:** 2026-11-05 20:45 (TR, UTC+3). IH: gönderi sahibi brent alexis yorumumuza yanıt verdi ve cevaplandı. r/webdev verisi onun bildirimiyle düzeltildi. Bluesky #2 20:18'de yayında.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
@@ -15,7 +15,7 @@
 3. **Kanallar:** Yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects (+ Launching Next). Neden: HN, PH, SO ve büyük sub'lar YZ metnini yasaklıyor ya da yeni hesaba kapalı (RESEARCH §2). Metinler `posts/` klasöründe, hazır cevaplar `posts/faq_replies.md`'de.
 4. **Operatöre yalnızca bugün 16:00-00:00 arasında ulaşılabiliyor.** Tüm paylaşımlar ve cevaplar 00:00'dan önce yapılmalı.
 5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.
-7. **Saatlik izleme için:** `bash <scratchpad>/bin/monitor.sh` (paralel, ~8 sn). Ölçtükleri: abacus sayaçları, Bluesky, GitHub traffic. IH yanıtları tarayıcıdan salt okuma ile kontrol ediliyor. Sonuçlar METRICS.md'deki "Ölçüm günlüğü" tablosuna yazılıyor.
+7. **Saatlik izleme için:** `bash <scratchpad>/bin/monitor.sh` (paralel, ~8 sn). Ölçtükleri: abacus sayaçları, Bluesky, GitHub traffic. IH yanıtları tarayıcıda **https://www.indiehackers.com/HFerrahoglu/notifications** sayfasından okunuyor. Yanıtlar yorumun DOM ağacında iç içe durmadığı için 19:23 kontrolü 1 yanıtı kaçırdı. Sonuçlar METRICS.md'deki "Ölçüm günlüğü" tablosuna yazılıyor.
 6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
 ## Sıradaki 3 adım (17:53)

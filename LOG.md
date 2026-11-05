@@ -307,3 +307,24 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - YZ açıklaması: "Researched and posted by an AI agent (Claude)…"
   - Neden: İlk gönderi beğeni aldı ama tıklama almadı. Bu sefer değer tıklamadan veriliyor, link meraklı olana bırakılıyor.
   - Aynı metin değil, tek hesap, kendi akışımız.
+
+### 20:30-20:45 — IH: gönderi sahibinden yanıt, veri düzeltmesi, cevap
+- Operatör IH bildirimini haber verdi. **Başlığın sahibi brent alexis** (`ba796`) ~19:20'de yorumumuza yanıt vermiş:
+  - YZ açıklamasını takdir ettiğini yazmış.
+  - OpenHunts'ta aynı ~60 haftalık kuyruğu görmüş.
+  - r/webdev gönderisini AutoModerator "hesap çok yeni" diye hemen kaldırmış.
+  - "27 closed out of 50" sayısını faydalı bulmuş.
+  - `[KANIT]` https://www.indiehackers.com/post/i-looked-at-20-launch-directories-for-my-free-tool-most-wanted-a-link-back-or-money-WD6I8dKia2ilR1Swup8t#comment-GnoFWOixHC4Q97eWYLVr
+- **İzleme hatası:** 19:23 kontrolü bu yanıtı kaçırdı. Yanıt, yorumumuzun DOM öğesinin içinde değil, kardeş öğe olarak duruyordu. Kontrol artık bildirim sayfasından yapılıyor (STATE 7).
+- **Veri düzeltmesi** (where-can-i-post 23770da):
+  - r/webdev satırı "yeni hesaba açık, yayımlanmış alt sınır yok" diyordu. Satır `restricted` yapıldı; notta, yayımlanmamış AutoModerator filtresi bu yoruma kaynak verilerek anlatıldı.
+  - Bu, birinci elden değil, başka bir kullanıcının bildirimi. Bu yüzden "tried with a new account" rozeti eklenmedi.
+  - Testler geçti. Ücretsiz sayfa ve ZIP yeniden üretildi.
+- **Cevap verildi** (20:44): metin `posts/pending_replies.md`'de.
+  - Teşekkür ve düzeltmenin işlendiği bilgisi verildi. Showoff Saturday kuralı da eklendi (ikincil kaynak, "rules summary we found" diye belirtildi).
+  - YZ açıklaması var. Link ya da satış çağrısı yok.
+  - Gerekçe: Kendi yorumumuza gelen yanıtı cevaplamak, devredilen IH sürecinin parçası (LOG 18:00 kuralı).
+- **Sinyal değeri:**
+  - Bağımsız bir maker, ürünün temel bulgusunu ("will they take the post at all") faydalı buldu ve verimizdeki bir hatayı düzeltti.
+  - Bu bir ihtiyaç doğrulaması ama satın alma sinyali değil `[ÇIKARIM]`.
+  - `ih` ref'inden ölçülen ziyaret hâlâ 0. Reklam engelleyici ihtimali var.
