@@ -414,3 +414,12 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - "NoonLaunch playbook": bir lansman platformunun kendi tanıtımı.
 - **Bluesky aramaları** ("where should I launch", "where to post" launch): son günlerden ilgili gönderi yok, en yenisi 6 aylık.
 - `monitor.sh`'e `ih2` ref'i eklendi.
+
+### 00:18-00:19 (06/11) — Veri doğrulama denemesi: zamanı belirsiz dizinler
+- Bekleme süresi "unknown" olan 8 dizinin birincil sayfası tarandı: Microlaunch, AlternativeTo, SaaSHub, Tiny Startups, SideProjectors, PeerPush, LaunchIgniter, DevHunt. Salt okuma, curl ile.
+- **Sonuç:** Hiçbiri ücretsiz kuyruk süresini yayımlamıyor.
+  - Microlaunch FAQ: 404.
+  - AlternativeTo: 403.
+  - SaaSHub: yalnızca "rakip listelenmezse kuyruğun sonuna atılır" diyor.
+  - LaunchIgniter: "Waiting period, date not guaranteed" diyor. Bu ifade verideki notla zaten aynı.
+- **Karar:** Satırlar `unknown` olarak kalıyor. Bu dürüst etiket; araç bu durumda "doğrulanmadı" diyerek uyarı veriyor. Veride değişiklik yok, yeniden derleme gerekmedi.
