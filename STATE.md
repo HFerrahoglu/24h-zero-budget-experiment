@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 17:16 (TR, UTC+3)
+**Son güncelleme:** 2026-11-05 17:12 (TR, UTC+3)
 **Faz:** 6 (Dağıtım). Gumroad yayında: https://hferrahoglu.gumroad.com/l/wherecanipost ($7). Reddit paylaşımlarını operatör yapacak.
 **Deney:** 05/11 16:00 → 06/11 16:00
 

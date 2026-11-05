@@ -158,7 +158,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Açılış sayfasındaki satın alma butonu Gumroad URL'sine bağlandı ve push edildi.
 - **Yayınlama (Publish) operatör onayını bekliyor.** Launching Next formunda "Quick Check: What is 2+3?" bot kontrolü var. Bot kontrollerini ajan çözmüyor, bu yüzden gönderimi operatör yapacak.
 
-### 17:12-17:16 — Operatör ONAY verdi → Gumroad yayında
+### 17:08-17:12 — Operatör ONAY verdi → Gumroad yayında
 - Operatörün mesajı: "ONAY". Kapsamı: (1) ürünü yayınlamak, (2) profile Bio eklemek.
 - Profil Bio'su eklendi ("Changes saved").
 - Ürün yayınlandı ("Published!"). **Yayınlamada ödeme, banka ya da kimlik bilgisi istenmedi** (ACCOUNTS'a eklendi).
@@ -168,4 +168,4 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Sayfada "14-day money back" yazıyor.
   - Alıcı görünümünde "Includes: 1 file · ZIP · 19.9 KB" ve "I want this!" var. Türkiye'den bakınca fiyat TRY 350,33 görünüyor (Gumroad yerel para birimiyle gösteriyor).
 - Açılış sayfasındaki satın alma butonu doğru URL'ye gidiyor (canlıda curl ile kontrol edildi).
-- **Satış altyapısı (Faz 5) tamamlandı: 17:16.** Sıradaki: Reddit paylaşımları. Paylaşımları operatör yapacak, eklenti Reddit'i engelliyor.
+- **Satış altyapısı (Faz 5) tamamlandı: 17:12.** Sıradaki: Reddit paylaşımları. Paylaşımları operatör yapacak, eklenti Reddit'i engelliyor.
