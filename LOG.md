@@ -157,3 +157,15 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **Teslim akışı para harcamadan doğrulandı:** Makbuz önizlemesinde "View content" butonu ZIP'in indirildiği sayfaya gidiyor ve satıcı iletişimi (hferrahoglu@gmail.com) yazıyor.
 - Açılış sayfasındaki satın alma butonu Gumroad URL'sine bağlandı ve push edildi.
 - **Yayınlama (Publish) operatör onayını bekliyor.** Launching Next formunda "Quick Check: What is 2+3?" bot kontrolü var. Bot kontrollerini ajan çözmüyor, bu yüzden gönderimi operatör yapacak.
+
+### 17:12-17:16 — Operatör ONAY verdi → Gumroad yayında
+- Operatörün mesajı: "ONAY". Kapsamı: (1) ürünü yayınlamak, (2) profile Bio eklemek.
+- Profil Bio'su eklendi ("Changes saved").
+- Ürün yayınlandı ("Published!"). **Yayınlamada ödeme, banka ya da kimlik bilgisi istenmedi** (ACCOUNTS'a eklendi).
+- Hata ve düzeltme: Ürün URL'si `awherecanipost` olarak kaydedilmişti. Ctrl+A alanı seçmemiş, harf metne karışmıştı. Alan üç tıkla seçilip yeniden yazıldı, değer JS ile doğrulandı. Düzeltme yayına girmeden önce yapıldı, kimse eski linki görmedi.
+- `[KANIT]` https://hferrahoglu.gumroad.com/l/wherecanipost HTTP 200 dönüyor:
+  - Sayfa JSON'unda `price_cents: 700` ve `currency_code: usd`.
+  - Sayfada "14-day money back" yazıyor.
+  - Alıcı görünümünde "Includes: 1 file · ZIP · 19.9 KB" ve "I want this!" var. Türkiye'den bakınca fiyat TRY 350,33 görünüyor (Gumroad yerel para birimiyle gösteriyor).
+- Açılış sayfasındaki satın alma butonu doğru URL'ye gidiyor (canlıda curl ile kontrol edildi).
+- **Satış altyapısı (Faz 5) tamamlandı: 17:16.** Sıradaki: Reddit paylaşımları. Paylaşımları operatör yapacak, eklenti Reddit'i engelliyor.

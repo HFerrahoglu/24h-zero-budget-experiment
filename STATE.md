@@ -1,7 +1,7 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 16:57 (TR, UTC+3)
-**Faz:** 5 (Satış altyapısı). Operatör Paket 1-3'ü bekliyor. Faz 6 (dağıtım) Gumroad linki gelince başlıyor.
+**Son güncelleme:** 2026-11-05 17:16 (TR, UTC+3)
+**Faz:** 6 (Dağıtım). Gumroad yayında: https://hferrahoglu.gumroad.com/l/wherecanipost ($7). Reddit paylaşımlarını operatör yapacak.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
 ## Kritik gerçekler (yeni oturumda önce bunları oku)
@@ -11,7 +11,7 @@
    - Kaynak klasör: `product/` (ayrı git repo; dış repoda gitignore'da)
    - Ücretli veri `product/data/channels.full.json` ve `channels.extra.json` dosyalarında. İkisi de gitignore'da, public değil.
    - Build: `cd product && node build.js <GUMROAD_URL>` → `docs/index.html`'e kopyala, ZIP'i yeniden üret. Test: `node test/test.js`.
-2. **Ödeme:** Ruul Space kapalı. Kanıt LOG 16:05'te. Gumroad önerildi, **operatörün onayı (1.2) hâlâ bekleniyor.** Fiyat $7. Teslim dosyası `product/dist/where-can-i-post-full-kit.zip`.
+2. **Ödeme:** Ruul Space kapalı (LOG 16:05, panelden de doğrulandı 17:01). Gumroad hesabı `hferrahoglu`, ürün yayında. Fiyat $7, iade 14 gün. Teslim dosyası `product/dist/where-can-i-post-full-kit.zip`. Ajan, operatörün tarayıcı oturumundan Gumroad'a erişebiliyor. Reddit'e erişemiyor (eklenti engeli).
 3. **Kanallar:** Yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects (+ Launching Next). Neden: HN, PH, SO ve büyük sub'lar YZ metnini yasaklıyor ya da yeni hesaba kapalı (RESEARCH §2). Metinler `posts/` klasöründe, hazır cevaplar `posts/faq_replies.md`'de.
 4. **Operatöre yalnızca bugün 16:00-00:00 arasında ulaşılabiliyor.** Tüm paylaşımlar ve cevaplar 00:00'dan önce yapılmalı.
 5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.

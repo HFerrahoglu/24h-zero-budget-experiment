@@ -10,7 +10,7 @@ Operatör penceresi: yalnızca 16:00-00:00 (bugün). Toplam bütçe: en fazla 48
 |---|---|---|---|---|
 | Paket 1 | 16:16 | ~15 dk | | Bekliyor |
 | Paket 2 | 16:30 | ~14 dk | | Bekliyor |
-| Paket 3 | 16:55 | ~20 dk | | Bekliyor (1.2 ONAY'a bağlı) |
+| Paket 3 | 16:55 | ~20 dk | 3.1'i ajan yaptı (operatör izniyle tarayıcıdan) | 3.1 ✅ 17:14 · 3.2 (Launching Next) operatörde: bot kontrolü var |
 | Paket 4 | 16:55 (saatleri içinde) | ~10 dk/paylaşım + cevaplar | | Bekliyor |
 | **Toplam** | | | | |
 
@@ -111,7 +111,7 @@ Hesapla giriş yapmış hâlde aşağıdaki 5 topluluğun her biri için:
 
 Bu paket Gumroad'da ürünü kuruyor. Gumroad linki çalışmadan Reddit paylaşımı yapamayız, çünkü satın alma butonu boşa çıkar.
 
-### Görev 3.1 — Gumroad'da ürünü oluşturun (~12 dk)
+### Görev 3.1 — Gumroad'da ürünü oluşturun (~12 dk) · ✅ AJAN YAPTI (17:14, operatör ONAY'ı ile)
 **Yüklenecek dosya (bilgisayarınızda):** `C:\Users\hferr\Desktop\24HourChallenge\product\dist\where-can-i-post-full-kit.zip` (20 KB)
 **Kapak görseli:** `C:\Users\hferr\Desktop\24HourChallenge\product\assets\screenshot-free.png`
 
