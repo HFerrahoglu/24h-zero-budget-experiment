@@ -262,3 +262,15 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Medium: YZ etiketli hikâyeler yalnızca yazarın ağına dağıtılıyor, yeni hesabın ağı yok.
   - Lemmy (programming.dev): bot korumasıyla erişime kapalı.
 - **Sonuç:** Kalan kanallar Bluesky, IH (yalnızca ilgili başlıklara tek yorum), Launching Next ve r/SideProject (moderatör onayı ihtimali, düşük). Zaman izlemeye, gelen her yoruma hızlı cevaba ve verinin birinci elden iyileştirilmesine ayrılacak.
+
+### 18:00-18:18 — Operatör birkaç saat yok: "soru sorma ve duraklama işini daha az yap". Ürün iyileştirmesi
+- Çalışma kuralı (kendi kararım):
+  - Paylaşımlarımıza gelen yanıtlara cevap vermek, operatörün devrettiği Bluesky ve IH süreçlerinin parçası. Bunu kendim yapacağım.
+  - Yeni başlıklara ilk yorum taslakta bekleyecek (`posts/pending_replies.md`).
+  - Bot kontrolü ve CAPTCHA yok.
+- **Ürün iyileştirmeleri** (dönüşümü artırmak için; kitle küçük olduğu için her ziyaretçi değerli):
+  - "Tried with a new account" rozeti ve "What happened when we tried" notu dört kanalda: r/SideProject (filtre, "$" kuralı), IH (yeni hesap kilidi), Launching Next (4 ay), Bluesky (e-posta doğrulaması). Rakip listelerde olmayan birinci elden kanıt.
+  - OG/Twitter meta etiketleri ve 1200×630 `og.png`. Link paylaşıldığında görsel kart çıkıyor.
+  - Testler 44/44 geçti.
+  - Bir kez başarısız testle push edildi (yeni not `.rule` sınıfını kullanıyordu), 2 dk içinde düzeltildi.
+- Gumroad ZIP'i yeni sürümle değiştirildi (20,6 KB, tek dosya, sayfa yenilenerek doğrulandı).
