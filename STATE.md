@@ -1,7 +1,7 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 17:12 (TR, UTC+3)
-**Faz:** 6 (Dağıtım). Gumroad yayında: https://hferrahoglu.gumroad.com/l/wherecanipost ($7). Reddit paylaşımlarını operatör yapacak.
+**Son güncelleme:** 2026-11-05 17:58 (TR, UTC+3)
+**Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
 ## Kritik gerçekler (yeni oturumda önce bunları oku)
@@ -17,7 +17,12 @@
 5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.
 6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
-## Sıradaki 3 adım
+## Sıradaki 3 adım (17:58)
+1. Saatlik izleme: METRICS'i güncelle, IH yanıtlarını oku. Yanıt gerekirse taslağı `posts/pending_replies.md`'ye yaz ve operatörden onay al (00:00'a kadar).
+2. IH ve Bluesky'da yalnızca ihtiyacın dile getirildiği güncel başlıklara tek, onaylı yorum.
+3. 23:30'da son operatör paketi. 06/11 15:21'de REPORT.md.
+
+## (Eski) Sıradaki 3 adım
 1. Operatörden Paket 1 cevaplarını al (özellikle 1.2 ONAY ve Gumroad kullanıcı adı), Paket 2'yi (Reddit hesabı + kurallar) ve Paket 3'ü (Gumroad ürünü) al.
 2. Gumroad URL'si gelince `node build.js <URL>` çalıştır, docs ve ZIP'i güncelle, push et, satın alma butonunu canlıda doğrula.
 3. Paket 4: r/SideProject paylaşımı → +75 dk r/indiehackers → +75 dk r/alphaandbetausers → +75 dk r/coolgithubprojects. Her 30-40 dk'da yorumları al, cevap taslağı ver. Sayaçları oku ve METRICS'e yaz.

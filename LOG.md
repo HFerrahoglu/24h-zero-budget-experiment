@@ -226,3 +226,26 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Bu birinci elden bulgu ürün verisine işlendi: Launching Next `time_to_visible: months`. Önceki "We review submissions every day" bilgisi yanıltıcıydı.
 - **Bluesky:** İki gönderilik zincir yayında. Ana gönderi: https://bsky.app/profile/hferrahogludev.bsky.social/post/3mzl4casvi226 (`at://…/3mzl4casvi226`), açıklama yanıtı: `3mzl4dedpfs2h`. Metrikler herkese açık API'den okunabiliyor (getAuthorFeed).
 - **Indie Hackers:** Operatörün onayladığı yorum, 172 yorumlu "I looked at 20+ launch directories…" gönderisine yazıldı. Sayfada görünüyor.
+
+### 17:58 — Ara değerlendirme #1 (deneyin 2. saati)
+**Metrikler** `[KANIT, METRICS.md]`:
+- Sayfa yükleme: 3, demo: 1, satın alma tıklaması: 0. Hepsi "direct", kaynağı belirsiz. `selftest` hariç.
+- Kanal ref'lerinden ziyaret yok. Bluesky 0 etkileşim, gönderi 12 dk önce yayınlandı. IH yorumu 10 dk önce yayınlandı.
+- Launching Next kuyrukta, tahmini 4 ay. Reddit gönderisi filtrelendi.
+
+**İşe yarayanlar:**
+- Hızlı inşa: ürün 16:55'te yayındaydı, plandan ~3,5 sa önce.
+- Her kanal denemesi ürünün verisine birinci elden bilgi ekledi: Reddit filtresi, "$" başlık kuralı, IH yeni hesap kilidi, Launching Next 4 ay.
+- IH'deki 172 yorumlu başlık, sorunun gerçek ve güncel olduğunu bağımsız olarak doğruluyor.
+
+**İşe yaramayanlar:**
+- Dağıtım. Kurallara uyan kanalların çoğu yeni hesaba fiilen kapalı ya da çok yavaş.
+- Ürünün tezi ("yeni hesap + YZ metni = çoğu kanal kapalı") deneyin kendi dağıtımında aynen gerçekleşti.
+
+**Plan değişiklikleri:**
+1. Reddit bu hesapla kapandı. Yeniden paylaşım, linksiz paylaşım ya da yeni hesap denenmeyecek.
+2. IH ve Bluesky'da "yalnızca ihtiyacın açıkça dile getirildiği güncel başlıklara, başlık başına tek yorum" politikası uygulanacak. Aynı linki art arda birçok başlığa bırakmak yok.
+3. DonanımHaber elendi: kendi sitene link "reklam" sayılıyor ve siliniyor (https://forum.donanimhaber.com/bolumde-yapilan-reklamlar-hakkinda--87352680).
+4. Gece takibi için saatlik izleme cron'u (yalnızca okuma ve kayıt) ve 06/11 15:21 final rapor cron'u kuruldu. İkisi de yalnızca oturum açık kaldıkça çalışıyor.
+
+**Dürüst beklenti** `[TAHMİN]`: Mevcut erişimle 24 saat içinde satış olasılığı düşük (tek haneli yüzde).
