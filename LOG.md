@@ -285,3 +285,10 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Bluesky: 5 beğeni değişmedi. API `replyCount=2` diyor ama hem herkese açık thread'de hem giriş yapılmış sayfada tek yanıt (bizim 2/2 açıklama gönderimiz) görünüyor, bildirim yok. Muhtemelen silinmiş ya da moderasyonla gizlenmiş bir yanıt `[ÇIKARIM]`. Yeni takipçi: bir YZ bot hesabı.
 - IH yorumu: 0 yanıt. Upvote öğesi `comment-voter--upvoted` sınıfı taşıyor, yani tek oy büyük ihtimalle IH'nin kendi yorumuna verdiği otomatik oy. 18:22 satırındaki "1 upvote" başkasından gelmiş sayılmamalı. Başlık 187 yoruma çıktı.
 - `monitor.sh` düzeltmesi: abacus ara sıra "Failed to get data" dönüyor ve script bunu 0 yazıyordu (ilk okumada demo 1→0 görünmesinin nedeni). Artık 3 kez deniyor, başarısızsa `?` yazıyor.
+
+### 19:30 — Yeni başlık taraması (salt okuma, yorum yok)
+- Bluesky aramaları ("launch directories", "where to launch", Reddit filtre mesajı) yardım isteyen güncel bir gönderi çıkarmadı. Yalnızca iki rakip liste çıktı (RESEARCH §5.1).
+- IH'de arama 2026'da kaldırılmış (410). `/newest` tarandı. İki aday elendi:
+  - "Launched a paid jobs API… first 10?": soru niş bir veri aracının ilk kullanıcıları hakkında; yorumlar da genel dizinlere girmeyi önermiyor. Ürünümüz bu soruyu yanıtlamıyor.
+  - "How far ahead do you plan a launch?": soran kişi bir dizin sahibi. İhtiyaç dile getirilmiyor ve erişim çok düşük (2 upvote, 1 yorum).
+  - Linksiz bir yorum, geçmiş kazanmak için atılmış bir yorum olurdu; politikamız bunu dışlıyor.

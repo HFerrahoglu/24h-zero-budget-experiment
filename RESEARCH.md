@@ -175,3 +175,9 @@ Elenenlerin ana nedenleri:
    - Filtre riski kanal seviyesinde ve tüm adaylar için aynı. Fikre özgü değil. Her sub'a özgün metin yazılacak, paylaşımlar 60-90 dk arayla yapılacak.
 
 Üç nedenin hepsine cevap verilebildi, bu yüzden #19 ile devam.
+
+### 5.1 Deney sırasında görülen rakipler (19:30, Bluesky aramasından)
+Kanıt düzeyi: Bluesky gönderilerinde gördük, sitelerin içini incelemedik.
+- **postyourstartup.co/directories**: 135 dizini trafiğe göre sıralıyor (Bluesky, @timothybramlett, 5 gün önce). Bu liste bizim yanıtlamadığımız "hangi dizin gerçekten trafik getiriyor" sorusuna yanıt veriyor.
+- **listaify.com**: YZ ürünleri için 1805 yer listeliyor, her birinin fiyatını gösteriyor (Bluesky, 1 gün önce).
+- **Sonuç:** Şeytanın avukatı #1'deki risk güçlendi. Ücretsiz ve çok daha kapsamlı listeler var. Hâlâ görmediğimiz şey, yeni hesap ve YZ metni kurallarını kaynak alıntısıyla veren bir araç. Farkımız bu dar eksende kalıyor. Bunu bir talep kanıtı olarak değil, fiyat baskısı olarak okumak gerekiyor.
