@@ -8,12 +8,12 @@ Operatör penceresi: yalnızca 16:00-00:00 (bugün). Toplam bütçe: en fazla 48
 
 | Paket | Verildiği saat | Tahmini süre | Gerçek süre (operatör yazar) | Durum |
 |---|---|---|---|---|
-| Paket 1 | 16:20 | ~15 dk | | Bekliyor |
+| Paket 1 | 16:16 | ~15 dk | | Bekliyor |
 | **Toplam** | | | | |
 
 ---
 
-## PAKET 1 — 16:20 (tahmini toplam: ~15 dk)
+## PAKET 1 — 16:16 (tahmini toplam: ~15 dk)
 
 Bu paketin amacı şunu netleştirmek: ödemeyi nereden alacağız? Ruul Space kapatılmış görünüyor (kanıtlar LOG.md 16:05 kaydında). Kalan her şey buna bağlı.
 

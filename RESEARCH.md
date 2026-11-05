@@ -15,7 +15,7 @@ Etiketler: `[KANIT]` bağlantıyla doğrulanmış, `[ÇIKARIM]` benim yorumum, `
 | GitHub API | ✅ | `gh` CLI yok. GCM token'ı ile REST API kullanılıyor (yetkiler: repo, workflow, gist) |
 | node / npm | ✅ 22.23 / 10.9 | |
 | python | ✅ 3.13 | `python` komutuyla |
-| GitHub Pages deploy | ⏳ Test ediliyor | Bkz. LOG |
+| GitHub Pages deploy | ✅ Çalışıyor | API ile etkinleştirildi (main:/docs). İlk build 45 sn sürdü. https://hferrahoglu.github.io/24h-zero-budget-experiment/ → HTTP 200 (16:15) |
 | Tarayıcı (Claude in Chrome) | Mevcut, test edilmedi | Yalnızca okuma için. Hesap açma otomasyonu yok. |
 | Gmail | ❌ Doğrudan erişim yok | Operatör iletecek |
 

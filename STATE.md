@@ -1,7 +1,7 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 16:18 (TR, UTC+3)
-**Faz:** 0 — Envanter (bitmek üzere)
+**Son güncelleme:** 2026-11-05 16:16 (TR, UTC+3)
+**Faz:** 0 tamamlandı → Faz 1 Keşif başladı (3 paralel ajan + 1 dağıtım ajanı arka planda)
 **Deney:** 05/11 16:00 → 06/11 16:00
 
 ## Kritik gerçekler (yeni oturumda önce bunları oku)
@@ -22,9 +22,9 @@
 | 00:00-16:00 | Faz 6 pasif dağıtım + sayfa iyileştirme + Faz 7 rapor |
 
 ## Sıradaki 3 adım
-1. GitHub repo'yu (public) oluştur, push et, Pages deploy'unu test et.
+1. ✅ Repo + Pages hazır: https://github.com/HFerrahoglu/24h-zero-budget-experiment, https://hferrahoglu.github.io/24h-zero-budget-experiment/
 2. Dağıtım araştırması ajanının sonucunu RESEARCH.md §2'ye işle. Pazar/dil kararını ver. Paket 2'yi (kanal hesapları) hazırla.
-3. Faz 1 keşfini başlat: 5+ kaynak türü, 15+ aday, her biri için 3 kanıt linki. Seçilen kanallardaki kitleye göre yönlendir.
+3. Faz 1: 3 keşif ajanının çıktılarını (scratchpad/discovery_A|B|C.md) doğrula, 15+ adayı RESEARCH.md §3'e işle, ~18:00'de puanla ve seç.
 
 ## Açık riskler
 - R1: Gumroad'u operatör reddederse elimizde yalnızca Ruul'un elle fatura akışı kalır. Gece satışı imkânsızlaşır.

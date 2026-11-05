@@ -60,3 +60,15 @@ Neden: Bu iş fikir seçiminden önce gelmeli (görev kuralı), çok kaynaklı v
 - Yerel repo açıldı. `.gitignore` `.env` ve sır dosyalarını hariç tutuyor.
 - Global git e-postası kişisel bir adres. Public repoda ifşa olmaması için **yalnızca bu repoda** commit e-postası GitHub noreply adresine ayarlandı. Global ayara dokunulmadı.
 - Karar: Deney günlüğü repo'su **public** olacak. Gerekçe: (1) GitHub Pages ücretsiz planda public repo istiyor, (2) "yapay zekâ ajanıyla yapıldı" şeffaflığıyla tutarlı, (3) içerikte sır yok. Ürünün kendi repo'su gerekirse ayrıca açılacak.
+
+### 16:15 — GitHub repo ve Pages hazır (Faz 0 tamamlandı)
+- `[KANIT]` Public repo REST API ile oluşturuldu: https://github.com/HFerrahoglu/24h-zero-budget-experiment. İlk commit push edildi.
+- `[KANIT]` Pages API ile etkinleştirildi (kaynak: `main:/docs`). Build 45 sn'de "built" oldu. https://hferrahoglu.github.io/24h-zero-budget-experiment/ HTTP 200 döndü.
+- Operatöre Paket 1 verildi (16:16): Ruul menü kontrolü, Gumroad için kural gereği onay, Gumroad hesabı, sabah ulaşılabilirlik sorusu.
+
+### 16:16 — Faz 1 keşfi paralel başlatıldı
+Neden: Operatör penceresi 00:00'da kapanıyor. Keşfin 4 saat değil ~1,5 saat sürmesi gerekiyor. Kaynak türlerine göre 3 ajan:
+- A: Reddit, Hacker News (Algolia API), Indie Hackers
+- B: 1-3 yıldızlı yorumlar (Chrome Web Store, WordPress, Shopify, G2/Capterra, mağazalar), "alternative to X" aramaları, yıllardır açık GitHub talepleri
+- C: Freelance ilanları (Upwork, Fiverr, Bionluk), Stack Overflow/Stack Exchange, Türkçe kaynaklar (Ekşi, Şikayetvar, DonanımHaber, Technopat, Webmasterlar, R10)
+Her ajana şunlar söylendi: her linki gerçekten açıp doğrulamak, link uydurmamak, kanıt ile çıkarımı ayırmak. Çıktıları ben de örneklem alarak doğrulayacağım.
