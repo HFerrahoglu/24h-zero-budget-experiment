@@ -444,3 +444,6 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 
 ### 01:22 (06/11) — Saatlik izleme #8
 - Değişim yok: direct 5/2/0, tüm kanal ref'leri (ih2, ihp dahil) 0. Bluesky'da ve IH'de yeni bildirim yok.
+
+### 02:22 (06/11) — Saatlik izleme #9
+- Değişim yok: direct 5/2/0, tüm kanal ref'leri 0, Gumroad 0 satış. IH bildirimleri hâlâ yalnızca brent'in 2 yanıtı. Bluesky #1 `replyCount=2` aynı görünmeyen yanıt (LOG 19:23 notu), yeni bildirim yok.
