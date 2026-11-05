@@ -392,3 +392,6 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - **Sayılar** (en zor senaryo): tam kit **29 kapalı / 20 çekinceli / 1 açık**, ücretsiz sayfa 10/2/0.
   - og.png, og:description, Gumroad küçük resmi, kapağı ve ZIP'i (21,0 KB) güncellendi. Herkese açık sayfada "Includes: 1 file · ZIP · 21.0 KB" yazıyor ve kapakta 0/2/10 görünüyor.
 - Paket 7'nin 7.1 ve 7.2 adımları yapılamadı. 7.3 (yorum kontrolü) hâlâ geçerli.
+
+### 23:22 — Saatlik izleme #6
+- Değişim yok: direct 5/2/0, kanal ref'leri 0. r/SideProject gönderisi görünür olmasına rağmen `rsp` ziyareti de 0. IH'de ve Bluesky'da yeni bildirim yok.
