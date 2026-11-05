@@ -360,3 +360,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - ZIP değişikliğinde iki dosya da 20,8 KB göründü. Eski dosya editördeki kimliğinden ayırt edildi: yeni yükleme geçici hex kimlik, eski dosya sunucu kimliği taşıyordu. Kaydedilip yenilendi: tek dosya, yeni sunucu kimliği, herkese açık sayfada "Includes: 1 file · ZIP · 20.8 KB".
   - Kapak dosya seçme penceresi açan bir düğmeyle yükleniyor. Sayfadaki gizli file input bulunup dosya doğrudan ona verildi, yerel pencere açılmadı.
 - **Eski paylaşımlar:** Bluesky #1, IH yorumu ve Gumroad açıklamasındaki "27 closed, 22 with caveats" yayın anındaki sayıydı; olduğu gibi bırakıldı, düzeltme burada kayıtlı. Gumroad açıklamasında sayı geçmiyor. Bluesky #1 ve IH yorumu artık güncel değil.
+
+### 22:23 — Saatlik izleme #5
+- 21:22'den beri değişim yok: direct 5/2/0, kanal ref'leri (bsky2 dahil) 0, satın alma tıklaması 0. IH'de yeni bildirim yok (başlık 208 yorum). Bluesky'da yeni etkileşim yok.
+- Yanıt gerektiren bir şey yok.

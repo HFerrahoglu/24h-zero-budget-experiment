@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 21:45 (TR, UTC+3). dev.to düzeltildi (YZ metniyle tanıtım = kapalı). En zor senaryo artık 28 kapalı / 21 çekinceli / 1 açık; görseller, Gumroad kapağı, küçük resmi ve ZIP güncellendi. IH konuşması kapandı. Sayaçlar: direct 5/2/0, Gumroad 0 satış.
+**Son güncelleme:** 2026-11-05 22:23 (TR, UTC+3). İzleme #5: değişim yok (direct 5/2/0, kanal ref'leri 0, Gumroad 0 satış, yeni IH/Bluesky yanıtı yok). En zor senaryo 28/21/1. Sıradaki: 23:30 son operatör paketi.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
