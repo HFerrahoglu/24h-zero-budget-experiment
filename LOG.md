@@ -134,3 +134,13 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **Ölçüm:** kayıt gerektirmeyen abacus sayaçları, namespace `wcip-hf24h`, kanal başına `?ref=`. Olaylar: `visit` (sayfa yüklemesi), `demo` (ilk filtre tıklaması), `buy` (satın alma butonu). Satış verisi Gumroad'dan operatör aracılığıyla gelecek.
 - **Akış doğrulaması para harcamadan yapılacak:** Gumroad Preview. Operatöre satın alma yaptırılmıyor, indirim kodu da oluşturulmuyor. Gerekçe: $0'lık test siparişi Gumroad'da satış olarak görünür ve metrikleri bulandırır.
 - Paket 3 (Gumroad ürünü + Launching Next) ve Paket 4 (Reddit metinleri `posts/` altında, hazır cevaplar `posts/faq_replies.md`) OPERATOR_TASKS'a yazıldı.
+
+### 16:58 — Operatör talimatı: hesaplar açık, ajan tarayıcı üzerinden erişebilir
+- Operatörün mesajı (birebir): "Ruul'da, GumRoad'ta, Reddit'te hesabım var. Gir ve kontrol et. Hesap açma işlemlerini ben yaptım, gerisine sen bakabilirsin."
+- Bu, görev metnindeki iki kuralı operatörün kendisi değiştiriyor demek. Eski kurallar: "Ruul hesabına sen erişmeyeceksin" ve "yayınlayan operatör olacak".
+- Erişim yolu: Claude-in-Chrome eklentisi, operatörün açık tarayıcı oturumları. Şifre girilmiyor, hesap açma otomasyonu yapılmıyor.
+- Kendime koyduğum sınırlar:
+  - Ruul'da yalnızca okuma. Ödeme hesabı, kimlik, para çekme ve ayarlara dokunulmuyor.
+  - Gumroad'da ürün taslak olarak kurulacak.
+  - Herkese açık yayınlama adımları (Gumroad "Publish", Reddit paylaşımları, Launching Next gönderimi) için operatörden açık onay alınacak. Gerekçe: Metinleri ben yazdım, yayınlanınca geri alınamayabilir.
+- REPORT §6'da "ne kadar kendi başına" sorusu için bu değişiklik ayrıca belirtilecek.
