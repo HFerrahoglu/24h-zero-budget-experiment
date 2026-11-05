@@ -10,6 +10,8 @@ Operatör penceresi: yalnızca 16:00-00:00 (bugün). Toplam bütçe: en fazla 48
 |---|---|---|---|---|
 | Paket 1 | 16:16 | ~15 dk | | Bekliyor |
 | Paket 2 | 16:30 | ~14 dk | | Bekliyor |
+| Paket 3 | 16:55 | ~20 dk | | Bekliyor (1.2 ONAY'a bağlı) |
+| Paket 4 | 16:55 (saatleri içinde) | ~10 dk/paylaşım + cevaplar | | Bekliyor |
 | **Toplam** | | | | |
 
 ---
@@ -100,4 +102,101 @@ Hesapla giriş yapmış hâlde aşağıdaki 5 topluluğun her biri için:
 
 ---
 
-*Paket 3 (ürün kurulumu ve paylaşım metinleri) ürün seçildikten sonra, tahminen 19:30-20:00 arasında gelecek. Paylaşımlar ~20:30'da başlayıp 00:00'a kadar sürecek. Bu aralıkta ayırabileceğiniz süreyi en çok buna ayırmanızı rica ederim, yorumlara cevap da bu sürede verilecek.*
+## PAKET 3 — 16:55 (tahmini ~20 dk) · yalnızca 1.2'de ONAY verdiyseniz
+
+Ürün hazır ve test edildi:
+- Ücretsiz sürüm: https://hferrahoglu.github.io/where-can-i-post/
+- Repo: https://github.com/HFerrahoglu/where-can-i-post
+- Ürünün kendisi: lansman yapanlara, yeni hesapla ve YZ destekli metinle hangi kanalın paylaşımı kabul edeceğini, kuralı ve kaynağıyla gösteren bir araç. Ücretli kit $7.
+
+Bu paket Gumroad'da ürünü kuruyor. Gumroad linki çalışmadan Reddit paylaşımı yapamayız, çünkü satın alma butonu boşa çıkar.
+
+### Görev 3.1 — Gumroad'da ürünü oluşturun (~12 dk)
+**Yüklenecek dosya (bilgisayarınızda):** `C:\Users\hferr\Desktop\24HourChallenge\product\dist\where-can-i-post-full-kit.zip` (20 KB)
+**Kapak görseli:** `C:\Users\hferr\Desktop\24HourChallenge\product\assets\screenshot-free.png`
+
+1. Gumroad → **Products** → **New product**.
+2. **Name** alanına kopyalayın:
+   ```
+   Where Can I Post? Full Kit: 50 launch channels checked for new accounts & AI-assisted posts (Nov 2026)
+   ```
+3. Tür olarak **Digital product** seçin.
+4. **Price:** `7` (USD). Pay-what-you-want açmayın.
+5. **Next / Customize** → **Description** alanına aşağıdaki metni yapıştırın:
+   ```
+   Most launch channels quietly reject posts from new accounts or posts written with AI help. This kit shows which of 50 launch channels will take your post in your situation, with the rule and its source for each one.
+
+   What's inside (one offline HTML file + README):
+   • All 50 channels: subreddits, Hacker News, Product Hunt, Indie Hackers, Dev.to, Hashnode, Medium, HackerNoon, Lobsters, 20+ launch directories with their real free-queue times and paid fast lanes, Mastodon, Bluesky, Shopify Community, Turkish forums.
+   • Finder: account age × AI-assisted text × how fast you need visibility × budget, sorted into open / caveats / closed, with the rule quote and source. Each row says whether the source is the platform's own page, an archived copy, or a third-party tracker.
+   • Launch profile with character counters (60/160/500) and one-click copy.
+   • Autofill bookmarklet for submit forms. It never submits. No extension, no permissions, and nothing leaves your browser.
+   • Submission tracker with CSV export.
+   • The full dataset as CSV and JSON.
+
+   Try the free version first (12 channels): https://hferrahoglu.github.io/where-can-i-post/
+
+   Honest limits: this is a data snapshot from 2026-11-05. Rules change and updates aren't promised. "Open" means no blocking rule was found, not that you'll get traffic. Not legal advice.
+
+   Built by an AI agent (Claude, by Anthropic) with me as the human operator, as part of a public 24-hour experiment: https://github.com/HFerrahoglu/24h-zero-budget-experiment
+
+   Refunds: full refund within 14 days for any reason. Reply to your receipt or email hferrahoglu@gmail.com.
+   ```
+6. **Cover** olarak yukarıdaki `screenshot-free.png` dosyasını yükleyin.
+7. **Content** bölümüne `where-can-i-post-full-kit.zip` dosyasını yükleyin.
+8. Satın alma sonrası mesaj ("Thank you"/receipt note) alanı varsa şunu yapıştırın:
+   ```
+   Thanks! Download the ZIP, unzip it, and open where-can-i-post-full.html in your browser. README.txt explains the autofill bookmarklet. Questions or a refund: just reply to this email.
+   ```
+9. **Settings** bölümünde:
+   - Ürün URL'sini (custom permalink) `wherecanipost` yapın.
+   - "Refund policy" alanı varsa "14-day money back guarantee" seçeneğini ya da en yakınını seçin.
+10. **Publish** (Yayınla).
+11. **Kontrol, para harcamadan:** Ürün sayfasını gizli sekmede açın ve Gumroad'un **Preview** özelliğiyle içerik/indirme sayfasına bakın. **Satın alma yapmayın ve indirim kodu oluşturmayın.** Ekran görüntüsünü bana göndermeniz yeterli.
+
+**Bana geri bildirin:** (a) ürünün tam URL'si (ör. `https://hferrahoglu.gumroad.com/l/wherecanipost`), (b) yayında mı, (c) Preview'da ZIP görünüyor mu, (d) ücret, ödeme ya da kimlik bilgisi isteyen bir ekran çıktı mı, (e) ürün sayfasının ekran görüntüsü.
+
+### Görev 3.2 — Launching Next'e ücretsiz gönderim (~4 dk)
+Bunu kendi veri setimiz gerektiriyor: Launching Next ücretsiz ve "We review submissions every day" diyor, ama yayın garantisi yok.
+1. https://www.launchingnext.com/submit/ adresini açın.
+2. Alanları doldurun:
+   - **Startup Name:** `Where Can I Post?`
+   - **Startup URL:** `https://hferrahoglu.github.io/where-can-i-post/?ref=ln`
+   - **Your headline:**
+     ```
+     See which launch channels accept new accounts and AI-assisted posts
+     ```
+   - **Full startup description:**
+     ```
+     A free, client-side tool for makers about to launch. Pick your account age, whether AI helped write your post, how fast you need visibility and your budget. It sorts launch channels (Hacker News, Product Hunt, subreddits, directories) into open, caveats and closed for your situation, and shows the rule and its source for each one. Data checked on 2026-11-05. An optional $7 kit covers 50 channels and adds an autofill bookmarklet and a tracker. Built by an AI agent with a human operator, as part of a public 24-hour experiment.
+     ```
+   - **Tags:** `launch, marketing, indie hackers, startup directories, product launch, side project`
+   - **Funding:** "bootstrapped / self-funded" ya da ona en yakın seçenek.
+   - **Marketing budget:** `$0`
+   - **Your Name:** Hamza Ferrahoğlu
+   - **Email:** hferrahoglu@gmail.com
+   - **Newsletter kutusunun işaretini KALDIRIN.** Gerekmeyen hiçbir şeye onay vermiyoruz.
+   - "Quick Check" sorusunu siz cevaplayın.
+3. **Submit Startup** butonuna basın.
+
+**Bana geri bildirin:** Gönderildi mi, ekranda ne yazdı?
+
+---
+
+## PAKET 4 — Reddit paylaşımları ve cevaplar (Gumroad linki çalışınca başlar)
+
+**Kurallar:**
+- Her topluluğa farklı metin, paylaşımlar arasında en az 60-75 dk.
+- Paylaşmadan önce Görev 2.2'de gördüğünüz kurallarla çelişen bir şey varsa **paylaşmayın**, bana yazın.
+- Her metnin sonundaki açıklama kalacak: bu metni YZ ajanı yazdı, siz yayınlıyorsunuz.
+- Linkleri olduğu gibi kopyalayın. `?ref=` parametresi hangi kanaldan ziyaret geldiğini ölçüyor.
+- Metinleri Gumroad URL'si kesinleşince son hâline getireceğim. Gumroad URL'sini aldığımda size güncel paketi vereceğim. Taslaklar repoda: `posts/` klasörü.
+
+**Takvim (TR saati, hedef):**
+1. r/SideProject: Gumroad hazır olur olmaz (hedef ≤18:30, ABD Doğu 10:30)
+2. r/indiehackers: +75 dk ("Self Promotion" flair)
+3. r/alphaandbetausers: +75 dk (başlıkta "[Web, Beta]")
+4. r/coolgithubprojects: +75 dk
+5. Her 30-40 dakikada bir yorumlara bakıp gelen yorumları bana yapıştırın. Ben cevap taslaklarını hazırlarım, siz yayınlarsınız.
+
+Hazır cevaplar (sık sorulacaklar): `posts/faq_replies.md`.

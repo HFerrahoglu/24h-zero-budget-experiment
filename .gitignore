@@ -10,3 +10,6 @@ node_modules/
 Thumbs.db
 *.log
 scratch/
+
+# Ürün ayrı bir repo (HFerrahoglu/where-can-i-post)
+product/

@@ -106,3 +106,31 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Bizimki daha dar kapsamlı ve satıcı tanınmıyor, bu yüzden emsalin altında tutuldu.
   - Gumroad kesintisi 0,70 + 0,50 = $1,20, net $5,80 (%83).
 - Zaman: Faz 1+2 planlanan 18:20 yerine 16:40'ta bitti, yani ~1,5 saat önde. Bu kazanç daha erken paylaşıma (≤19:30 TR = 11:30 ET) aktarılacak.
+
+### 16:39-16:55 — Faz 4: MVP inşası (planlanan 2,5 sa yerine ~20 dk sürdü)
+- Ürün: **Where Can I Post?** Kullanıcı hesap yaşını, metnin YZ destekli olup olmadığını, görünürlük için ne kadar beklayabileceğini ve bütçesini seçiyor. Araç kanalları open / caveats / closed diye ayırıyor; her biri için kural alıntısını (birebir değilse "Rule summary" etiketiyle), kaynağı, kaynak türünü (primary / archived / secondary) ve kontrol tarihini gösteriyor.
+  - Ücretsiz sürüm 12 kanal içeriyor, ücretli kit 50.
+  - Kitte ayrıca karakter sayaçlı lansman profili, autofill bookmarklet (asla submit etmiyor), takip tablosu ve CSV/JSON dışa aktarma var.
+- Ek veri: Ajan E 17 kanalı birincil kaynaktan doğruladı. Bulgulardan bazıları: Firsto ~180 gün, OpenHunts "~60 weeks", Open-Launch 2027'ye kadar dolu, DevHunt artık $49, HackerNoon YZ metnini kabul etmiyor.
+- Repo: https://github.com/HFerrahoglu/where-can-i-post (MIT, yalnızca ücretsiz veri). Canlı sayfa: https://hferrahoglu.github.io/where-can-i-post/
+  - Ücretli veri gitignore'da, public repoya girmedi (staged dosyalar kontrol edildi).
+  - Üçüncü taraf sitelerin HTML'leri (test fixture'ları) telif nedeniyle repodan çıkarıldı.
+- Test: 41 uçtan uca test jsdom ile çalıştırıldı, hepsi geçti. Kapsam:
+  - Karar mantığı.
+  - Kit: profil, sayaç, bookmarklet, takip.
+  - Gerçek Launching Next formunda autofill. Bu test üç gerçek sorunu yakaladı ve düzeltildi: id'siz `label[for]`, önceden `https://` ile dolu URL alanı, `startupname` gibi bitişik alan adları.
+- Bulunup düzeltilen mantık hatası: Kuyruk süresi doğrulanmamış dizinler "open" görünüyordu. Artık doğrulanmamış alanı olan her kanal en iyi ihtimalle "caveats" sayılıyor.
+- `[KANIT]` Ölçülen sonuç (yeni hesap + YZ metni + 24 sa + $0): ücretsiz sürümde 0 open / 5 caveats / 7 closed, tam kitte 1 open / 23 caveats / 26 closed (jsdom ile hesaplandı). Paylaşım metinleri bu sayılara dayanıyor.
+- QA:
+  - Canlı sayfada abacus sayaçları uçtan uca çalışıyor (`visit_selftest=1`, `demo_selftest=1`). `selftest` ref'i metriklerden hariç tutulacak.
+  - 375 px'te yatay taşma yok (iframe ölçümü: scrollWidth 360).
+  - Headless Edge minimum 492 px render ettiği için mobil ekran görüntüsü kesik görünüyordu. Gerçek taşma bu değildi.
+- Teslim dosyası: `product/dist/where-can-i-post-full-kit.zip` (20 KB; tek HTML + README.txt kullanım kılavuzu).
+
+### 16:55 — Faz 5 kararları
+- **Açılış sayfası = ürünün kendisi** (GitHub Pages). Gerekçe: Ziyaretçi değeri ödemeden önce deniyor (demo). Gumroad yalnızca ödeme ve teslim için kullanılıyor. Ayrı bir pazarlama sayfasına gerek yok.
+- **Fiyat $7 tek seferlik.** Emsal: aynı kitleye satılan $9.99'luk liste, 276 satış. Abonelikli rakipler AppScreens $99/yıl, Screen Studio $29/ay. Gumroad kesintisi $1,20, net $5,80.
+- **İade:** 14 gün koşulsuz. Gumroad panelinden yapılabilir ve operatörün deney sonrası yükümlülüğü olacak (REPORT §9).
+- **Ölçüm:** kayıt gerektirmeyen abacus sayaçları, namespace `wcip-hf24h`, kanal başına `?ref=`. Olaylar: `visit` (sayfa yüklemesi), `demo` (ilk filtre tıklaması), `buy` (satın alma butonu). Satış verisi Gumroad'dan operatör aracılığıyla gelecek.
+- **Akış doğrulaması para harcamadan yapılacak:** Gumroad Preview. Operatöre satın alma yaptırılmıyor, indirim kodu da oluşturulmuyor. Gerekçe: $0'lık test siparişi Gumroad'da satış olarak görünür ve metrikleri bulandırır.
+- Paket 3 (Gumroad ürünü + Launching Next) ve Paket 4 (Reddit metinleri `posts/` altında, hazır cevaplar `posts/faq_replies.md`) OPERATOR_TASKS'a yazıldı.

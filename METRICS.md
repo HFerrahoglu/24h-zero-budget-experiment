@@ -6,7 +6,18 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 
 | Kanal | ref parametresi | Erişim | Ziyaret | Demo kullanımı | Ödeme tıklaması | Satış | Kaynak / okuma saati |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | Henüz kanal açılmadı |
+| r/SideProject | `rsp` | — | — | — | — | — | paylaşılmadı |
+| r/indiehackers | `rih` | — | — | — | — | — | paylaşılmadı |
+| r/alphaandbetausers | `rab` | — | — | — | — | — | paylaşılmadı |
+| r/coolgithubprojects | `rcg` | — | — | — | — | — | paylaşılmadı |
+| Launching Next | `ln` | — | — | — | — | — | gönderilmedi |
+| Doğrudan / README / diğer | `direct` | — | — | — | — | — | — |
+| *Kendi testim (hariç)* | `selftest` | — | 1 | 1 | 0 | — | 16:54, QA |
 
-## Ölçüm yöntemi
-Faz 5'te belirlenecek. Tercihen kayıt gerektirmeyen, ücretsiz bir yöntem kullanılacak, her kanal için ayrı bir `?ref=` parametresiyle.
+## Ölçüm yöntemi (Faz 5, 16:55)
+- **Ziyaret / demo / ödeme tıklaması:** Ücretsiz sayfa (https://hferrahoglu.github.io/where-can-i-post/) kayıt gerektirmeyen bir sayaca anonim istek atıyor. Servis abacus.jasoncameron.dev, namespace `wcip-hf24h`. Anahtarlar: `visit_<ref>`, `demo_<ref>`, `buy_<ref>`. Okuma: `https://abacus.jasoncameron.dev/get/wcip-hf24h/visit_rsp`.
+  - Sayfa yüklemesi sayılıyor, tekil ziyaretçi değil. Aynı sayfa yüklemesinde her olay bir kez sayılıyor.
+  - `ref` sessionStorage'da tutuluyor. Ziyaretçi sayfada gezinirken kanal bilgisi kaybolmuyor.
+- **Erişim:** Reddit gönderisinin upvote ve yorum sayısı. Operatör ekran görüntüsüyle iletecek.
+- **Satış:** Gumroad paneli. Operatör iletecek.
+- **GitHub:** repo traffic API (görüntülenme, referrer). Ajan doğrudan okuyabiliyor.
