@@ -441,3 +441,6 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Bu mesaj 4 yorumdan sonra hâlâ çıkıyor. IH satırının notuna eklendi (where-can-i-post 5020f51). Ürün sayfası açmanın hemen çalıştığı da yazıldı. Sayılar değişmedi.
   - Kilidi açmak için yorum biriktirilmeyecek (18:00 kuralı).
 - **Bekleyen:** Gumroad ZIP'i bu not kadar geride. Bir sonraki değişiklikle birlikte değiştirilecek.
+
+### 01:22 (06/11) — Saatlik izleme #8
+- Değişim yok: direct 5/2/0, tüm kanal ref'leri (ih2, ihp dahil) 0. Bluesky'da ve IH'de yeni bildirim yok.
