@@ -39,3 +39,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 21:22 | 5/2/0 | hepsi 0/0/0 | #1: 5/0/0; **#2: 2 beğeni** (buildinpublicbot, kulpinski.dev) / 0 / 0 | 1 / **2 yanıt** (brent alexis, ikincisi ~21:11) | 0 / 0 | 0 |
 | 22:23 | 5/2/0 | hepsi 0/0/0 | #1: 5/0/0; #2: 2/0/0 | 1 / 2 (yeni yanıt yok; cevaplarımız 1'er oy, kendi otomatik oyumuz) | 0 / 0 | 0 |
 | 23:22 | 5/2/0 | hepsi 0/0/0 (rsp dahil; r/SideProject gönderisi görünür olmasına rağmen) | #1: 5/0/0; #2: 2/0/0 | 1 / 2 (yeni yok) | 0 / 0 | 0 |
+| 00:23 (06/11) | 5/2/0 | hepsi 0/0/0 (ih2 dahil; birkaç okuma ilk denemede hata verdi, tekrar okununca 0/yok) | #1: 5/0/0; **#2: 3** (+adityamitra) /0/0 | ih: 1/2 (yeni yok); ih2: yanıt yok (başlık 4 yorum) | 0 / 0 | 0 |

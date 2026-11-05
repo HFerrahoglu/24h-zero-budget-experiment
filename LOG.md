@@ -423,3 +423,8 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - SaaSHub: yalnızca "rakip listelenmezse kuyruğun sonuna atılır" diyor.
   - LaunchIgniter: "Waiting period, date not guaranteed" diyor. Bu ifade verideki notla zaten aynı.
 - **Karar:** Satırlar `unknown` olarak kalıyor. Bu dürüst etiket; araç bu durumda "doğrulanmadı" diyerek uyarı veriyor. Veride değişiklik yok, yeniden derleme gerekmedi.
+
+### 00:23 (06/11) — Saatlik izleme #7
+- Değişim yok: direct 5/2/0, kanal ref'leri (ih2 dahil) 0, satın alma tıklaması 0.
+- Bluesky #2'ye bir beğeni daha geldi (adityamitra), toplam 3. founderdive başlığında henüz yanıt yok. IH'de yeni bildirim yok.
+- Birkaç abacus okuması ilk denemede hata verdi. Tekrar okununca hepsi 0 ya da "Key not found" (hiç tetiklenmemiş) çıktı.
