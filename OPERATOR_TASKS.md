@@ -263,4 +263,5 @@ Not: Gumroad satış ve görüntülenme sayılarını ajan kendisi okuyacak, sal
 Neden şimdi: 17:45'teki karar diğer sub'ları ilk gönderi onaylanana kadar bekletmekti, ve gönderi onaylandı. Kitle olarak alıcıya en yakın sub r/indiehackers. Hesabın kapatılma riskini düşük tutmak için yalnızca bu tek gönderi atılacak. r/alphaandbetausers ve r/coolgithubprojects gönderileri iptal edildi.
 - **7.1** r/indiehackers → Create Post → Text. Başlık ve gövdeyi `posts/2_r_indiehackers.md`'den kopyalayın. Flair: **Self Promotion**.
 - **7.2** Gizli sekmede açın: görünüyor mu? Linki bana yazın.
+- **Sonuç (22:5x):** 7.1 yapılamadı. r/indiehackers yeni hesaba kapalı ("You can't contribute in this community yet": hesap yaşı + topluluk karması). 7.2 bu yüzden geçersiz.
 - **7.3** 00:00'dan önce son kez iki gönderinin yorumlarına bakın. Yorum varsa metnini buraya yapıştırın; cevap taslağını ben yazarım.

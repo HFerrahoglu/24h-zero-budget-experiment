@@ -377,3 +377,18 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - 17:45 kararının koşulu gönderinin onaylanmasıydı; koşul gerçekleşti.
   - Risk değerlendirmesi: İki gönderi arasında ~5,5 saat var. Metinler farklı. İlk gönderi moderatörce onaylandı. Kapatılma riski düşük ama sıfır değil `[TAHMİN]`. Bu yüzden diğer iki sub (r/alphaandbetausers, r/coolgithubprojects) iptal edildi.
   - Metin güncellendi: başlıktaki "$0" "zero budget" yapıldı (r/SideProject'teki "$" kuralına benzer bir kural olabilir), ilk gönderinin filtre deneyimi eklendi.
+
+### 22:54-22:58 — r/indiehackers kapalı (birinci elden). Reddit'te dağıtım bitti. Veri güncellendi
+- **Operatörün ekran görüntüsü:** r/indiehackers'ta "You can't contribute in this community yet" mesajı çıktı.
+  - Gerekçeler: "Your account isn't old enough yet. u/HFerrahoglu is 1 day old." ve "You have 0 comment karma. Earn more by commenting in r/indiehackers."
+  - `[KANIT]`: Operatörün paylaştığı ekran görüntüsü. Dosya oturumun yerel geçici klasöründe, repoya eklenmedi.
+- **Karar:**
+  - Reddit'te başka gönderi yok. "Post in Similar Communities" kullanılmadı.
+  - Karma için yorum yazılmadı. Geçmiş kazanmak için yorum yazmamayı 18:00'de kural koymuştuk; ayrıca karma kazanmak saatler sürer.
+  - Reddit'te yalnızca r/SideProject gönderisi duruyor.
+- **Ürün verisi** (where-can-i-post e3c6b24):
+  - r/indiehackers: `restricted` + `brand_new: "closed"` + "tried with a new account" notu. Verdict'e yeni kural eklendi: `brand_new` kapalıysa sıfır günlük hesap "kapalı" sayılıyor, 90+ gün için kapalı sayılmıyor. 2 yeni test eklendi, hepsi geçti.
+  - r/SideProject birinci elden notuna "~5 saat sonra kontrol edildiğinde görünüyordu, muhtemelen moderatör onayı" eklendi.
+  - **Sayılar** (en zor senaryo): tam kit **29 kapalı / 20 çekinceli / 1 açık**, ücretsiz sayfa 10/2/0.
+  - og.png, og:description, Gumroad küçük resmi, kapağı ve ZIP'i (21,0 KB) güncellendi. Herkese açık sayfada "Includes: 1 file · ZIP · 21.0 KB" yazıyor ve kapakta 0/2/10 görünüyor.
+- Paket 7'nin 7.1 ve 7.2 adımları yapılamadı. 7.3 (yorum kontrolü) hâlâ geçerli.
