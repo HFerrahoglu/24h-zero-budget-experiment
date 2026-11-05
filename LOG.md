@@ -193,7 +193,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   3. **Diğer sub'lardaki paylaşımlar bekletiliyor.** Aynı filtre büyük olasılıkla onlarda da çalışır. Art arda kaldırılan link gönderileri hesabın askıya alınma riskini artırır; hesap yasağı deneyin başarısızlığı demek. Modmail'e cevap gelene ya da gönderi onaylanana kadar bekleniyor.
   4. Bu birinci elden bulgu ürünün r/SideProject satırına işlendi: yeni hesap = restricted, "$" başlıkta yasak, Not-AI megathread'i var. Ücretsiz sayfa güncellendi.
 
-### 17:30-17:45 — Modmail engeli; Bluesky, Launching Next ve Indie Hackers tarayıcıdan
+### 17:26-17:40 — Modmail engeli; Bluesky, Launching Next ve Indie Hackers tarayıcıdan
 - `[KANIT, operatör]` Modmail denemesinde "You can't message that user." uyarısı çıktı. Olası neden: URL alıcıyı kullanıcı olarak algıladı. Operatöre sub kenar çubuğundaki "Message the mods" butonu önerildi.
 - Operatör Bluesky ve Indie Hackers hesaplarını açtı, bu süreçleri ajana devretti.
 - **Bluesky** (`hferrahogludev.bsky.social`): Görünen ad ve Bio eklendi. Gönderi atılamadı: Bluesky e-posta doğrulaması istiyor, link hferrahoglu@gmail.com'a gitti. Doğrulama operatörde.
