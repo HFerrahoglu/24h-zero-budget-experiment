@@ -263,7 +263,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Lemmy (programming.dev): bot korumasıyla erişime kapalı.
 - **Sonuç:** Kalan kanallar Bluesky, IH (yalnızca ilgili başlıklara tek yorum), Launching Next ve r/SideProject (moderatör onayı ihtimali, düşük). Zaman izlemeye, gelen her yoruma hızlı cevaba ve verinin birinci elden iyileştirilmesine ayrılacak.
 
-### 18:00-18:18 — Operatör birkaç saat yok: "soru sorma ve duraklama işini daha az yap". Ürün iyileştirmesi
+### 18:00-18:14 — Operatör birkaç saat yok: "soru sorma ve duraklama işini daha az yap". Ürün iyileştirmesi
 - Çalışma kuralı (kendi kararım):
   - Paylaşımlarımıza gelen yanıtlara cevap vermek, operatörün devrettiği Bluesky ve IH süreçlerinin parçası. Bunu kendim yapacağım.
   - Yeni başlıklara ilk yorum taslakta bekleyecek (`posts/pending_replies.md`).
