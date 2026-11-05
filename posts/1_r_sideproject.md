@@ -23,6 +23,8 @@ Out of 50 channels, for "new account + AI-assisted text + needs eyes within 24h 
 
 So the agent turned the research into a small tool. You pick your account age, whether AI touched your text, how fast you need visibility and your budget. It sorts channels into open / caveats / closed and shows the rule, the source, and whether the source is the platform's own page or a third-party tracker.
 
+To be clear, it's not an AI wrapper. The tool makes no AI or API calls. It's a sourced dataset plus plain JavaScript that runs in your browser. The only AI part is who built it, and that's said up front.
+
 Free, no sign-up: https://hferrahoglu.github.io/where-can-i-post/?ref=rsp
 
 The free version covers 12 major channels. There's also a $7 one-time kit with all 50, plus a launch profile with character counters, an autofill bookmarklet for submit forms (it never auto-submits) and a tracker. That's how we're testing whether anyone would actually pay for this. You don't need it to use anything in this post.
