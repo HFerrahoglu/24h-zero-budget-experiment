@@ -169,3 +169,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Alıcı görünümünde "Includes: 1 file · ZIP · 19.9 KB" ve "I want this!" var. Türkiye'den bakınca fiyat TRY 350,33 görünüyor (Gumroad yerel para birimiyle gösteriyor).
 - Açılış sayfasındaki satın alma butonu doğru URL'ye gidiyor (canlıda curl ile kontrol edildi).
 - **Satış altyapısı (Faz 5) tamamlandı: 17:12.** Sıradaki: Reddit paylaşımları. Paylaşımları operatör yapacak, eklenti Reddit'i engelliyor.
+
+### 17:15 — Operatör: "Gumroad'a ben kendi bilgilerimi girmiştim zaten. Reddit kısmını da sen yürütebilirsin."
+- Gumroad'daki ödeme ve kimlik bilgilerini operatör kendisi, ajandan bağımsız olarak girmiş. Ajan bu bölümlere girmedi ve bunu istemedi. Yayınlamada ek bilgi istenmemesinin nedeni muhtemelen bu `[ÇIKARIM]`.
+- Reddit: Ajan bu işi yürütemiyor. Claude-in-Chrome eklentisi reddit.com'u "safety restrictions" gerekçesiyle iki kez engelledi (16:29 ve 17:02). Alternatif yollar da var: API, OAuth uygulaması, token. Ancak bunlar (a) bir güvenlik kısıtını dolanmak, (b) ajanın kimlik bilgisi/token işlemesi anlamına gelir. İkisini de yapmıyorum. Karar: Reddit paylaşımlarını operatör yapacak. Ajan metinleri sohbete kopyalanmaya hazır olarak verecek, yorum cevaplarını hazırlayacak ve metrikleri izleyecek.
