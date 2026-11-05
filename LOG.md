@@ -72,3 +72,18 @@ Neden: Operatör penceresi 00:00'da kapanıyor. Keşfin 4 saat değil ~1,5 saat 
 - B: 1-3 yıldızlı yorumlar (Chrome Web Store, WordPress, Shopify, G2/Capterra, mağazalar), "alternative to X" aramaları, yıllardır açık GitHub talepleri
 - C: Freelance ilanları (Upwork, Fiverr, Bionluk), Stack Overflow/Stack Exchange, Türkçe kaynaklar (Ekşi, Şikayetvar, DonanımHaber, Technopat, Webmasterlar, R10)
 Her ajana şunlar söylendi: her linki gerçekten açıp doğrulamak, link uydurmamak, kanıt ile çıkarımı ayırmak. Çıktıları ben de örneklem alarak doğrulayacağım.
+
+### 16:25 — Dağıtım araştırması tamamlandı → kanal havuzu dar
+- `[KANIT]` Ayrıntılar RESEARCH.md §2'de, tam rapor research/distribution_channels.md'de. HN, Product Hunt, Stack Overflow, Shopify Community, r/webdev, r/SaaS, r/Entrepreneur, r/InternetIsBeautiful YZ metnini yasaklıyor. HN Show HN yeni hesaplara kapalı. PH'de 1 hafta bekleme var. Dizin kuyrukları haftalar sürüyor.
+- Ajan A'nın bulgusunu ben de doğruladım: Shopify Community kuralları "AI-generated content is highly discouraged and will be removed" diyor (curl, 16:24). Bu yüzden Stocky kitlesine en doğal kanaldan ulaşamıyoruz.
+- `[ÇIKARIM]` Mastodon'u kullanmama kararı aldım. mastodon.social kuralı "Accounts may not solely post AI-generated content" diyor ve yeni hesabımızın tüm içeriği YZ taslaklı olacak. Teknik olarak ifşa etsek bile kuralın ruhuna aykırı. Erişim kazancı bu riske değmez.
+
+### 16:28 — Pazar kararı: global İngilizce, maker ve geliştirici kitlesi
+Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects, r/IMadeThis. Hepsi İngilizce ve kitleleri ürün yapan insanlar. Türkçe kanallar 24 saatte fiilen kapalı (Ekşi çaylak, R10 1 ay, Technopat reklam cezası). Bir de pencere ABD iş saatlerine denk geliyor.
+- Keşif ajanları B ve C'ye bu kitleye öncelik vermeleri söylendi. Bu kitleye özel D ajanı başlatıldı (HN Algolia, GitHub, Chrome Web Store, Gumroad).
+- Ham ajan raporları kanıt olarak `research/` klasörüne kopyalandı.
+
+### 16:29 — Reddit kurallarını birinci elden doğrulama denemesi başarısız → operatöre verildi
+- `[KANIT]` Reddit sayfaları curl ile 403 dönüyor. Claude-in-Chrome eklentisi de reddit.com için "This site is not allowed due to safety restrictions" diyor. Bunu aşmaya çalışmadım.
+- Karar: Kural doğrulamasını Paket 2, Görev 2.2'de operatör yapacak. Hesap açılırken zaten Reddit'te olacağı için ek süre ~8 dk.
+- Paket 2 verildi (16:30): Reddit hesabı ve 5 hedef topluluğun kurallarının kontrolü.

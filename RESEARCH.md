@@ -48,8 +48,41 @@ Görev metninin istediği doğrulamalar (satın alma sonrası teslim, lisans ana
 
 Fiyat hesabına örnek: $9'lık satışta Gumroad kesintisi 0,90 + 0,50 = $1,40, net $7,60 (%84). $5'lık satışta kesinti $1,00, net $4,00 (%80). $3'lık satışta net $2,20 (%73). Sabit $0,50 yüzünden çok düşük fiyat verimsiz.
 
-## 2. Dağıtım kanalları — yeni hesap kuralları
-*(Alt ajan araştırıyor. Gelince buraya işlenecek.)*
+## 2. Dağıtım kanalları: yeni hesap ve YZ içerik kuralları (16:25)
+Tam rapor, tüm alıntı ve linklerle: [research/distribution_channels.md](research/distribution_channels.md).
+
+**İki eleme kriteri:**
+1. YZ ile yazılmış metin yasağı. Tüm metinleri ben yazacağım ve operatör bunu açıkça belirtecek. İfşa, yasaktan muaf tutmuyor.
+2. Yeni hesaba kapı (yaş, karma, bekleme süresi, inceleme kuyruğu).
+
+| Kanal | Durum | Belirleyici kanıt |
+|---|---|---|
+| Hacker News | ❌ | "Please don't put generated text in HN posts" (https://news.ycombinator.com/newsguidelines.html). Show HN yeni hesaplara geçici olarak kapalı (https://news.ycombinator.com/showlim). |
+| Product Hunt | ❌ | Ürün göndermek için 1 hafta bekleme (https://help.producthunt.com/en/articles/481909-how-can-i-get-access-to-post). YZ yorumları yasak. |
+| Stack Overflow | ❌ | YZ içeriği yasak (https://stackoverflow.com/help/gen-ai-policy) |
+| Shopify Community | ❌ | "AI-generated content is highly discouraged and will be removed". Tanıtım yalnızca Ask and Offer panosunda serbest (https://community.shopify.com/guidelines, 16:24'te curl ile okundu) |
+| r/webdev, r/SaaS, r/Entrepreneur, r/InternetIsBeautiful | ❌ | YZ metni yasak. Ayrıca tanıtım yasağı, gün kısıtı ya da yaş kısıtı var (rankhog, ikincil kaynak) |
+| r/selfhosted | ❌ | 90 günlük hesap gerekiyor, yeni projeler yalnızca Cuma (bugün Perşembe) |
+| Dev.to | ❌ | YZ makaleye izin var ama kendi işini tanıtmak yasak (https://dev.to/guidelines-for-ai-assisted-articles-on-dev) |
+| Mastodon (mastodon.social) | ⚠️ Kullanılmayacak | "Accounts may not solely post AI-generated content" (https://mastodon.social/api/v1/instance/rules). Yeni hesabımız yalnızca YZ taslaklı içerik paylaşacağı için kuralın ruhuna aykırı. |
+| Dizinler (Uneed, Fazier, BetaList, AlternativeTo, SaaSHub) | ❌ | Kuyruklar haftalar sürüyor (Uneed ≥50 gün, Fazier ≤30 gün) |
+| Launching Next | ⚠️ Yedek | Ücretsiz, "We review submissions every day", yayın garantisi yok |
+| Ekşi Sözlük, R10, Technopat, Bionluk | ❌ | Çaylak entry'leri görünmüyor. R10 ticari konu için 1 ay üyelik + 5 itrader puanı istiyor. Technopat'ta reklam cezası var. Bionluk muhtemelen ücretli. |
+| DonanımHaber | ⚠️ Yedek (TR) | SMS onayı, yeni üye mesajları onaya düşebilir. Kurallarda YZ maddesi yok. |
+| **r/SideProject** | ✅ | Yazılı kural yok (Mart 2026 Wayback `rules.json` boş). YZ kuralı yok. |
+| **r/indiehackers** | ✅ | Ürün başına 1 tanıtım, "Self Promotion" etiketiyle, geri bildirim amaçlı. YZ kuralı yok. |
+| **r/alphaandbetausers** | ✅ | Kural yok. Başlıkta "[Web, Beta]" etiketi bekleniyor. E-posta duvarı olmamalı. |
+| **r/coolgithubprojects** | ✅ | Kural yok. Proje GitHub'da barınmalı. |
+| r/IMadeThis | ✅ (zayıf) | Kural yok, kitle küçük `[TAHMİN]` |
+| GitHub (mevcut hesap, 13 takipçi) | ✅ (zayıf) | Repo kalıcı tanıtım sayfası işi görür. Başka projelerde tanıtım yasak (görev kuralı). |
+
+**Sonuç `[ÇIKARIM]`:**
+- Kurallara uyarak ulaşılabilir kitle **İngilizce konuşan maker, solo kurucu ve geliştirici kitlesi**, Reddit'teki 4-5 sub üzerinden.
+- Türkçe kanallar 24 saat içinde fiilen kapalı. **Pazar kararı: global İngilizce** (LOG 16:28).
+- En büyük bilinmeyen: Reddit'in yeni hesapları gizlice süzen filtresi (CQS/AutoModerator). Dışarıdan doğrulanamıyor.
+- Her sub'a özgün metin yazılacak, paylaşımlar 60-90 dk arayla yapılacak.
+
+**Saat dilimi:** Pencere 16:00-00:00 TR = 13:00-21:00 UTC = 08:00-16:00 ET. İlk paylaşım ne kadar erken olursa ABD gündüzünden o kadar çok pay alır. Hedef: ilk paylaşım ≤ 20:30 TR.
 
 ## 3. Aday problemler (Faz 1)
 *(Henüz başlanmadı)*

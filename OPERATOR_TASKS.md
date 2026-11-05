@@ -9,6 +9,7 @@ Operatör penceresi: yalnızca 16:00-00:00 (bugün). Toplam bütçe: en fazla 48
 | Paket | Verildiği saat | Tahmini süre | Gerçek süre (operatör yazar) | Durum |
 |---|---|---|---|---|
 | Paket 1 | 16:16 | ~15 dk | | Bekliyor |
+| Paket 2 | 16:30 | ~14 dk | | Bekliyor |
 | **Toplam** | | | | |
 
 ---
@@ -61,4 +62,42 @@ Adımlar:
 
 ---
 
-*Paket 2 (dağıtım kanalı hesapları) yaklaşık 17:15'te gelecek. Kanal kuralları araştırması tamamlanınca hazırlayacağım.*
+## PAKET 2 — 16:30 (tahmini toplam: ~14 dk)
+
+Kanal araştırmasının sonucu (RESEARCH.md §2): Yapay zekâ ile yazılmış metni yasaklamayan ve yeni hesaba kapalı olmayan kanallar yalnızca birkaç İngilizce Reddit topluluğu. HN, Product Hunt, Stack Overflow ve Shopify Community'yi bu yüzden kullanmıyoruz. Bu paketin amacı tek bir Reddit hesabı açmak ve hedef toplulukların kurallarını sizin gözünüzle doğrulamak. Reddit bu ortamdan erişimime kapalı: curl 403 dönüyor, tarayıcı eklentisi de engelliyor.
+
+### Görev 2.1 — Yeni hesap talebi: Reddit (~6 dk)
+- **Platform:** Reddit
+- **Neden:** r/SideProject, r/indiehackers, r/alphaandbetausers ve r/coolgithubprojects'te paylaşım yapmak için.
+- **Önerilen kullanıcı adı:** `hferrahoglu` (alınmışsa `hferrahoglu_dev`)
+- **Profil "About" metni (177 karakter) — kopyalayın:**
+  ```
+  Human operator of a public 24h experiment: an AI agent (Claude) builds one small tool. Agent drafts posts, I publish them. Log: github.com/HFerrahoglu/24h-zero-budget-experiment
+  ```
+- **Avatar:** Varsayılan kalsın. Yapay zekâyla üretilmiş görsel kullanmayın.
+
+Adımlar:
+1. https://www.reddit.com/register adresinde **hferrahoglu@gmail.com** ile kaydolun. Şifreyi kendiniz belirleyin, bana yazmayın.
+2. Gmail'e gelen doğrulama e-postasıyla e-postanızı doğrulayın.
+3. Kullanıcı adını yukarıdaki gibi seçin.
+4. Ayarlar → Profile → "About" alanına yukarıdaki metni yapıştırın.
+5. **Hiçbir şey paylaşmayın, yorum yapmayın, oy vermeyin ve toplu olarak topluluğa katılmayın.** Karma kasmak deney kurallarına aykırı.
+
+**Bana geri bildirin:** (a) kesinleşen kullanıcı adı, (b) telefon doğrulaması, CAPTCHA ya da başka bir engel çıktı mı, (c) hesap açılış saati.
+
+### Görev 2.2 — Hedef toplulukların kurallarını kontrol (~8 dk)
+Hesapla giriş yapmış hâlde aşağıdaki 5 topluluğun her biri için:
+1. Topluluk sayfasını açın:
+   - https://www.reddit.com/r/SideProject/
+   - https://www.reddit.com/r/indiehackers/
+   - https://www.reddit.com/r/alphaandbetausers/
+   - https://www.reddit.com/r/coolgithubprojects/
+   - https://www.reddit.com/r/IMadeThis/
+2. Sağ kenar çubuğundaki **"Rules"** bölümünü açın. Kural başlıklarını yazın. Özellikle şu konulara dikkat edin: kendi ürününü tanıtma, yapay zekâ, hesap yaşı/karma, link ve etiket (flair). Kural yoksa "kural yok" yazın.
+3. O topluluğun içinde **"Create Post"**a tıklayın, ama **paylaşmayın**. Şunlardan biri çıkarsa yazın: "karma yetersiz", "hesap çok yeni", zorunlu etiket (flair) listesi ya da başka bir uyarı. Sonra paylaşmadan kapatın.
+
+**Bana geri bildirin:** Her topluluk için (a) kuralların özeti, (b) "Create Post" ekranındaki uyarılar ve (c) varsa zorunlu flair seçenekleri.
+
+---
+
+*Paket 3 (ürün kurulumu ve paylaşım metinleri) ürün seçildikten sonra, tahminen 19:30-20:00 arasında gelecek. Paylaşımlar ~20:30'da başlayıp 00:00'a kadar sürecek. Bu aralıkta ayırabileceğiniz süreyi en çok buna ayırmanızı rica ederim, yorumlara cevap da bu sürede verilecek.*
