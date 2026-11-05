@@ -87,3 +87,22 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - `[KANIT]` Reddit sayfaları curl ile 403 dönüyor. Claude-in-Chrome eklentisi de reddit.com için "This site is not allowed due to safety restrictions" diyor. Bunu aşmaya çalışmadım.
 - Karar: Kural doğrulamasını Paket 2, Görev 2.2'de operatör yapacak. Hesap açılırken zaten Reddit'te olacağı için ek süre ~8 dk.
 - Paket 2 verildi (16:30): Reddit hesabı ve 5 hedef topluluğun kurallarının kontrolü.
+
+### 16:38 — Faz 1 tamamlandı: 4 keşif ajanından 20 aday
+- Ajanlar A, B, C, D toplam 6 kaynak türünü taradı. Ham raporlar `research/` klasöründe, özet tablo RESEARCH.md §3'te.
+- `[KANIT]` Ücretsiz alternatif kontrolleri:
+  - Screen Studio yerine OpenScreen (MIT), Recordly, Cap ve CapyCursor ücretsiz.
+  - Mağaza ekran görüntüsü için WaveSpeed, App Screenshot Generator, LaunchShots ve UltraShot ücretsiz ve filigransız.
+  - Lansman formu autofill'i için LaunchFill, Donkey Directories, Octane Launch Pilot ve SubmitIQ var (Chrome Web Store listeleri).
+
+### 16:40 — Faz 2: SEÇİM = "Lansman kanal kuralları + gönderim kiti" (43/50)
+- Puanlama tablosu ve gerekçe: RESEARCH.md §4. Şeytanın avukatı: §5, üç itirazın hepsine cevap verildi.
+- Seçilen adayın kanıtlarını kendim doğruladım:
+  - HN 46676047, 43331842, 42943314 (Algolia API).
+  - Gumroad'da $9.99'lık lansman listesi 276 satışta (sayfa JSON'u).
+- Ürünün çekirdeği autofill değil, **doğrulanmış kanal kuralları**: YZ metni politikası, yeni hesap kapısı, kuyruk süresi, paylaşım günü, kaynak alıntısı ve tarihi. Neden: autofill eklentileri zaten var. Bu kural bilgisi ise ancak bu deneyde birinci elden araştırılarak çıktı.
+- Fiyat kararı (ön): **$7 tek seferlik**.
+  - Emsal: $9.99'luk liste, 276 satış.
+  - Bizimki daha dar kapsamlı ve satıcı tanınmıyor, bu yüzden emsalin altında tutuldu.
+  - Gumroad kesintisi 0,70 + 0,50 = $1,20, net $5,80 (%83).
+- Zaman: Faz 1+2 planlanan 18:20 yerine 16:40'ta bitti, yani ~1,5 saat önde. Bu kazanç daha erken paylaşıma (≤19:30 TR = 11:30 ET) aktarılacak.
