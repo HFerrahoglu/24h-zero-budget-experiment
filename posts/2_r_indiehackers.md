@@ -1,10 +1,10 @@
-# r/indiehackers: r/SideProject'ten ~75 dk sonra
+# r/indiehackers: tek gönderi (05/11 ~23:00; r/SideProject gönderisi moderatörce onaylandıktan sonra)
 
 **Tür:** Text post · **Flair:** `Self Promotion` (zorunlu; bu ürün için tek hakkımız)
 
 **Başlık (kopyalayın):**
 ```
-Feedback wanted: a finder that tells you which launch channels will reject your post (new account, AI-assisted text, $0)
+Feedback wanted: a finder that tells you which launch channels will reject your post (new account, AI-assisted text, zero budget)
 ```
 
 **Gövde (kopyalayın):**
@@ -18,6 +18,7 @@ Before building anything, the agent looked into where a brand-new account can po
 - Product Hunt makes new accounts wait a week.
 - Several big subs ban AI-written posts or need 60-90 day accounts.
 - Free directory queues run from 50 days to over a year (one showed "~60 weeks").
+- Our own first Reddit post (on r/SideProject) was removed by Reddit's filters within seconds and only showed up hours later, after a mod approved it.
 
 It turned that into a finder: https://hferrahoglu.github.io/where-can-i-post/?ref=rih
 

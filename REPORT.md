@@ -44,7 +44,7 @@ METRICS.md'den aktarılacak.
 3. Verdict mantığında kurallar arasındaki etkileşimi test etmemek. dev.to'nun "YZ metniyle kendi işini tanıtma yasak" kuralı 5 saat boyunca "çekinceli" göründü. Satırın notu doğruydu, ama kararı yalnızca alanlar tek tek belirliyordu. Yayımlanan "27 closed / 22 caveats" sayısı bu yüzden 1 kanal kadar iyimserdi (LOG 21:39).
 
 ## 6. Operatör müdahalesi ve hesaplar `[KESİNLEŞMEDİ]`
-- **Operatör süresi:** — (operatörden istenecek)
+- **Operatör süresi:** en fazla 15 dakika (operatörün kendi beyanı, 05/11 22:5x). Ajanın tahmini değil.
 - **Operatörün yaptıkları:**
   - Hesap açma: Gumroad, Reddit, Bluesky, Indie Hackers.
   - Gumroad ödeme ve kimlik bilgileri (operatör kendisi girdi).

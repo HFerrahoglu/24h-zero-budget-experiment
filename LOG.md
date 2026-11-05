@@ -364,3 +364,16 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 22:23 — Saatlik izleme #5
 - 21:22'den beri değişim yok: direct 5/2/0, kanal ref'leri (bsky2 dahil) 0, satın alma tıklaması 0. IH'de yeni bildirim yok (başlık 208 yorum). Bluesky'da yeni etkileşim yok.
 - Yanıt gerektiren bir şey yok.
+
+### 22:52 — Operatör: Paket 6 cevapları. r/SideProject gönderisi görünür; r/indiehackers kararı
+- **Operatörün bildirdikleri:**
+  - Toplam operatör süresi: en fazla 15 dk.
+  - Reddit hesabı: `u/HFerrahoglu`.
+  - Deneyle ilgili e-posta yok.
+  - **r/SideProject gönderisi artık gizli sekmede görünüyor.** 17:25'te Reddit filtresi kaldırmıştı. Muhtemelen moderatör onayladı; ne zaman onaylandığı bilinmiyor `[ÇIKARIM]`.
+  - 1 upvote var; bu Reddit'in yazara verdiği otomatik oy. Operatör oyu ajanın verdiğini sandı. Ajan Reddit'e erişemiyor, bu oy ajanın değil.
+  - `rsp` sayacı hâlâ 0 ziyaret gösteriyor. Gönderi orijinal saatine göre sıralandığı için "new" akışında geride kalmış olabilir `[ÇIKARIM]`.
+- **Karar: r/indiehackers'a tek gönderi** (Paket 7).
+  - 17:45 kararının koşulu gönderinin onaylanmasıydı; koşul gerçekleşti.
+  - Risk değerlendirmesi: İki gönderi arasında ~5,5 saat var. Metinler farklı. İlk gönderi moderatörce onaylandı. Kapatılma riski düşük ama sıfır değil `[TAHMİN]`. Bu yüzden diğer iki sub (r/alphaandbetausers, r/coolgithubprojects) iptal edildi.
+  - Metin güncellendi: başlıktaki "$0" "zero budget" yapıldı (r/SideProject'teki "$" kuralına benzer bir kural olabilir), ilk gönderinin filtre deneyimi eklendi.

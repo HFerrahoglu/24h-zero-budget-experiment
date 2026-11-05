@@ -252,3 +252,15 @@ Bu paketteki yeni hesaplar zorunlu değil. 20:19 taraması, 24 saat içinde traf
   - Varsa yalnızca konu satırını ve gönderen platformu yazın. Diğer e-postalara bakmayın.
 
 Not: Gumroad satış ve görüntülenme sayılarını ajan kendisi okuyacak, salt okuma.
+
+**Paket 6 cevapları (22:5x, operatör):**
+- Süre: "Maksimum 15 dakika."
+- Reddit kullanıcı adı: `u/HFerrahoglu`.
+- r/SideProject gönderisi gizli sekmede görünüyor, 1 upvote var. Bu Reddit'in yazara verdiği otomatik oy; ajan Reddit'e erişemiyor.
+- Deneyle ilgili e-posta yok.
+
+## PAKET 7 — 23:00 (tahmini ~6 dk): r/indiehackers'ta tek gönderi
+Neden şimdi: 17:45'teki karar diğer sub'ları ilk gönderi onaylanana kadar bekletmekti, ve gönderi onaylandı. Kitle olarak alıcıya en yakın sub r/indiehackers. Hesabın kapatılma riskini düşük tutmak için yalnızca bu tek gönderi atılacak. r/alphaandbetausers ve r/coolgithubprojects gönderileri iptal edildi.
+- **7.1** r/indiehackers → Create Post → Text. Başlık ve gövdeyi `posts/2_r_indiehackers.md`'den kopyalayın. Flair: **Self Promotion**.
+- **7.2** Gizli sekmede açın: görünüyor mu? Linki bana yazın.
+- **7.3** 00:00'dan önce son kez iki gönderinin yorumlarına bakın. Yorum varsa metnini buraya yapıştırın; cevap taslağını ben yazarım.
