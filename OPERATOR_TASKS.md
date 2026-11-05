@@ -11,7 +11,8 @@ Operatör penceresi: yalnızca 16:00-00:00 (bugün). Toplam bütçe: en fazla 48
 | Paket 1 | 16:16 | ~15 dk | | Bekliyor |
 | Paket 2 | 16:30 | ~14 dk | | Bekliyor |
 | Paket 3 | 16:55 | ~20 dk | 3.1'i ajan yaptı (operatör izniyle tarayıcıdan) | 3.1 ✅ ~17:10 · 3.2 (Launching Next) operatörde: bot kontrolü var |
-| Paket 4 | 16:55 (saatleri içinde) | ~10 dk/paylaşım + cevaplar | | Bekliyor |
+| Paket 4 | 16:55 (saatleri içinde) | ~10 dk/paylaşım + cevaplar | | 4.1 r/SideProject paylaşıldı → Reddit filtresi kaldırdı (17:25). Diğerleri bekletiliyor |
+| Paket 5 | 17:25 | ~20 dk | | Bekliyor |
 | **Toplam** | | | | |
 
 ---
@@ -200,3 +201,39 @@ Bunu kendi veri setimiz gerektiriyor: Launching Next ücretsiz ve "We review sub
 5. Her 30-40 dakikada bir yorumlara bakıp gelen yorumları bana yapıştırın. Ben cevap taslaklarını hazırlarım, siz yayınlarsınız.
 
 Hazır cevaplar (sık sorulacaklar): `posts/faq_replies.md`.
+
+---
+
+## PAKET 5 — 17:25 (tahmini ~20 dk): Reddit filtresi sonrası
+r/SideProject gönderisi Reddit'in kendi filtresine takıldı (LOG 17:26). **Reddit'e yeniden paylaşım yapmıyoruz.** Hem spam işaretini hem de hesap yasağı riskini artırır.
+
+Metinlerin hepsi: `posts/5_modmail_bluesky_ih.md`
+
+- **5.1 Modmail (~2 dk):** r/SideProject moderatörlerine tek bir kibar mesaj gönderin ve gönderinin incelenmesini isteyin.
+- **5.2 Launching Next (~4 dk):** Görev 3.2'deki metinlerle formu gönderin. Formda bot kontrolü olduğu için bu işi siz yapıyorsunuz.
+- **5.3 Yeni hesap talebi: Bluesky (~8 dk)**
+  - **Platform:** Bluesky (https://bsky.app)
+  - **Neden:**
+    - Kurallar açıkça belirtilmiş ticari içeriğe izin veriyor ("Do not post undisclosed commercial content").
+    - YZ içeriğini yasaklayan bir kural yok.
+    - Yeni hesaplar için kısıt yok.
+    - Erişim düşük olabilir, ama `#buildinpublic` etiketiyle yayın akışlarına girme şansı var `[TAHMİN]`.
+  - **Önerilen kullanıcı adı:** `hferrahoglu.bsky.social`
+  - **Görünen ad:** Hamza Ferrahoğlu
+  - **Bio:** `Human operator of a public 24h experiment: an AI agent (Claude) builds and tries to sell one small tool. Agent drafts posts, I publish them.`
+  - **Kayıt e-postası:** hferrahoglu@gmail.com
+  - Hesabı açtıktan sonra 2 gönderilik zinciri paylaşın: önce Gönderi 1, ardından ona yanıt olarak Gönderi 2.
+- **5.4 Yeni hesap talebi: Indie Hackers (~5 dk), yalnızca kontrol**
+  - **Platform:** https://www.indiehackers.com
+  - **Neden:** Hedef kitlenin tam toplandığı yer. Ancak yeni ücretsiz hesapların paylaşım yapmadan önce bir süre beklediği bildiriliyor (ikincil kaynak, doğrulanmadı).
+  - **Kullanıcı adı:** `hferrahoglu`
+  - **Bio:** Bluesky ile aynı metin.
+  - Hesabı açın, **"New post"** ya da **"Share"** ekranını açın ve **paylaşmayın**. Paylaşım yapılabiliyor mu, bir bekleme süresi ya da uyarı var mı, bana yazın.
+
+**Bana geri bildirin:**
+- r/SideProject gönderisinin linki.
+- Modmail gönderildi mi?
+- Launching Next ekranında ne yazdı?
+- Bluesky kullanıcı adınız ve Gönderi 1'in linki.
+- Indie Hackers'ta paylaşım yapılabiliyor mu?
+- Reddit kullanıcı adınız.
