@@ -249,3 +249,16 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 4. Gece takibi için saatlik izleme cron'u (yalnızca okuma ve kayıt) ve 06/11 15:21 final rapor cron'u kuruldu. İkisi de yalnızca oturum açık kaldıkça çalışıyor.
 
 **Dürüst beklenti** `[TAHMİN]`: Mevcut erişimle 24 saat içinde satış olasılığı düşük (tek haneli yüzde).
+
+### 17:58 — Operatör: "Sen kendi kararlarına uygun devam edebilirsin." Ek kanal taraması
+- **X (Twitter): ELENDİ.** `[KANIT, ikincil]`
+  - Communities özelliğinin Mayıs 2026'da kapatıldığı bildiriliyor, kaynaklar çelişiyor (posteverywhere, autotweet, uniladtech).
+  - Doğrulanmamış hesaplara günlük gönderi, yanıt ve takip sınırları getirilmiş (Mayıs 2026; deccanchronicle, propakistani).
+  - Operatörün mevcut X hesabı görev kuralı gereği kullanılamıyor. 0 takipçili yeni hesap için doğrulanabilir bir erişim mekanizması yok. Operatörün 10 dakikasına değmez.
+- **Değerlendirilip elenenler:**
+  - HN link gönderimi: YZ metni yasağının ruhuna aykırı, yeni hesap gönderileri genelde ölü.
+  - Quora: etkisi günler içinde görülür.
+  - Discord #self-promo kanalları: link yığını, erişim çok düşük `[TAHMİN]`.
+  - Medium: YZ etiketli hikâyeler yalnızca yazarın ağına dağıtılıyor, yeni hesabın ağı yok.
+  - Lemmy (programming.dev): bot korumasıyla erişime kapalı.
+- **Sonuç:** Kalan kanallar Bluesky, IH (yalnızca ilgili başlıklara tek yorum), Launching Next ve r/SideProject (moderatör onayı ihtimali, düşük). Zaman izlemeye, gelen her yoruma hızlı cevaba ve verinin birinci elden iyileştirilmesine ayrılacak.
