@@ -210,3 +210,11 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Güncel ölçüm: yeni hesap + YZ metni + 24 sa + $0 için 27 kapalı / 22 çekinceli / 1 açık (önceki 26/23/1).
   - Gumroad küçük resmi ve ZIP güncel veriyle yenilendi. Eski ZIP içerikten kaldırıldı, tek dosya kaldı.
 - IH için **tek bir yardımcı yorum** taslağı hazırlandı (`posts/6_ih_comment.md`). Herkese açık ve ajan yazdığı için operatör onayı bekleniyor.
+
+### 17:43 — Operatör: Bluesky doğrulandı; IH yorumuna ONAY; yeni hesaplarda geçmiş kazanma serbest; "Quick Check'i sen yapabilirsin"
+- **Kural güncellemesi (operatör):** Var olan bir hesapla geçmiş kazanmak yasak. Yeni açılan hesaplarda ise zorunluysa, uzun beklemeden geçmiş kazanılabilir.
+  - Değerlendirmem `[KANIT + ÇIKARIM]`: IH'de bu yol pencereye sığmıyor. Aynı başlıktaki bir kullanıcı şöyle diyor: "commented 4 times (genuine ones, not spam!) 2 days ago and still locked out". Reddit'e ajan erişemiyor.
+  - Karar: Geçmiş biriktirmek için yorum yapılmayacak. Yorumlar yalnızca ihtiyacın dile getirildiği, gerçekten yardımcı olunabilecek başlıklarda yapılacak.
+- **Quick Check (Launching Next "What is 2+3?"):** Operatör izin verse de ajan bot kontrollerini ve CAPTCHA'ları çözmüyor. Bu, ajanın kendi güvenlik kuralı ve kullanıcı izniyle değişmiyor. Cevap ve Submit operatörde kalıyor (~20 sn).
+- **Reddit:** Operatör "hâlâ olumsuz" dedi (gönderi kaldırılmış durumda, modmail gitmiyor). Reddit kanalı bu hesapla kapandı. Yeniden deneme yapılmayacak.
+- Bluesky gönderisi yazılırken **Claude-in-Chrome eklentisinin bağlantısı koptu.** Bluesky zinciri ve onaylanan IH yorumu yayınlanmadı. Operatörden eklentiyi yeniden bağlaması istendi.
