@@ -6,7 +6,7 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 
 | Kanal | ref parametresi | Erişim | Ziyaret | Demo kullanımı | Ödeme tıklaması | Satış | Kaynak / okuma saati |
 |---|---|---|---|---|---|---|---|
-| r/SideProject | `rsp` | — | — | — | — | — | paylaşılmadı |
+| r/SideProject | `rsp` | 0 (Reddit filtresi kaldırdı, 17:25) | — | — | — | — | operatör; modmail bekleniyor |
 | r/indiehackers | `rih` | — | — | — | — | — | paylaşılmadı |
 | r/alphaandbetausers | `rab` | — | — | — | — | — | paylaşılmadı |
 | r/coolgithubprojects | `rcg` | — | — | — | — | — | paylaşılmadı |

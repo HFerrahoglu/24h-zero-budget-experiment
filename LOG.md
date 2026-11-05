@@ -182,3 +182,13 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 17:22 — r/SideProject başlık kısıtı
 - `[KANIT, operatör]` Reddit gönderi formunda: "You may not have "$" in your title." Bu kural üçüncü taraf takipçide yoktu. Otomatik kural olduğu için yalnızca form ekranında görünüyor.
 - Düzeltme: "$0" ifadesi "zero-budget" ile değiştirildi. Metnin geri kalanı aynı. Bu kısıt ürünün r/SideProject satırına notu olarak eklenecek.
+
+### 17:26 — r/SideProject gönderisi Reddit filtresine takıldı (R3 gerçekleşti)
+- `[KANIT, operatör]` Ekranda "Sorry, this post was removed by Reddit's filters." yazıyor. Gönderi gizli sekmede de görünmüyor.
+- `[ÇIKARIM]` Kaldıran moderatörler değil, Reddit'in site geneli spam/itibar filtresi. Yeni hesap ve link birleşimi buna yol açtı.
+- Ajan kontrol edemiyor, Reddit eklenti tarafından engelli.
+- **Kararlar:**
+  1. **Yeniden paylaşım yok, yeni hesap yok, linksiz versiyonla filtreyi dolanmak da yok.** Üçü de görev kurallarındaki "kısıtları hileyle aşma" yasağına giriyor ve hesabın spam olarak işaretlenme riskini artırıyor.
+  2. **r/SideProject moderatörlerine tek bir kibar modmail gönderilecek.** Filtreye takılan gönderiyi moderatörler elle onaylayabiliyor ve bu meşru bir yol.
+  3. **Diğer sub'lardaki paylaşımlar bekletiliyor.** Aynı filtre büyük olasılıkla onlarda da çalışır. Art arda kaldırılan link gönderileri hesabın askıya alınma riskini artırır; hesap yasağı deneyin başarısızlığı demek. Modmail'e cevap gelene ya da gönderi onaylanana kadar bekleniyor.
+  4. Bu birinci elden bulgu ürünün r/SideProject satırına işlendi: yeni hesap = restricted, "$" başlıkta yasak, Not-AI megathread'i var. Ücretsiz sayfa güncellendi.
