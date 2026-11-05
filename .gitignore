@@ -1,0 +1,12 @@
+# Gizli bilgiler asla commit edilmez
+.env
+.env.*
+*.key
+*.pem
+secrets/
+# Yerel / geçici
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+scratch/
