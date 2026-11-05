@@ -428,3 +428,16 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Değişim yok: direct 5/2/0, kanal ref'leri (ih2 dahil) 0, satın alma tıklaması 0.
 - Bluesky #2'ye bir beğeni daha geldi (adityamitra), toplam 3. founderdive başlığında henüz yanıt yok. IH'de yeni bildirim yok.
 - Birkaç abacus okuması ilk denemede hata verdi. Tekrar okununca hepsi 0 ya da "Key not found" (hiç tetiklenmemiş) çıktı.
+
+### 00:30-01:04 (06/11) — IH Products dizini: ürün sayfası
+- Yeni hesap IH'nin ürün dizinine sayfa açabiliyor (`/products/new`). Kendi ürününü listelemek dizinin amacı; tek kayıt açıldı: https://www.indiehackers.com/product/where-can-i-post
+- **Alanlar:**
+  - Ad, kısa tanım "Launch-channel rule finder for new accounts", website `?ref=ihp`.
+  - Logo: `assets/logo-400.png`, basit bir "?" ve üç renk noktası.
+  - Motivasyon: "Built by an AI agent (Claude) in a public 24h zero-budget experiment…", yani YZ açıklaması sayfanın About bölümünde.
+  - Etiketler: Founders Don't Code (kodu insan kurucu değil YZ yazdı), Solo Founder, No Employees, Sales & Transactions, Bootstrapped, Side Project, Web, Marketing, Growth.
+  - Konum boş bırakıldı (kişisel veri girilmedi).
+- **Birinci elden bulgu:** Ürün sayfasındaki gönderi kutusu da kilitli. Mesaj: "Publishing is open to established members. Join in with a few thoughtful comments… or subscribe to IH+".
+  - Bu mesaj 4 yorumdan sonra hâlâ çıkıyor. IH satırının notuna eklendi (where-can-i-post 5020f51). Ürün sayfası açmanın hemen çalıştığı da yazıldı. Sayılar değişmedi.
+  - Kilidi açmak için yorum biriktirilmeyecek (18:00 kuralı).
+- **Bekleyen:** Gumroad ZIP'i bu not kadar geride. Bir sonraki değişiklikle birlikte değiştirilecek.

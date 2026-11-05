@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 00:23 (TR, UTC+3). İzleme #7: direct 5/2/0, kanal ref'leri 0 (ih2 dahil), Gumroad 0 satış. Bluesky #2 3 beğeni. IH'de yeni yanıt yok. Operatöre ulaşılamıyor (00:00 sonrası). 15:21: final rapor.
+**Son güncelleme:** 2026-11-06 01:04 (TR, UTC+3). IH Products dizininde ürün sayfası açıldı (`?ref=ihp`). IH birinci elden notu güncellendi. **Bekleyen:** Gumroad ZIP'i IH notu kadar geride; bir sonraki veri değişikliğinde ya da 15:21'den önce değiştirilecek. Sayaçlar: direct 5/2/0, Gumroad 0 satış.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
