@@ -178,3 +178,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - `[KANIT, operatör gözlemi]` Kendi ürününü tanıtmak serbest, topluluk bunun için kurulmuş. YZ içeriğini yasaklayan katı bir kural yok. Üyeler ve yöneticiler "AI wrapper"lara mesafeli. YZ içermeyen özgün projeler için ayrı bir "Not-AI" megathread'i var.
 - **Karar:** Normal gönderi olarak paylaşılacak, Not-AI megathread'ine konmayacak. Gerekçe: Ürün YZ kullanmıyor, ama YZ ajanı tarafından yapıldı ve metin YZ taslağı. Not-AI başlığına koymak yanıltıcı olur.
 - Kitlenin mesafesine karşı gövdeye tek bir dürüst açıklama eklendi: araç bir AI wrapper değil, YZ/API çağrısı yapmıyor; YZ yalnızca aracı yapan. Gerekçe: Hem doğru hem en olası itirazı baştan karşılıyor.
+
+### 17:22 — r/SideProject başlık kısıtı
+- `[KANIT, operatör]` Reddit gönderi formunda: "You may not have "$" in your title." Bu kural üçüncü taraf takipçide yoktu. Otomatik kural olduğu için yalnızca form ekranında görünüyor.
+- Düzeltme: "$0" ifadesi "zero-budget" ile değiştirildi. Metnin geri kalanı aynı. Bu kısıt ürünün r/SideProject satırına notu olarak eklenecek.

@@ -4,7 +4,7 @@
 
 **Başlık (kopyalayın):**
 ```
-We checked 50 launch channels for brand-new accounts with AI-assisted posts. On a $0, 24-hour launch, 26 were closed and only 1 had no blocking rule
+We checked 50 launch channels for brand-new accounts with AI-assisted posts. On a zero-budget, 24-hour launch, 26 were closed and only 1 had no blocking rule
 ```
 
 **Gövde (kopyalayın):**
