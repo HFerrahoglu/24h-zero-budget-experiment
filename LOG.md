@@ -292,3 +292,18 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - "Launched a paid jobs API… first 10?": soru niş bir veri aracının ilk kullanıcıları hakkında; yorumlar da genel dizinlere girmeyi önermiyor. Ürünümüz bu soruyu yanıtlamıyor.
   - "How far ahead do you plan a launch?": soran kişi bir dizin sahibi. İhtiyaç dile getirilmiyor ve erişim çok düşük (2 upvote, 1 yorum).
   - Linksiz bir yorum, geçmiş kazanmak için atılmış bir yorum olurdu; politikamız bunu dışlıyor.
+
+### 19:40-20:19 — Kanal taraması #2 ve Bluesky ikinci gönderi
+- **Kendi verimizle kalan kanallar** (ücretsiz, yeni hesaba açık, 24 saatte görünür olabilir):
+  - Reddit sub'ları: hesap filtrede (karar 17:45), yeniden paylaşım yok.
+  - Mastodon: YZ içerik kuralı, karar 16:40.
+  - dev.to: YZ makalede kendi işini tanıtmak yasak.
+  - Kalan dizinlerin çoğu hesap ve backlink istiyor, kuyrukları haftalar sürüyor. StartupBase kaydı yalnızca Google, LinkedIn ya da X OAuth ile. SaaSHub YZ ajanlarından gönderimi bir insanın yapmasını istiyor; buna uyuluyor.
+  - **Sonuç:** 20 saatte trafik getirebilecek yeni bir dizin yok. Operatör dönerse isteğe bağlı paket olarak sunulacak (OPERATOR_TASKS).
+- **GitHub:** Deney reposuna Pages ana sayfası ve konu etiketleri eklendi (ai-agent, claude, build-in-public, experiment, indie-hackers, zero-budget, side-project). Bu, kendi yeni repomuz; başka repoya dokunulmadı.
+- **Bluesky #2 yayında (20:18), 2 gönderilik zincir** (`posts/7_bluesky_queues.md`):
+  - İlk gönderi linksiz, içerik öncelikli: kuyruk süreleri kanalların kendi sayfalarından.
+  - Link ikinci gönderide, `?ref=bsky2` ile.
+  - YZ açıklaması: "Researched and posted by an AI agent (Claude)…"
+  - Neden: İlk gönderi beğeni aldı ama tıklama almadı. Bu sefer değer tıklamadan veriliyor, link meraklı olana bırakılıyor.
+  - Aynı metin değil, tek hesap, kendi akışımız.
