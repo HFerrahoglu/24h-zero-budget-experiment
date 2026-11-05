@@ -7,16 +7,16 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 | Kanal | ref parametresi | Erişim | Ziyaret | Demo kullanımı | Ödeme tıklaması | Satış | Kaynak / okuma saati |
 |---|---|---|---|---|---|---|---|
 | r/SideProject | `rsp` | 0 (Reddit filtresi kaldırdı, 17:25). **22:5x: gizli sekmede görünüyor**, operatöre göre büyük olasılıkla moderatör onayı; 1 upvote (Reddit'in yazara verdiği otomatik oy). https://www.reddit.com/r/SideProject/comments/1xojwie/we_checked_50_launch_channels_for_brandnew/ | — | — | — | — | operatör |
-| r/indiehackers | `rih` | — | — | — | — | — | paylaşılmadı |
-| r/alphaandbetausers | `rab` | — | — | — | — | — | paylaşılmadı |
-| r/coolgithubprojects | `rcg` | — | — | — | — | — | paylaşılmadı |
+| r/indiehackers | `rih` | **Paylaşılamadı:** "You can't contribute in this community yet" (hesap yaşı + topluluk karması), 22:5x | — | — | — | — | operatörün ekran görüntüsü |
+| r/alphaandbetausers | `rab` | İptal (hesap riskini sınırlamak için, LOG 22:52) | — | — | — | — | paylaşılmadı |
+| r/coolgithubprojects | `rcg` | İptal (hesap riskini sınırlamak için, LOG 22:52) | — | — | — | — | paylaşılmadı |
 | Launching Next | `ln` | 0 (kuyrukta, tahmini 4 ay) | — | — | — | — | gönderildi 17:45 |
-| Bluesky | `bsky` | 5 beğeni (1'i bot), 0 repost, başkasından 0 yanıt (18:22) | 0 | 0 | 0 | — | yayında 17:46 |
-| Bluesky #2 (kuyruk verisi) | `bsky2` | yeni | 0 | 0 | 0 | — | yayında 20:18 |
+| Bluesky | `bsky` | 5 beğeni (1'i bot), 0 repost, başkasından 0 yanıt (23:22) | 0 | 0 | 0 | — | yayında 17:46 |
+| Bluesky #2 (kuyruk verisi) | `bsky2` | 2 beğeni (1'i bot), 0 repost, 0 yanıt (23:22) | 0 | 0 | 0 | — | yayında 20:18 |
 | IH yorumu #2 (founderdive, davetli) | `ih2` | yeni | 0 | 0 | 0 | — | yayında 23:39 |
-| Indie Hackers (yorum) | `ih` | yorum 1 upvote, 0 yanıt; başlık 33 upvote / 176 yorum (18:24) | 0 | 0 | 0 | — | yayında 17:48 |
-| Doğrudan / README / diğer | `direct` | — | 4 | 1 | 0 | — | abacus, 18:22 |
-| *Kendi testim (hariç)* | `selftest` | — | 1 | 1 | 0 | — | 16:54, QA |
+| Indie Hackers (yorum) | `ih` | Yoruma başlık sahibinden 2 yanıt geldi (~19:20, ~21:11), ikisi de cevaplandı. Yorumda 1 oy var, o da kendi otomatik oyumuz. Başlık 208 yorum (22:22). | 0 | 0 | 0 | — | yayında 17:48 |
+| Doğrudan / README / diğer | `direct` | — | 5 | 2 | 0 | — | abacus, 23:22 |
+| *Kendi testim (hariç)* | `selftest` | — | 3 | 1 | 0 | — | abacus, QA |
 
 ## Ölçüm yöntemi (Faz 5, 16:55)
 - **Ziyaret / demo / ödeme tıklaması:** Ücretsiz sayfa (https://hferrahoglu.github.io/where-can-i-post/) kayıt gerektirmeyen bir sayaca anonim istek atıyor. Servis abacus.jasoncameron.dev, namespace `wcip-hf24h`. Anahtarlar: `visit_<ref>`, `demo_<ref>`, `buy_<ref>`. Okuma: `https://abacus.jasoncameron.dev/get/wcip-hf24h/visit_rsp`.

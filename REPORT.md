@@ -22,18 +22,37 @@
   - IH yeni hesaba paylaşım izni vermedi.
   - Launching Next 4 ay kuyruk verdi.
 
-**Kullanıcıdan gelen sinyaller** (ziyaret, demo, satın alma tıklaması, yorum, satış): —
+**Kullanıcıdan gelen sinyaller** (ara durum: 05/11 23:22; final sayılar 06/11 15:21'de):
+- Toplam 5 ziyaret, 2 demo, 0 satın alma tıklaması, 0 satış. Ziyaretlerin hepsi ref'siz geldi; kanal linkleri 0 ziyaret getirdi.
+- Bağımsız bir maker (IH başlığının sahibi brent alexis) bulguyu iki kez faydalı buldu ve verideki r/webdev satırını düzeltti. Bu bir ihtiyaç doğrulaması, ama satın alma niyeti değil.
 
 **Etiket:** —
 
 ## 3. Kanal bazında huni `[KESİNLEŞMEDİ]`
-METRICS.md'den aktarılacak.
+Ara durum, 05/11 23:22 (abacus + platform sayıları). Final tablo 06/11 15:21'de METRICS.md'den güncellenecek.
+
+| Kanal | Erişim | Ziyaret | Demo | Satın alma tıklaması | Satış |
+|---|---|---|---|---|---|
+| r/SideProject (`rsp`) | Filtre kaldırdı. ~5 saat sonra kontrol edildiğinde görünüyordu, 1 oy (yazarın kendi oyu), yorum yok | 0 | 0 | 0 | 0 |
+| r/indiehackers | Paylaşılamadı: hesap yaşı + topluluk karması gerekiyor | — | — | — | — |
+| Launching Next (`ln`) | Kuyrukta, tahmini 4 ay | 0 | 0 | 0 | 0 |
+| Bluesky #1 (`bsky`) | 5 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
+| Bluesky #2 (`bsky2`) | 2 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
+| IH yorumu (`ih`) | Başlık sahibinden 2 yanıt | 0 | 0 | 0 | 0 |
+| IH yorumu #2 (`ih2`) | 23:39'da yayımlandı | 0 | 0 | 0 | 0 |
+| Ref'siz (`direct`) | — | 5 | 2 | 0 | 0 |
+
+Okuma notları:
+- Sayaçlar sayfa yüklemesini sayıyor ve reklam engelleyiciler isteği engelleyebilir. Ölçülen değer gerçek ziyaretin alt sınırı.
+- Ref'siz ziyaretlerin kaynağı bilinmiyor. Olası kaynaklar: GitHub repo ana sayfası, Gumroad sayfası ya da link ref'i silinerek paylaşılmış olabilir.
+- GitHub traffic API'si deney boyunca 0 gösterdi. GitHub bu veriyi gecikmeli güncelliyor.
 
 ## 4. Alıcının bağımsızlığı `[KESİNLEŞMEDİ]`
 —
 
 ## 5. En iyi 3 ve en kötü 3 karar `[KESİNLEŞMEDİ]`
 **İyi kararlar (aday):**
+0. *(aday, sıralama finalde yapılacak)* Mevcut, ilgili bir başlığa yazılan tek bir faydalı yorum. Deneyin tek gerçek konuşmasını ve iki veri düzeltmesini bu getirdi; hiçbir gönderi bunu yapamadı. Gelen her düzeltme dakikalar içinde ürüne işlendi ve kaynağıyla gösterildi.
 1. Dağıtım araştırmasını fikir seçiminden önce yapmak. YZ metni yasaklarını en baştan araştırmak, HN, PH ve Shopify Community'de olası ihlalleri önledi.
 2. Ruul Space'in kapandığını ilk 10 dakikada kanıtlamak ve self-servis ödemeye (Gumroad) geçmek.
 3. Ürünü 20 dakikada bitirip kalan zamanı dağıtıma ayırmak. Her kanal denemesinden gelen birinci elden bilgiyi ürüne geri eklemek.
@@ -82,9 +101,25 @@ METRICS.md'den aktarılacak.
 Harcanan para: **$0**. Hiçbir ücretli plan, reklam, alan adı ya da ücretli API kullanılmadı. Kalan doğrulama: deney sonunda operatörün kart ve hesap hareketlerinde bu servislere bir ödeme olmadığını teyit etmesi.
 
 ## 8. 7 gün daha olsaydı `[KESİNLEŞMEDİ]`
-—
+Bu bölüm bir plandır, ölçülmüş sonuç değildir.
+
+1. **Kanal sırasını hesap yaşına göre kurmak.**
+   - Gün 1-3: IH'de ve Reddit'te ilgili başlıklara gerçek, faydalı yorumlar. Amaç topluluk karması; tanıtım yok.
+   - Gün 4-7: Karma ve yaş eşiklerini geçen kanallarda tek gönderi. r/indiehackers'ın topluluk karması, r/webdev'in Showoff Saturday günü ve IH'nin paylaşım kilidi bu aralıkta açılabilir.
+   - Bu sıra aracın kendi bulgusuyla uyumlu: 24 saatlik pencere yeni bir hesap için neredeyse tüm kanalları kapatıyor.
+2. **Ürünü "kural verisi" olarak doğrulamak.**
+   - Her gün bir kanalı yeni hesapla birinci elden denemek ve sonucu kaynak olarak eklemek. Bu, rakip listelerde olmayan tek varlık.
+   - Bugün bu yolla 6 satır düzeltildi veya doğrulandı: r/SideProject, r/indiehackers, r/webdev, dev.to, IH, Launching Next.
+3. **Fiyat ve paketi test etmek.**
+   - Satın alma tıklaması 0 olduğu için $7'nin doğru olup olmadığı bilinmiyor. Ziyaretçi sayısı bunu ölçmeye yetmedi.
+   - Bir hafta içinde ücretsiz sürümü 50 kanala açıp, ücretli kısmı yalnızca autofill bookmarklet ve takip aracına bırakan bir varyant denenebilir.
+4. **Ölçümü iyileştirmek.** Ref'siz ziyaretleri ayırmak için README, Gumroad sayfası ve repo ana sayfası linklerine de ref eklemek.
 
 ## 9. Deney sonrası yükümlülükler `[KESİNLEŞMEDİ]`
 - Alıcılara 14 günlük koşulsuz iade sözü verildi. Bu, Gumroad panelinden operatörün yükümlülüğü.
 - Destek e-postası: hferrahoglu@gmail.com.
-- Kapatma veya sürdürme kararı: —
+- **Veri güncelliği:** Ürün "2026-11-05 tarihli veri, sonraki güncellemeler garanti edilmez" diyor. Deneyden sonra güncelleme sözü verilmedi.
+- **Herkese açık hesaplar ve gönderiler:**
+  - Gumroad ürünü, GitHub repoları ve Pages sayfaları, Bluesky gönderileri, IH yorumları, r/SideProject gönderisi.
+  - Silme ya da bırakma kararı operatörün. Öneri: ürünü yayında bırakmak, çünkü satın alan biri olursa teslim Gumroad üzerinden otomatik çalışıyor.
+- Kapatma veya sürdürme kararı: — (operatörün)
