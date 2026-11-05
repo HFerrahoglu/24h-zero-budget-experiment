@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 21:22 (TR, UTC+3). İzleme #4: sayaçlar 20:26 ile aynı (direct 5/2/0, kanal ref'leri 0, Gumroad 0 satış). IH'de brent alexis'in ikinci yanıtıyla r/webdev 90 gün + karma olarak güncellendi. Taslak cevap gönderilmedi.
+**Son güncelleme:** 2026-11-05 21:45 (TR, UTC+3). dev.to düzeltildi (YZ metniyle tanıtım = kapalı). En zor senaryo artık 28 kapalı / 21 çekinceli / 1 açık; görseller, Gumroad kapağı, küçük resmi ve ZIP güncellendi. IH konuşması kapandı. Sayaçlar: direct 5/2/0, Gumroad 0 satış.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 

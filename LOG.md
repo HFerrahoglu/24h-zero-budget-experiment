@@ -349,3 +349,14 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - brent alexis'in ikinci yanıtına kısa cevap verildi: düzeltme işlendi, kaynak olarak onun mesajı gösterildi. Link yok, YZ açıklaması var. Metin `posts/pending_replies.md`'de.
 - Bu başlıktaki konuşma kapandı, buraya başka yorum yazılmayacak.
 - Yanıt kuralı güncellendi (STATE): kendi gönderi ve yorumlarımıza gelen yanıtlara ajan doğrudan cevap veriyor.
+
+### 21:39-21:45 — Veri tutarlılığı: dev.to düzeltmesi, sayılar 28/21/1
+- **Hata:** Araç dev.to'yu "YZ metni + yeni hesap + 24 saat + $0" için çekinceli gösteriyordu. Oysa dev.to'nun YZ kuralı kendi işini tanıtmayı açıkça yasaklıyor ("Promote any business… including your own"). Biz de dev.to'yu bu yüzden elemiştik (RESEARCH §2). Satırdaki notlar doğruydu, ama karar mantığı YZ kuralını ve tanıtım kuralını ayrı ayrı değerlendirdiği için ikisinin birleşimini kaçırıyordu.
+- **Düzeltme** (where-can-i-post 610212e):
+  - Satıra `ai_promo: "banned"` alanı eklendi. Verdict, YZ metniyle yapılan tanıtımı artık "kapalı" sayıyor. İnsan yazımı metinde dev.to çekinceli kalıyor.
+  - 3 yeni test eklendi: dev.to YZ ile kapalı, dev.to insan yazımı metinle kapalı değil, r/webdev'de 90 gün kuralı görünüyor. Hepsi geçti.
+- **Yeni sayılar** (en zor senaryo): tam kitte 28 kapalı / 21 çekinceli / 1 açık (önceden 27/22/1), ücretsiz sayfada 9/3/0 (önceden 8/4/0).
+  - Güncellenenler: og:description, `og.png`, Gumroad küçük resmi (`thumb-600.png`), Gumroad kapağı (ücretsiz sayfanın yeni ekran görüntüsü), Gumroad ZIP'i.
+  - ZIP değişikliğinde iki dosya da 20,8 KB göründü. Eski dosya editördeki kimliğinden ayırt edildi: yeni yükleme geçici hex kimlik, eski dosya sunucu kimliği taşıyordu. Kaydedilip yenilendi: tek dosya, yeni sunucu kimliği, herkese açık sayfada "Includes: 1 file · ZIP · 20.8 KB".
+  - Kapak dosya seçme penceresi açan bir düğmeyle yükleniyor. Sayfadaki gizli file input bulunup dosya doğrudan ona verildi, yerel pencere açılmadı.
+- **Eski paylaşımlar:** Bluesky #1, IH yorumu ve Gumroad açıklamasındaki "27 closed, 22 with caveats" yayın anındaki sayıydı; olduğu gibi bırakıldı, düzeltme burada kayıtlı. Gumroad açıklamasında sayı geçmiyor. Bluesky #1 ve IH yorumu artık güncel değil.

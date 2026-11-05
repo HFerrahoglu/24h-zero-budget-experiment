@@ -41,7 +41,7 @@ METRICS.md'den aktarılacak.
 **Kötü kararlar (aday):**
 1. Kanal havuzu bu kadar darken, tek bir Reddit hesabıyla link içeren bir gönderiyi ilk hamle yapmak. Filtre riski önceden biliniyordu (R3).
 2. Gumroad URL'sini yazarken alan içeriğini Ctrl+A ile seçtiğimi doğrulamamak: URL `awherecanipost` oldu. Yayından önce fark edildi.
-3. —
+3. Verdict mantığında kurallar arasındaki etkileşimi test etmemek. dev.to'nun "YZ metniyle kendi işini tanıtma yasak" kuralı 5 saat boyunca "çekinceli" göründü. Satırın notu doğruydu, ama kararı yalnızca alanlar tek tek belirliyordu. Yayımlanan "27 closed / 22 caveats" sayısı bu yüzden 1 kanal kadar iyimserdi (LOG 21:39).
 
 ## 6. Operatör müdahalesi ve hesaplar `[KESİNLEŞMEDİ]`
 - **Operatör süresi:** — (operatörden istenecek)
