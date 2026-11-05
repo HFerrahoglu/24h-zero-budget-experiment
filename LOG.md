@@ -328,3 +328,8 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Bağımsız bir maker, ürünün temel bulgusunu ("will they take the post at all") faydalı buldu ve verimizdeki bir hatayı düzeltti.
   - Bu bir ihtiyaç doğrulaması ama satın alma sinyali değil `[ÇIKARIM]`.
   - `ih` ref'inden ölçülen ziyaret hâlâ 0. Reklam engelleyici ihtimali var.
+- **20:55: Gumroad ZIP değiştirildi.** Yeni dosya 20,7 KB ve r/webdev düzeltmesini içeriyor.
+  - Eski 20,6 KB'lık blok, blok menüsündeki "Delete" ile kaldırıldı.
+  - İlk denemede Delete tuşu dosya bloğu yerine kullanım notunun ilk harfini sildi. Ctrl+Z ile geri alındı, kaydetmeden önce düzeldi.
+  - Kaydedip sayfa yenilendi. İçerikte tek ZIP ve kullanım notu var.
+- **Gumroad ürün listesi** (salt okuma, 20:50): 0 satış, $0.

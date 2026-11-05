@@ -33,3 +33,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 |---|---|---|---|---|---|---|
 | 18:22 | 4/1/0 | hepsi 0/0/0 | 5 (1 bot) / 0 / 0 | 1 / 0 | 0 / 0 (GitHub gecikmeli) | — (operatör iletecek) |
 | 19:23 | 4/1/0 (değişim yok) | hepsi 0/0/0 | 5 (1 bot) / 0 / 0 başkasından (API replyCount=2 ama görünen tek yanıt bizim; bildirim yok) | 1 (büyük ihtimalle kendi otomatik oyumuz) / 0 | 0 / 0 | — |
+| 20:50 | (ölçülmedi, ara kontrol) | — | — | 1 / **1 yanıt** (brent alexis, gönderi sahibi; cevaplandı 20:44) | — | **0 satış, $0** (Gumroad ürün listesi, ajan okudu) |
