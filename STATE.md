@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 18:24 (TR, UTC+3) — saatlik izleme #1: 4 ziyaret, 1 demo, 0 satın alma tıklaması; Bluesky 5 beğeni; IH yanıt yok
+**Son güncelleme:** 2026-11-05 19:23 (TR, UTC+3) — saatlik izleme #2: değişim yok (4 ziyaret, 1 demo, 0 satın alma tıklaması); Bluesky 5 beğeni; IH yanıt yok
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 

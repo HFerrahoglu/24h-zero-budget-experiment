@@ -31,3 +31,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | Saat (TR) | direct v/d/b | Kanal ref'leri v/d/b (rsp, rih, rab, rcg, ln, bsky, ih) | Bluesky (beğeni/repost/yanıt) | IH yorumu (upvote/yanıt) | GitHub views (where-can-i-post / deney) | Satış (Gumroad) |
 |---|---|---|---|---|---|---|
 | 18:22 | 4/1/0 | hepsi 0/0/0 | 5 (1 bot) / 0 / 0 | 1 / 0 | 0 / 0 (GitHub gecikmeli) | — (operatör iletecek) |
+| 19:23 | 4/1/0 (değişim yok) | hepsi 0/0/0 | 5 (1 bot) / 0 / 0 başkasından (API replyCount=2 ama görünen tek yanıt bizim; bildirim yok) | 1 (büyük ihtimalle kendi otomatik oyumuz) / 0 | 0 / 0 | — |

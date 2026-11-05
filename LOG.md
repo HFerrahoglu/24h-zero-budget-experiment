@@ -279,3 +279,9 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Toplam: direct 4 ziyaret, 1 demo, 0 satın alma tıklaması. Kanal ref'lerinden ziyaret yok.
 - Bluesky ana gönderisi 5 beğeni aldı (biri `buildinpublicbot`; gerçek görünen hesaplardan biri OpenAlternative'in kurucusu kulpinski.dev). Linke tıklama ölçülmedi. Link ve kart `?ref=bsky` taşıyor, ölçüm tarafında hata yok.
 - IH yorumu görünüyor, yanıt yok, başlık 176 yoruma çıktı. Cevaplanacak bir şey yok.
+
+### 19:23 — Saatlik izleme #2
+- Sayaçlarda değişim yok: direct 4/1/0, kanal ref'leri 0. Saat 18:22'den bu yana yeni ziyaret yok.
+- Bluesky: 5 beğeni değişmedi. API `replyCount=2` diyor ama hem herkese açık thread'de hem giriş yapılmış sayfada tek yanıt (bizim 2/2 açıklama gönderimiz) görünüyor, bildirim yok. Muhtemelen silinmiş ya da moderasyonla gizlenmiş bir yanıt `[ÇIKARIM]`. Yeni takipçi: bir YZ bot hesabı.
+- IH yorumu: 0 yanıt. Upvote öğesi `comment-voter--upvoted` sınıfı taşıyor, yani tek oy büyük ihtimalle IH'nin kendi yorumuna verdiği otomatik oy. 18:22 satırındaki "1 upvote" başkasından gelmiş sayılmamalı. Başlık 187 yoruma çıktı.
+- `monitor.sh` düzeltmesi: abacus ara sıra "Failed to get data" dönüyor ve script bunu 0 yazıyordu (ilk okumada demo 1→0 görünmesinin nedeni). Artık 3 kez deniyor, başarısızsa `?` yazıyor.
