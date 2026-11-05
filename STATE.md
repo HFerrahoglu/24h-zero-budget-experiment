@@ -15,6 +15,7 @@
 3. **Kanallar:** Yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects (+ Launching Next). Neden: HN, PH, SO ve büyük sub'lar YZ metnini yasaklıyor ya da yeni hesaba kapalı (RESEARCH §2). Metinler `posts/` klasöründe, hazır cevaplar `posts/faq_replies.md`'de.
 4. **Operatöre yalnızca bugün 16:00-00:00 arasında ulaşılabiliyor.** Tüm paylaşımlar ve cevaplar 00:00'dan önce yapılmalı.
 5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.
+7. **Saatlik izleme için:** `bash <scratchpad>/bin/monitor.sh` (paralel, ~8 sn). Ölçtükleri: abacus sayaçları, Bluesky, GitHub traffic. IH yanıtları tarayıcıdan salt okuma ile kontrol ediliyor. Sonuçlar METRICS.md'deki "Ölçüm günlüğü" tablosuna yazılıyor.
 6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
 ## Sıradaki 3 adım (17:53)
