@@ -237,6 +237,74 @@ Etiketler: [KANIT] = linki açıp kendim doğruladım · [ÇIKARIM] = benim yoru
 
 ---
 
+## GÜNCELLEME (kanal kısıtı sonrası): indie maker ve geliştirici alıcılar
+
+Koordinatörden gelen bilgi: yeni hesapla ulaşılabilen kanallar yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects ve r/IMadeThis. Türk kanalları büyük ölçüde kapalı. Bu yüzden aşağıdaki iki global adayı ekledim.
+
+## Aday 7 (GLOBAL, YENİ, KANAL UYUMU EN YÜKSEK): App Store / Google Play ekran görüntüsü üretici
+
+Tarayıcıda çalışır: cihaz çerçevesi, başlık metni, arka plan ve mağazanın istediği tüm boyutlarda toplu dışa aktarma.
+
+- **Problem:** Indie uygulama geliştiricileri her sürümde mağaza ekran görüntülerini Figma'da elle hazırlıyor (çerçeve, üst yazı, her cihaz boyutu için ayrı export) ve buna günler harcıyor. Hazır araçlar ise aylık abonelikli.
+- **Kimde var:** Solo iOS/Android geliştiricileri, indie hacker'lar, küçük uygulama stüdyoları. Bunlar tam olarak r/SideProject ve r/indiehackers kitlesi.
+
+**Kanıtlar:**
+
+1. [KANIT] Jesse Squires blogu, 16.01.2024: https://www.jessesquires.com/blog/2024/01/16/app-store-screenshot-requirements/
+   - "The screenshot requirements for the App Store have increasingly become a burden for developers, especially indies." (App Store ekran görüntüsü gereksinimleri geliştiriciler için, özellikle indie'ler için, giderek bir yüke dönüştü.)
+   - Tanınmış, bağımsız bir iOS geliştiricisi.
+2. [KANIT] Dev.to, Mateusz (@mateusz_b9), 24.10.2025: https://dev.to/mateusz_b9/i-spent-3-days-making-app-store-screenshots-so-i-built-a-tool-that-does-it-in-15-minutes-39cn
+   - "I spent 3 days designing screenshots for my last app launch. It should've taken 15 minutes." (Son uygulama lansmanım için ekran görüntüsü tasarlamaya 3 gün harcadım. 15 dakika sürmeliydi.)
+   - Kendi aracını ücretli satıyor: Indie 9,99 $/ay, Studio 29,99 $/ay, 100 kredilik paket 5 $.
+3. [KANIT] Dev.to, Darren Egick, "Mar 15" (yıl sayfada görünmüyor): https://dev.to/darren_egick_5774637ad15e/stop-manually-creating-app-store-screenshots-a-founders-practical-solution-378d
+   - "Three full days in Figma, positioning mockups, adding text overlays, exporting at the exact right resolution" (Figma'da tam üç gün: mockup yerleştirme, metin ekleme, tam doğru çözünürlükte dışa aktarma.)
+   - Onun aracı AppFinish: üretim başına 5 $, 2 AI üretimi 19 $.
+4. [KANIT] AppScreens fiyatları: https://appscreens.com/pricing
+   - Ücretsiz plan: 1 proje, 5 ekran, "essential" boyutlar, Pro özellikleri filigranlı.
+   - Pro 99 $/yıl, Scale 180 $/yıl (aylık 15 $).
+5. [KANIT] Previewed fiyatları (toolradar, 05.11.2026'da kontrol edilmiş): https://toolradar.com/tools/previewed/pricing
+   - Lite ücretsiz: 720p ve CC atıf lisansı, yani ticari kullanım için atıf gerekiyor.
+   - **Plus 9,99 $ tek seferlik**, Pro 19 $/ay.
+   - [ÇIKARIM] Tek seferlik düşük fiyat noktası bu pazarda kabul görüyor.
+- **Doğrulanamayan:** AppLaunchpad'in resmi fiyat sayfası 404 verdi. Arama özetine göre Pro 29 $/ay veya 180 $/yıl.
+
+**Yeterli ücretsiz alternatif var mı?** KISMEN.
+- Ücretsiz katmanlar filigranlı, 720p, atıf zorunlu ya da 1 proje ile sınırlı. Figma şablonları ücretsiz ama elle çalışma gerektiriyor.
+- **Risk [ÇIKARIM]:** Pazar çok kalabalık. Arama sonuçlarında 10'dan fazla yeni rakip çıktı (Screenhance, stora.sh, appscreenshotstudio, Shotcraft, framestudio…). Farklılaşma şart. Önerim: "tek seferlik 9–15 $, hesap yok, %100 tarayıcıda, sınırsız export, filigran yok".
+
+**Kitle nerede?** [ÇIKARIM]
+- r/SideProject ve r/IMadeThis'te "yaptığım şey" paylaşımları kabul görüyor. r/alphaandbetausers'ta beta kullanıcı istemek doğal.
+- r/iOSProgramming ve r/androiddev daha isabetli olurdu ama kendi kendini tanıtma kurallarını kontrol etmek gerekir. Bunlar koordinatörün listesinde yok.
+- Ücretsiz sürümü GitHub'a koyup r/coolgithubprojects'te paylaşmak mümkün.
+
+**Uygunluk:**
+- Kullanıcının kendi ekran görüntüleri işlenir, kişisel veri yok.
+- **Marka riski:** Apple ve Google'ın cihaz çerçeveleri (Apple Design Resources) lisanslı. Resmi çerçeveleri gömmek yerine CSS/SVG ile kendi çizdiğimiz jenerik çerçeveleri kullanmak gerekir. Ürün adında "App Store" geçmemeli, betimleyici kullanım yeterli.
+
+**2,5 saatte yapılabilirlik: 4/5**
+- MVP: PNG yükleme (çoklu) → şablon seçimi (arka plan gradyanı, üst başlık, jenerik telefon çerçevesi, Canvas) → hedef boyutlar listesi (iPhone 6.9" 1320×2868, 6.5" 1284×2778, iPad 13", Play 1080×1920 vb.; kesin değerler Apple ve Google dokümanlarından teyit edilmeli) → tek tıkla ZIP (JSZip).
+- Ücretsiz sürüm filigranlı. Gumroad lisans anahtarı filigranı kaldırır.
+
+## Aday 8 (GLOBAL, ZAYIF): Güncel "launch directory" listesi ve gönderim takip şablonu
+
+- **Problem:** Ürün çıkaran maker'lar onlarca "launch directory" sitesine elle gönderim yapıyor. Hazır listelerdeki linklerin çoğu ölü ya da ücretli çıkıyor.
+- **Kimde var:** r/SideProject ve r/indiehackers'ın çekirdek kitlesi.
+
+**Kanıtlar:**
+
+1. [KANIT] Dev.to, 20.06.2026: https://dev.to/_41cda9e439997374d9a9f/i-manually-checked-100-startup-launch-directories-here-are-16-free-ones-to-start-with-1mgg
+   - "half the links are dead, paywalled, or just gone." (Linklerin yarısı ölü, ücretli ya da tamamen kaybolmuş.)
+   - Yazar kendi 100'den fazla dizinlik ücretli Gumroad tablosunu tanıtıyor (fiyat sayfada yok).
+2. [KANIT, sınırlı] Gumroad ürünleri gerçekten var ama sayfalar JS ile yüklendiği için fiyat ve satış sayısını doğrulayamadım:
+   - LaunchPedia "150+ Launch Platforms & Directories to Launch Your SaaS": https://launchpedia.gumroad.com/l/list-my-saas
+   - datanerd "Submit Your Saas Startup to 100+ Directories Done For You": https://datanerd.gumroad.com/l/zrvnsn
+   - abualmagd "200+ SaaS Directories and platforms": https://abualmagd.gumroad.com/l/vfrtz
+   - Arama özetine göre fiyatlar 2–10 $ (liste) ve 149–347 $ (sizin yerinize yapılan hizmet). Bu fiyatlar doğrulanmadı.
+
+**Yeterli ücretsiz alternatif var mı?** EVET. Dev.to'da ve GitHub'daki "awesome" listelerinde ücretsiz listeler bol. Değer yalnızca "bugün doğrulanmış, canlı" olmasında. [ÇIKARIM] 100'den fazla siteyi 2,5 saatte elle doğrulamak gerçekçi değil.
+
+**2,5 saatte yapılabilirlik: 3/5.** Notion/Sheets takip şablonu kolay. Asıl iş olan güncel doğrulama zor. Ek bir fikir: tek açıklamadan her dizinin karakter sınırına göre kısaltılmış metin üreten bir "copy kit" aracı.
+
 ## İncelenip elenenler (kısa)
 
 - **Toplu sertifika/katılım belgesi üretici (TR ve global):** Ücretsiz ve yeterli araçlar var. Eklavvya ücretsiz tarayıcı aracı batch başına 500 belge veriyor, ayrıca Word adres-mektup birleştirme var. Arama özetine göre Certifier ücretli. Elendi.
@@ -245,7 +313,23 @@ Etiketler: [KANIT] = linki açıp kendim doğruladım · [ÇIKARIM] = benim yoru
 - **GİB e-Arşiv portalında toplu fatura kesme:** Gerçek bir acı, ama portalı otomatikleştirmek ve kullanıcı şifresi işlemek gerekiyor. Kısıtları ihlal eder. Elendi.
 - **Banka ekstresi PDF → Excel:** Hassas finansal kişisel veri. Elendi.
 
-## Önerilen sıralama [ÇIKARIM]
+## Önerilen sıralama: kanal kısıtı sonrası GÜNCEL [ÇIKARIM]
+
+Kanallar yalnızca İngilizce indie/maker subreddit'leri olduğu için:
+
+1. **Aday 7 (mağaza ekran görüntüsü üretici).**
+   - Alıcı tam kanal kitlesi.
+   - Ödeme sinyalleri doğrulandı: Previewed 9,99 $ tek seferlik, AppScreens 99 $/yıl, Mateusz'un aracı 9,99 $/ay, AppFinish üretim başına 5 $.
+   - Bağımsız şikâyet var: Jesse Squires 2024, iki dev.to kurucusu "3 gün harcadım".
+   - En büyük risk rekabet. Farklılaşma: tek seferlik, hesap yok, tarayıcıda.
+2. **Aday 3 (tedarikçi CSV'si → Shopify CSV'si).**
+   - En güçlü "zaten ödüyorlar" sinyali: Matrixify 1.861 yorum, 20 $/ay.
+   - Ama alıcı mağaza sahibi. r/SideProject kitlesine uyumu orta. Shopify işi yapan freelancer'lar da alıcı olabilir.
+3. **Aday 2 (XRechnung/Peppol XML → Excel).** AB'deki serbest çalışanlar alıcı, ama listelenen subreddit'lere uyumu düşük.
+4. **Aday 1 (TR e-Fatura XML → Excel).** En net boşluk ama Türk kanalları kapalı olduğu için tek TR adayı olarak yedekte kalsın. Aday 2 ile aynı motor, yani TR sürümü sonradan neredeyse bedava çıkar.
+5. **Aday 4, 5, 6, 8:** Ücretsiz alternatifler yeterli veya kanıt zayıf. Önerilmez.
+
+### İlk sıralama (kanal bilgisinden önce, kayıt için)
 
 1. **Aday 1 + Aday 2'yi tek ürün olarak yapmak:** "UBL e-Fatura XML → Excel" motoru, TR öncelikli. Bu, en net boşluk ve en somut "biri ödeme planlıyor" sinyali (Blink 12 €/ay). Örnek veri kamuya açık, tamamen tarayıcıda çalışır, 2,5 saatte yapılır. Türk forumlarında birebir soran eski konular var, bunlara çözüm olarak yanıt yazılabilir.
 2. **Aday 3 (Shopify CSV dönüştürücü):** En güçlü "zaten ödüyorlar" sinyali (Matrixify 1.861 yorum, 20 $/ay; data.page 10 $/ay; çok sayıda Fiverr gig'i). Ancak dağıtım gürültülü ve marka kullanımına dikkat gerekiyor.
