@@ -227,7 +227,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **Bluesky:** İki gönderilik zincir yayında. Ana gönderi: https://bsky.app/profile/hferrahogludev.bsky.social/post/3mzl4casvi226 (`at://…/3mzl4casvi226`), açıklama yanıtı: `3mzl4dedpfs2h`. Metrikler herkese açık API'den okunabiliyor (getAuthorFeed).
 - **Indie Hackers:** Operatörün onayladığı yorum, 172 yorumlu "I looked at 20+ launch directories…" gönderisine yazıldı. Sayfada görünüyor.
 
-### 17:58 — Ara değerlendirme #1 (deneyin 2. saati)
+### 17:53 — Ara değerlendirme #1 (deneyin 2. saati)
 **Metrikler** `[KANIT, METRICS.md]`:
 - Sayfa yükleme: 3, demo: 1, satın alma tıklaması: 0. Hepsi "direct", kaynağı belirsiz. `selftest` hariç.
 - Kanal ref'lerinden ziyaret yok. Bluesky 0 etkileşim, gönderi 12 dk önce yayınlandı. IH yorumu 10 dk önce yayınlandı.

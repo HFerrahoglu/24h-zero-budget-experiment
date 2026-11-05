@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 17:58 (TR, UTC+3)
+**Son güncelleme:** 2026-11-05 17:53 (TR, UTC+3)
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
@@ -17,7 +17,7 @@
 5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.
 6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
-## Sıradaki 3 adım (17:58)
+## Sıradaki 3 adım (17:53)
 1. Saatlik izleme: METRICS'i güncelle, IH yanıtlarını oku. Yanıt gerekirse taslağı `posts/pending_replies.md`'ye yaz ve operatörden onay al (00:00'a kadar).
 2. IH ve Bluesky'da yalnızca ihtiyacın dile getirildiği güncel başlıklara tek, onaylı yorum.
 3. 23:30'da son operatör paketi. 06/11 15:21'de REPORT.md.
