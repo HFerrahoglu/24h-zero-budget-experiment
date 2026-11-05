@@ -237,3 +237,18 @@ Metinlerin hepsi: `posts/5_modmail_bluesky_ih.md`
 - Bluesky kullanıcı adınız ve Gönderi 1'in linki.
 - Indie Hackers'ta paylaşım yapılabiliyor mu?
 - Reddit kullanıcı adınız.
+
+## PAKET 6 — 23:30'a kadar (tahmini ~5 dk) · son paket, operatör döndüğünde
+Bu paketteki yeni hesaplar zorunlu değil. 20:19 taraması, 24 saat içinde trafik getirecek yeni bir dizin bulmadı (LOG 19:40-20:19), bu yüzden yeni hesap istemiyorum.
+
+- **6.1 Bilgi: toplam operatör süreniz (~1 dk)**
+  - Bugün bu deneye harcadığınız toplam dakikayı yazın. Tahmin de olur; tahminse "tahmin" diye belirtin. REPORT §6 için gerekiyor.
+- **6.2 Bilgi: Reddit kullanıcı adınız (~1 dk)**
+  - ACCOUNTS.md'deki boş alan için.
+- **6.3 Kontrol: r/SideProject gönderisi (~1 dk)**
+  - Gönderi sonradan onaylandı mı? Gizli sekmede açıp görünüp görünmediğini yazın.
+- **6.4 Kontrol: Gmail (~2 dk)**
+  - Deneyle ilgili yeni e-posta var mı? Bakılacaklar: Gumroad satış bildirimi, Launching Next, alıcı mesajı.
+  - Varsa yalnızca konu satırını ve gönderen platformu yazın. Diğer e-postalara bakmayın.
+
+Not: Gumroad satış ve görüntülenme sayılarını ajan kendisi okuyacak, salt okuma.
