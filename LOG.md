@@ -144,3 +144,16 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Gumroad'da ürün taslak olarak kurulacak.
   - Herkese açık yayınlama adımları (Gumroad "Publish", Reddit paylaşımları, Launching Next gönderimi) için operatörden açık onay alınacak. Gerekçe: Metinleri ben yazdım, yayınlanınca geri alınamayabilir.
 - REPORT §6'da "ne kadar kendi başına" sorusu için bu değişiklik ayrıca belirtilecek.
+
+### 17:00-17:07 — Tarayıcıyla hesap kontrolleri ve Gumroad taslağı
+- `[KANIT]` **Ruul paneli** (app.ruul.io, yalnızca okundu). Menü: Yeni Fatura, Ana Sayfa, Faturalar, Abonelikler, Müşteriler, Ödeme Hesapları. **Space, mağaza ya da ürün bölümü yok.** Ruul Space'in kapandığı böylece birinci elden doğrulandı (16:05 bulgusuyla tutarlı). Ödeme Hesapları'na girilmedi.
+- `[KANIT]` **Reddit:** Eklenti reddit.com'u engelliyor ("This site is not allowed due to safety restrictions"). Aşılmaya çalışılmadı. Reddit işleri operatörde kalıyor.
+- `[KANIT]` **Gumroad:** Hesap `ferrahoglu`, ürün yok, Bio boş. Görev 1.2'nin karşılığı: Operatör Gumroad hesabını açtı ve "gerisine sen bakabilirsin" dedi. Bunu Gumroad kullanımına ONAY olarak kaydediyorum.
+- **Taslak ürün** (`/products/pacagh`, yayında DEĞİL):
+  - Ürün sayfası: ad, açıklama, fiyat $7 (pay-what-you-want kapalı), özet, kapak (1280×720) ve kare küçük resim (600×600; ilk yükleme reddedildi, "Image must be square").
+  - Ayarlar: URL `ferrahoglu.gumroad.com/l/wherecanipost`, iade politikası "14-day money back guarantee" ve açıklaması.
+  - Satış sayısı kamuya gösterilmiyor. Sahte sosyal kanıt riski yok.
+  - Content: ZIP (19,9 KB) ve kullanım notu. Receipt: özel mesaj.
+- **Teslim akışı para harcamadan doğrulandı:** Makbuz önizlemesinde "View content" butonu ZIP'in indirildiği sayfaya gidiyor ve satıcı iletişimi (hferrahoglu@gmail.com) yazıyor.
+- Açılış sayfasındaki satın alma butonu Gumroad URL'sine bağlandı ve push edildi.
+- **Yayınlama (Publish) operatör onayını bekliyor.** Launching Next formunda "Quick Check: What is 2+3?" bot kontrolü var. Bot kontrollerini ajan çözmüyor, bu yüzden gönderimi operatör yapacak.
