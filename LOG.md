@@ -274,3 +274,8 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Testler 44/44 geçti.
   - Bir kez başarısız testle push edildi (yeni not `.rule` sınıfını kullanıyordu), 2 dk içinde düzeltildi.
 - Gumroad ZIP'i yeni sürümle değiştirildi (20,6 KB, tek dosya, sayfa yenilenerek doğrulandı).
+
+### 18:24 — Saatlik izleme #1
+- Toplam: direct 4 ziyaret, 1 demo, 0 satın alma tıklaması. Kanal ref'lerinden ziyaret yok.
+- Bluesky ana gönderisi 5 beğeni aldı (biri `buildinpublicbot`; gerçek görünen hesaplardan biri OpenAlternative'in kurucusu kulpinski.dev). Linke tıklama ölçülmedi. Link ve kart `?ref=bsky` taşıyor, ölçüm tarafında hata yok.
+- IH yorumu görünüyor, yanıt yok, başlık 176 yoruma çıktı. Cevaplanacak bir şey yok.

@@ -11,9 +11,9 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 | r/alphaandbetausers | `rab` | — | — | — | — | — | paylaşılmadı |
 | r/coolgithubprojects | `rcg` | — | — | — | — | — | paylaşılmadı |
 | Launching Next | `ln` | 0 (kuyrukta, tahmini 4 ay) | — | — | — | — | gönderildi 17:45 |
-| Bluesky | `bsky` | 0 beğeni / 0 repost (17:47) | — | — | — | — | yayında 17:46 |
-| Indie Hackers (yorum) | `ih` | — | — | — | — | — | yayında 17:48 |
-| Doğrudan / README / diğer | `direct` | — | — | — | — | — | — |
+| Bluesky | `bsky` | 5 beğeni (1'i bot), 0 repost, başkasından 0 yanıt (18:22) | 0 | 0 | 0 | — | yayında 17:46 |
+| Indie Hackers (yorum) | `ih` | yorum 1 upvote, 0 yanıt; başlık 33 upvote / 176 yorum (18:24) | 0 | 0 | 0 | — | yayında 17:48 |
+| Doğrudan / README / diğer | `direct` | — | 4 | 1 | 0 | — | abacus, 18:22 |
 | *Kendi testim (hariç)* | `selftest` | — | 1 | 1 | 0 | — | 16:54, QA |
 
 ## Ölçüm yöntemi (Faz 5, 16:55)
@@ -23,3 +23,11 @@ Huni: **erişim** (paylaşımın görüntülenmesi/upvote) → **ziyaret** (aç�
 - **Erişim:** Reddit gönderisinin upvote ve yorum sayısı. Operatör ekran görüntüsüyle iletecek.
 - **Satış:** Gumroad paneli. Operatör iletecek.
 - **GitHub:** repo traffic API (görüntülenme, referrer). Ajan doğrudan okuyabiliyor.
+
+
+## Ölçüm günlüğü (saatlik izleme)
+Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `selftest` ajanın kendi testi, toplamlara dahil değil. Reklam engelleyiciler sayaç isteğini engelleyebilir; ölçülen değer gerçek ziyaretin alt sınırı `[ÇIKARIM]`.
+
+| Saat (TR) | direct v/d/b | Kanal ref'leri v/d/b (rsp, rih, rab, rcg, ln, bsky, ih) | Bluesky (beğeni/repost/yanıt) | IH yorumu (upvote/yanıt) | GitHub views (where-can-i-post / deney) | Satış (Gumroad) |
+|---|---|---|---|---|---|---|
+| 18:22 | 4/1/0 | hepsi 0/0/0 | 5 (1 bot) / 0 / 0 | 1 / 0 | 0 / 0 (GitHub gecikmeli) | — (operatör iletecek) |
