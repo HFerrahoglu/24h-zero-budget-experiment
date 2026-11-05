@@ -108,7 +108,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Zaman: Faz 1+2 planlanan 18:20 yerine 16:40'ta bitti, yani ~1,5 saat önde. Bu kazanç daha erken paylaşıma (≤19:30 TR = 11:30 ET) aktarılacak.
 
 ### 16:39-16:55 — Faz 4: MVP inşası (planlanan 2,5 sa yerine ~20 dk sürdü)
-- Ürün: **Where Can I Post?** Kullanıcı hesap yaşını, metnin YZ destekli olup olmadığını, görünürlük için ne kadar beklayabileceğini ve bütçesini seçiyor. Araç kanalları open / caveats / closed diye ayırıyor; her biri için kural alıntısını (birebir değilse "Rule summary" etiketiyle), kaynağı, kaynak türünü (primary / archived / secondary) ve kontrol tarihini gösteriyor.
+- Ürün: **Where Can I Post?** Kullanıcı hesap yaşını, metnin YZ destekli olup olmadığını, görünürlük için ne kadar bekleyebileceğini ve bütçesini seçiyor. Araç kanalları open / caveats / closed diye ayırıyor; her biri için kural alıntısını (birebir değilse "Rule summary" etiketiyle), kaynağı, kaynak türünü (primary / archived / secondary) ve kontrol tarihini gösteriyor.
   - Ücretsiz sürüm 12 kanal içeriyor, ücretli kit 50.
   - Kitte ayrıca karakter sayaçlı lansman profili, autofill bookmarklet (asla submit etmiyor), takip tablosu ve CSV/JSON dışa aktarma var.
 - Ek veri: Ajan E 17 kanalı birincil kaynaktan doğruladı. Bulgulardan bazıları: Firsto ~180 gün, OpenHunts "~60 weeks", Open-Launch 2027'ye kadar dolu, DevHunt artık $49, HackerNoon YZ metnini kabul etmiyor.

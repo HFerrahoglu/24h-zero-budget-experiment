@@ -1,37 +1,30 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 16:16 (TR, UTC+3)
-**Faz:** 0 tamamlandı → Faz 1 Keşif başladı (3 paralel ajan + 1 dağıtım ajanı arka planda)
+**Son güncelleme:** 2026-11-05 16:57 (TR, UTC+3)
+**Faz:** 5 (Satış altyapısı). Operatör Paket 1-3'ü bekliyor. Faz 6 (dağıtım) Gumroad linki gelince başlıyor.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
 ## Kritik gerçekler (yeni oturumda önce bunları oku)
-1. **Ruul Space kapatılmış.** Ruul'da yalnızca müşteri başına elle fatura kalmış ve ürün satışı kapsam dışı (LOG 16:05). Self-servis ödeme için **Gumroad** önerildi, operatör onayı bekleniyor (OPERATOR_TASKS 1.2).
-2. **Operatöre yalnızca bugün 16:00-00:00 arasında ulaşılabiliyor.** Gece yarısından sonra paylaşım, yorum cevabı ve hesap işlemi yapılamaz. Bu yüzden zaman planı sıkıştırıldı (LOG 16:12).
-3. GitHub erişimi REST API üzerinden. Token GCM'den çalışma anında okunuyor. Yardımcı script: `<scratchpad>/bin/ghapi.sh` (repo dışında, token içermiyor). `gh` CLI yok.
-4. Commit e-postası repo'ya özel noreply adresi. Global git ayarına dokunulmadı.
-
-## Sıkıştırılmış zaman planı
-| Saat | Faz |
-|---|---|
-| 16:00-16:30 | Faz 0 Envanter |
-| 16:30-18:00 | Faz 1 Keşif (paralel ajanlarla) |
-| 18:00-18:20 | Faz 2 Seçim |
-| 18:20-20:50 | Faz 4 MVP |
-| 20:50-21:30 | Faz 5 Satış altyapısı (Gumroad ürünü + açılış sayfası) |
-| 21:30-00:00 | Faz 6 aktif dağıtım (operatör paylaşır, yorumlara cevap verir) |
-| 00:00-16:00 | Faz 6 pasif dağıtım + sayfa iyileştirme + Faz 7 rapor |
+1. **Ürün:** "Where Can I Post?" Yeni hesap, YZ destekli metin, zaman ve bütçe durumuna göre 50 lansman kanalının kurallarını kaynaklarıyla gösteriyor.
+   - Ücretsiz sürüm (12 kanal): https://hferrahoglu.github.io/where-can-i-post/
+   - Repo: https://github.com/HFerrahoglu/where-can-i-post
+   - Kaynak klasör: `product/` (ayrı git repo; dış repoda gitignore'da)
+   - Ücretli veri `product/data/channels.full.json` ve `channels.extra.json` dosyalarında. İkisi de gitignore'da, public değil.
+   - Build: `cd product && node build.js <GUMROAD_URL>` → `docs/index.html`'e kopyala, ZIP'i yeniden üret. Test: `node test/test.js`.
+2. **Ödeme:** Ruul Space kapalı. Kanıt LOG 16:05'te. Gumroad önerildi, **operatörün onayı (1.2) hâlâ bekleniyor.** Fiyat $7. Teslim dosyası `product/dist/where-can-i-post-full-kit.zip`.
+3. **Kanallar:** Yalnızca r/SideProject, r/indiehackers, r/alphaandbetausers, r/coolgithubprojects (+ Launching Next). Neden: HN, PH, SO ve büyük sub'lar YZ metnini yasaklıyor ya da yeni hesaba kapalı (RESEARCH §2). Metinler `posts/` klasöründe, hazır cevaplar `posts/faq_replies.md`'de.
+4. **Operatöre yalnızca bugün 16:00-00:00 arasında ulaşılabiliyor.** Tüm paylaşımlar ve cevaplar 00:00'dan önce yapılmalı.
+5. **Ölçüm:** abacus sayaçları (`wcip-hf24h`, `visit|demo|buy_<ref>`). Okuma METRICS.md'de anlatılıyor. Ajan istediği zaman okuyabiliyor.
+6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
 ## Sıradaki 3 adım
-1. ✅ Repo + Pages hazır: https://github.com/HFerrahoglu/24h-zero-budget-experiment, https://hferrahoglu.github.io/24h-zero-budget-experiment/
-2. Dağıtım araştırması ajanının sonucunu RESEARCH.md §2'ye işle. Pazar/dil kararını ver. Paket 2'yi (kanal hesapları) hazırla.
-3. Faz 1: 3 keşif ajanının çıktılarını (scratchpad/discovery_A|B|C.md) doğrula, 15+ adayı RESEARCH.md §3'e işle, ~18:00'de puanla ve seç.
+1. Operatörden Paket 1 cevaplarını al (özellikle 1.2 ONAY ve Gumroad kullanıcı adı), Paket 2'yi (Reddit hesabı + kurallar) ve Paket 3'ü (Gumroad ürünü) al.
+2. Gumroad URL'si gelince `node build.js <URL>` çalıştır, docs ve ZIP'i güncelle, push et, satın alma butonunu canlıda doğrula.
+3. Paket 4: r/SideProject paylaşımı → +75 dk r/indiehackers → +75 dk r/alphaandbetausers → +75 dk r/coolgithubprojects. Her 30-40 dk'da yorumları al, cevap taslağı ver. Sayaçları oku ve METRICS'e yaz.
 
 ## Açık riskler
-- R1: Gumroad'u operatör reddederse elimizde yalnızca Ruul'un elle fatura akışı kalır. Gece satışı imkânsızlaşır.
-- R2: Gumroad yeni hesaplardan ürün yayınlamadan önce ödeme veya kimlik bilgisi isteyebilir. Bu doğrulanmadı.
-- R3: Platformlar yapay zekâ üretimi içeriği yasaklıyor olabilir (HN, Stack Overflow, bazı subredditler). Bu durumda kanal havuzu daralır. Araştırılıyor.
-- R4: İnşa süresi 2,5 saatle sınırlı. Kapsam taşarsa paylaşımlar 00:00'dan sonraya kalır, yani hiç yapılamaz.
-- R5: Yeni hesapların görünürlüğü düşük (karma, spam filtreleri).
-
-## Bekleyen operatör yanıtları
-- Paket 1: 1.1 Ruul menüsü, 1.2 ONAY/RET, 1.3 Gumroad hesabı, 1.4 sabah ulaşılabilirlik
+- R1: Gumroad'a RET gelirse Plan B devreye girer (Ruul'dan elle fatura, ürün "hizmet" olarak sunulur). Gece satışı imkânsızlaşır.
+- R2: Gumroad yeni hesaptan ödeme ya da kimlik bilgisi isteyebilir. Doğrulanmadı.
+- R3: Reddit'in site genelindeki filtresi yeni hesabın gönderilerini gizleyebilir. Dışarıdan görülemez. Operatör gizli sekmede gönderinin görünüp görünmediğini kontrol edecek.
+- R4: Operatör yanıtları gecikirse ABD sabah penceresi kaçar. Yine de 00:00'a kadar ABD öğleden sonrası sürüyor.
+- R5: Veri kısmen ikincil kaynaklı. Yanlış satır itibar riski taşıyor. Her satırda kaynak türü etiketli, düzeltmeler aynı gün yapılacak.
