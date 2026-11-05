@@ -176,7 +176,7 @@ Elenenlerin ana nedenleri:
 
 Üç nedenin hepsine cevap verilebildi, bu yüzden #19 ile devam.
 
-### 5.1 Deney sırasında görülen rakipler (19:30, Bluesky aramasından)
+### 5.1 Deney sırasında görülen rakipler (19:27, Bluesky aramasından)
 Kanıt düzeyi: Bluesky gönderilerinde gördük, sitelerin içini incelemedik.
 - **postyourstartup.co/directories**: 135 dizini trafiğe göre sıralıyor (Bluesky, @timothybramlett, 5 gün önce). Bu liste bizim yanıtlamadığımız "hangi dizin gerçekten trafik getiriyor" sorusuna yanıt veriyor.
 - **listaify.com**: YZ ürünleri için 1805 yer listeliyor, her birinin fiyatını gösteriyor (Bluesky, 1 gün önce).

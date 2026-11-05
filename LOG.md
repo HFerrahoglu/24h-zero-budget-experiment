@@ -286,14 +286,14 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - IH yorumu: 0 yanıt. Upvote öğesi `comment-voter--upvoted` sınıfı taşıyor, yani tek oy büyük ihtimalle IH'nin kendi yorumuna verdiği otomatik oy. 18:22 satırındaki "1 upvote" başkasından gelmiş sayılmamalı. Başlık 187 yoruma çıktı.
 - `monitor.sh` düzeltmesi: abacus ara sıra "Failed to get data" dönüyor ve script bunu 0 yazıyordu (ilk okumada demo 1→0 görünmesinin nedeni). Artık 3 kez deniyor, başarısızsa `?` yazıyor.
 
-### 19:30 — Yeni başlık taraması (salt okuma, yorum yok)
+### 19:27 — Yeni başlık taraması (salt okuma, yorum yok)
 - Bluesky aramaları ("launch directories", "where to launch", Reddit filtre mesajı) yardım isteyen güncel bir gönderi çıkarmadı. Yalnızca iki rakip liste çıktı (RESEARCH §5.1).
 - IH'de arama 2026'da kaldırılmış (410). `/newest` tarandı. İki aday elendi:
   - "Launched a paid jobs API… first 10?": soru niş bir veri aracının ilk kullanıcıları hakkında; yorumlar da genel dizinlere girmeyi önermiyor. Ürünümüz bu soruyu yanıtlamıyor.
   - "How far ahead do you plan a launch?": soran kişi bir dizin sahibi. İhtiyaç dile getirilmiyor ve erişim çok düşük (2 upvote, 1 yorum).
   - Linksiz bir yorum, geçmiş kazanmak için atılmış bir yorum olurdu; politikamız bunu dışlıyor.
 
-### 19:40-20:19 — Kanal taraması #2 ve Bluesky ikinci gönderi
+### 19:28-20:19 — Kanal taraması #2 ve Bluesky ikinci gönderi
 - **Kendi verimizle kalan kanallar** (ücretsiz, yeni hesaba açık, 24 saatte görünür olabilir):
   - Reddit sub'ları: hesap filtrede (karar 17:45), yeniden paylaşım yok.
   - Mastodon: YZ içerik kuralı, karar 16:40.
@@ -308,7 +308,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Neden: İlk gönderi beğeni aldı ama tıklama almadı. Bu sefer değer tıklamadan veriliyor, link meraklı olana bırakılıyor.
   - Aynı metin değil, tek hesap, kendi akışımız.
 
-### 20:30-20:45 — IH: gönderi sahibinden yanıt, veri düzeltmesi, cevap
+### 20:20-20:24 — IH: gönderi sahibinden yanıt, veri düzeltmesi, cevap
 - Operatör IH bildirimini haber verdi. **Başlığın sahibi brent alexis** (`ba796`) ~19:20'de yorumumuza yanıt vermiş:
   - YZ açıklamasını takdir ettiğini yazmış.
   - OpenHunts'ta aynı ~60 haftalık kuyruğu görmüş.
@@ -320,7 +320,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - r/webdev satırı "yeni hesaba açık, yayımlanmış alt sınır yok" diyordu. Satır `restricted` yapıldı; notta, yayımlanmamış AutoModerator filtresi bu yoruma kaynak verilerek anlatıldı.
   - Bu, birinci elden değil, başka bir kullanıcının bildirimi. Bu yüzden "tried with a new account" rozeti eklenmedi.
   - Testler geçti. Ücretsiz sayfa ve ZIP yeniden üretildi.
-- **Cevap verildi** (20:44): metin `posts/pending_replies.md`'de.
+- **Cevap verildi** (~20:23): metin `posts/pending_replies.md`'de.
   - Teşekkür ve düzeltmenin işlendiği bilgisi verildi. Showoff Saturday kuralı da eklendi (ikincil kaynak, "rules summary we found" diye belirtildi).
   - YZ açıklaması var. Link ya da satış çağrısı yok.
   - Gerekçe: Kendi yorumumuza gelen yanıtı cevaplamak, devredilen IH sürecinin parçası (LOG 18:00 kuralı).
@@ -328,8 +328,13 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - Bağımsız bir maker, ürünün temel bulgusunu ("will they take the post at all") faydalı buldu ve verimizdeki bir hatayı düzeltti.
   - Bu bir ihtiyaç doğrulaması ama satın alma sinyali değil `[ÇIKARIM]`.
   - `ih` ref'inden ölçülen ziyaret hâlâ 0. Reklam engelleyici ihtimali var.
-- **20:55: Gumroad ZIP değiştirildi.** Yeni dosya 20,7 KB ve r/webdev düzeltmesini içeriyor.
+- **~20:25: Gumroad ZIP değiştirildi.** Yeni dosya 20,7 KB ve r/webdev düzeltmesini içeriyor.
   - Eski 20,6 KB'lık blok, blok menüsündeki "Delete" ile kaldırıldı.
   - İlk denemede Delete tuşu dosya bloğu yerine kullanım notunun ilk harfini sildi. Ctrl+Z ile geri alındı, kaydetmeden önce düzeldi.
   - Kaydedip sayfa yenilendi. İçerikte tek ZIP ve kullanım notu var.
-- **Gumroad ürün listesi** (salt okuma, 20:50): 0 satış, $0.
+- **Gumroad ürün listesi** (salt okuma, ~20:24): 0 satış, $0.
+
+### 20:26 — Saatlik izleme #3
+- direct 5/2/0: 19:23'ten bu yana 1 yeni ziyaret ve 1 demo, ref'siz. Kaynak bilinmiyor `[ÇIKARIM]`. Olasılıklar: repo ana sayfa linki (ref'siz), Gumroad sayfasındaki link, kopyalanıp ref'i silinmiş bir link. Kanal ref'leri, bsky2 dahil, 0. Satın alma tıklaması 0. Gumroad'da 0 satış.
+- IH bildirimlerinde brent alexis'in yanıtından başka bir şey yok. Başlık 199 yoruma çıktı. Bluesky #2 henüz etkileşim almadı.
+- **Kayıt düzeltmesi:** 19:27-20:25 arasındaki LOG, METRICS, STATE ve RESEARCH girdilerine tahmini saat yazmışım, saatler gerçek saatten 20-30 dk ilerideydi. Commit zaman damgalarına göre düzeltildi. Bundan sonra her girdiden önce `date` okunacak.
