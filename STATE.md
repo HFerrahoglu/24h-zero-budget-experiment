@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 02:22 (TR, UTC+3). İzleme #9: değişim yok (direct 5/2/0, kanal ref'leri 0, Gumroad 0 satış, yeni yanıt yok). Gumroad ZIP'i 02:3x'te son build'le değiştirildi (21.1 KB). 02:22 push'u GitHub sunucu hatasıyla reddedildi, tekrar deneniyor.
+**Son güncelleme:** 2026-11-06 02:22 (TR, UTC+3). İzleme #9: değişim yok (direct 5/2/0, kanal ref'leri 0, Gumroad 0 satış, yeni yanıt yok). Gumroad ZIP'i 02:25'te son build'le değiştirildi (21.1 KB). 02:22 push'u GitHub sunucu hatasıyla 3 kez reddedildi, 02:26'da geçti.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
