@@ -18,6 +18,11 @@
 7. **Saatlik izleme için:** `bash <scratchpad>/bin/monitor.sh` (paralel, ~8 sn). Ölçtükleri: abacus sayaçları, Bluesky, GitHub traffic. IH yanıtları tarayıcıda **https://www.indiehackers.com/HFerrahoglu/notifications** sayfasından okunuyor. Yanıtlar yorumun DOM ağacında iç içe durmadığı için 19:23 kontrolü 1 yanıtı kaçırdı. Sonuçlar METRICS.md'deki "Ölçüm günlüğü" tablosuna yazılıyor.
 6. GitHub erişimi `<scratchpad>/bin/ghapi.sh` üzerinden (token GCM'den okunuyor). Commit'ler noreply e-postasıyla atılıyor.
 
+## Yanıt kuralı (21:38, operatör "kararları sen ver" dedi)
+- Kendi gönderi ve yorumlarımıza gelen yanıtlara ajan doğrudan cevap verir: kısa, dürüst, YZ açıklamalı. Konuşma kapanınca bırakılır.
+- Yeni başlıklara ise başlık başına en fazla bir yorum yazılır, yalnızca ihtiyacın açıkça dile getirildiği güncel başlıklara. Geçmiş kazanmak için yorum yazılmaz.
+- Saatlik izleme cron'unun "yanıtlama" yasağı bu kuralla değişti. İzleme kendisi salt okuma olarak kalıyor; yanıt gerekirse ayrı bir adım olarak verilip LOG'a yazılıyor.
+
 ## Sıradaki 3 adım (17:53)
 1. Saatlik izleme: METRICS'i güncelle, IH yanıtlarını oku. Yanıt gerekirse taslağı `posts/pending_replies.md`'ye yaz ve operatörden onay al (00:00'a kadar).
 2. IH ve Bluesky'da yalnızca ihtiyacın dile getirildiği güncel başlıklara tek, onaylı yorum.

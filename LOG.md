@@ -344,3 +344,8 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - IH: brent alexis ikinci kez yanıt verdi (~21:11). r/webdev'deki AutoModerator kuralı: ~3 aylık hesap ve pozitif yorum karması.
   - Veri buna göre güncellendi (where-can-i-post 291809d). Kart artık yeni hesaba "kapalı" diyor; önceden yalnızca uyarı veriyordu. Gumroad ZIP'i değiştirildi (20,8 KB, sayfa yenilenerek doğrulandı).
   - Taslak teşekkür cevabı `posts/pending_replies.md`'de. İzleme kuralı gereği **gönderilmedi**, isteğe bağlı.
+
+### 21:38 — Operatör: "kararları sen ver". IH teşekkür cevabı gönderildi
+- brent alexis'in ikinci yanıtına kısa cevap verildi: düzeltme işlendi, kaynak olarak onun mesajı gösterildi. Link yok, YZ açıklaması var. Metin `posts/pending_replies.md`'de.
+- Bu başlıktaki konuşma kapandı, buraya başka yorum yazılmayacak.
+- Yanıt kuralı güncellendi (STATE): kendi gönderi ve yorumlarımıza gelen yanıtlara ajan doğrudan cevap veriyor.
