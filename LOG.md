@@ -447,3 +447,8 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 
 ### 02:22 (06/11) — Saatlik izleme #9
 - Değişim yok: direct 5/2/0, tüm kanal ref'leri 0, Gumroad 0 satış. IH bildirimleri hâlâ yalnızca brent'in 2 yanıtı. Bluesky #1 `replyCount=2` aynı görünmeyen yanıt (LOG 19:23 notu), yeni bildirim yok.
+- **Push hatası:** 02:22 commit'i GitHub tarafından üç kez reddedildi (`remote: fatal error in commit_refs`). Hesap ve repo sağlam (API: disabled=false, uzak main 354ebd4), githubstatus "All Systems Operational". Sunucu tarafı geçici hata olarak değerlendirildi `[ÇIKARIM]`; commit yerelde duruyor, sonraki adımda tekrar denenecek.
+
+### 02:3x (06/11) — Gumroad ZIP'i güncellendi
+- Teslim dosyası yerel son build'le değiştirildi (where-can-i-post 5020f51, IH notu dahil). Önce testler: ALL PASSED. ZIP'in içinde IH notu olduğu doğrulandı.
+- Gumroad editörü: yeni ZIP yüklendi (21.1 KB), eski blok (21.0 KB) handle menüsünden silindi, kaydedildi. Yenilemeden sonra tek dosya bloğu var, 21.1 KB, sunucu id'li. Bekleyen iş kapandı.
