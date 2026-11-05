@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-05 20:26 (TR, UTC+3). İzleme #3: direct 5 ziyaret / 2 demo / 0 satın alma tıklaması, kanal ref'leri 0, Gumroad 0 satış. IH'de gönderi sahibinin yanıtı cevaplandı (~20:23). Bluesky #2 20:18'de yayında.
+**Son güncelleme:** 2026-11-05 21:22 (TR, UTC+3). İzleme #4: sayaçlar 20:26 ile aynı (direct 5/2/0, kanal ref'leri 0, Gumroad 0 satış). IH'de brent alexis'in ikinci yanıtıyla r/webdev 90 gün + karma olarak güncellendi. Taslak cevap gönderilmedi.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 

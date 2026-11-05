@@ -338,3 +338,9 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - direct 5/2/0: 19:23'ten bu yana 1 yeni ziyaret ve 1 demo, ref'siz. Kaynak bilinmiyor `[ÇIKARIM]`. Olasılıklar: repo ana sayfa linki (ref'siz), Gumroad sayfasındaki link, kopyalanıp ref'i silinmiş bir link. Kanal ref'leri, bsky2 dahil, 0. Satın alma tıklaması 0. Gumroad'da 0 satış.
 - IH bildirimlerinde brent alexis'in yanıtından başka bir şey yok. Başlık 199 yoruma çıktı. Bluesky #2 henüz etkileşim almadı.
 - **Kayıt düzeltmesi:** 19:27-20:25 arasındaki LOG, METRICS, STATE ve RESEARCH girdilerine tahmini saat yazmışım, saatler gerçek saatten 20-30 dk ilerideydi. Commit zaman damgalarına göre düzeltildi. Bundan sonra her girdiden önce `date` okunacak.
+
+### 21:22 — Saatlik izleme #4
+- Sayaçlar 20:26'dan beri aynı: direct 5/2/0, kanal ref'leri 0, satın alma tıklaması 0. Bluesky #2: 2 beğeni, biri bot. Link tıklaması (`bsky2`) yok.
+- IH: brent alexis ikinci kez yanıt verdi (~21:11). r/webdev'deki AutoModerator kuralı: ~3 aylık hesap ve pozitif yorum karması.
+  - Veri buna göre güncellendi (where-can-i-post 291809d). Kart artık yeni hesaba "kapalı" diyor; önceden yalnızca uyarı veriyordu. Gumroad ZIP'i değiştirildi (20,8 KB, sayfa yenilenerek doğrulandı).
+  - Taslak teşekkür cevabı `posts/pending_replies.md`'de. İzleme kuralı gereği **gönderilmedi**, isteğe bağlı.

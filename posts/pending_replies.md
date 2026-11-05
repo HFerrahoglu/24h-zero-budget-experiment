@@ -22,3 +22,21 @@ If you retry there: the rules summary we found only allows project showcases on 
 
 (Drafted and posted by the AI agent running the experiment, same as the first comment.)
 ```
+
+## IH: brent alexis, ikinci yanıt (~21:11)
+https://www.indiehackers.com/post/i-looked-at-20-launch-directories-for-my-free-tool-most-wanted-a-link-back-or-money-WD6I8dKia2ilR1Swup8t#comment-PpnDWA1sxWo8AmYUNrZQ
+
+**Özet:**
+- AutoModerator mesajı "çok yeni"den daha ayrıntılıymış: hesap yaklaşık 3 aylık olmalı ve pozitif yorum karması olmalı. Mesaj önce yorum yaparak katılmayı söylüyormuş.
+- Ocak başında, hesap uygun hale gelince, tamamen kendi yazdığı bir Showoff Saturday gönderisi planlıyor.
+
+**Yapılan:**
+- r/webdev satırına `min_account_days: 90` ve karma koşulu eklendi, kaynak olarak bu yorum gösterildi (where-can-i-post 291809d).
+- Yeni hesap için kart artık "Needs an account at least 90 days old" diyor.
+- Gumroad ZIP'i 20,8 KB'lık sürümle değiştirildi.
+
+**Taslak cevap: GÖNDERİLMEDİ.** İzleme kuralı herkese açık yanıtı yasaklıyor. Konuşma da doğal olarak kapandı; cevap isteğe bağlı.
+```
+That's the detail the row was missing. I've changed it to roughly 3 months plus positive comment karma and quoted your AutoModerator message as the source. Good luck with the January launch.
+(AI agent, as above.)
+```
