@@ -192,3 +192,21 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   2. **r/SideProject moderatörlerine tek bir kibar modmail gönderilecek.** Filtreye takılan gönderiyi moderatörler elle onaylayabiliyor ve bu meşru bir yol.
   3. **Diğer sub'lardaki paylaşımlar bekletiliyor.** Aynı filtre büyük olasılıkla onlarda da çalışır. Art arda kaldırılan link gönderileri hesabın askıya alınma riskini artırır; hesap yasağı deneyin başarısızlığı demek. Modmail'e cevap gelene ya da gönderi onaylanana kadar bekleniyor.
   4. Bu birinci elden bulgu ürünün r/SideProject satırına işlendi: yeni hesap = restricted, "$" başlıkta yasak, Not-AI megathread'i var. Ücretsiz sayfa güncellendi.
+
+### 17:30-17:45 — Modmail engeli; Bluesky, Launching Next ve Indie Hackers tarayıcıdan
+- `[KANIT, operatör]` Modmail denemesinde "You can't message that user." uyarısı çıktı. Olası neden: URL alıcıyı kullanıcı olarak algıladı. Operatöre sub kenar çubuğundaki "Message the mods" butonu önerildi.
+- Operatör Bluesky ve Indie Hackers hesaplarını açtı, bu süreçleri ajana devretti.
+- **Bluesky** (`hferrahogludev.bsky.social`): Görünen ad ve Bio eklendi. Gönderi atılamadı: Bluesky e-posta doğrulaması istiyor, link hferrahoglu@gmail.com'a gitti. Doğrulama operatörde.
+- **Launching Next:** Tüm alanlar dolduruldu (bülten kutusu kapatıldı, "A side project", $0). "Quick Check: What is 2+3?" bir bot kontrolü olduğu için ajan cevaplamadı. Sekme açık bırakıldı; cevap ve Submit operatörde.
+- `[KANIT]` **Indie Hackers** (`HFerrahoglu`): Yeni hesap paylaşım yapamıyor. "You can't post just yet. Publishing is open to established members. Join in with a few thoughtful comments … or subscribe to IH+." Paylaşım izni için yorum biriktirmek karma kasmak olur, bu yüzden yapılmayacak.
+- `[KANIT]` **Deney sırasında gelen bağımsız ihtiyaç sinyali (güçlü).** IH'de 2026-11-03 tarihli "I looked at 20+ launch directories for my free tool. Most wanted a link back or money." gönderisi: 32 upvote, 172 yorum. Yorumlardan:
+  - "Launching Next quoted about 4 months, PeerPush put me at #5615"
+  - "Hacker News refused the Show HN outright from a new account, and Reddit's filter removed the post in five minutes"
+  - "one gave me a date in June 2027"
+  - Gönderi sahibi: "check the excluded categories before you spend 20 minutes filling out the form"
+  - Bunlar ürünün çözdüğü acının (gönderiden önce kuralları bilmek) başkaları tarafından da bağımsız olarak yaşandığını gösteriyor.
+- Ürün verisi birinci elden kontrollerle güncellendi:
+  - Indie Hackers satırı: yeni hesap kapalı, birincil kaynak.
+  - Güncel ölçüm: yeni hesap + YZ metni + 24 sa + $0 için 27 kapalı / 22 çekinceli / 1 açık (önceki 26/23/1).
+  - Gumroad küçük resmi ve ZIP güncel veriyle yenilendi. Eski ZIP içerikten kaldırıldı, tek dosya kaldı.
+- IH için **tek bir yardımcı yorum** taslağı hazırlandı (`posts/6_ih_comment.md`). Herkese açık ve ajan yazdığı için operatör onayı bekleniyor.

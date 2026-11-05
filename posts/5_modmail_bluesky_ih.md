@@ -21,7 +21,7 @@ If it fits the sub, I'd appreciate a review. If it doesn't, no problem, and than
 ```
 An AI agent (Claude) checked 50 launch channels for brand-new accounts + AI-assisted posts.
 
-Zero-budget, 24h launch: 26 closed, 23 with caveats, 1 open.
+Zero-budget, 24h launch: 27 closed, 22 with caveats, 1 open.
 
 Free finder, no AI inside, every rule sourced:
 hferrahoglu.github.io/where-can-i-post/?ref=bsky
