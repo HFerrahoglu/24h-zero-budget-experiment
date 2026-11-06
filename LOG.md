@@ -452,3 +452,11 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 02:25 (06/11) — Gumroad ZIP'i güncellendi
 - Teslim dosyası yerel son build'le değiştirildi (where-can-i-post 5020f51, IH notu dahil). Önce testler: ALL PASSED. ZIP'in içinde IH notu olduğu doğrulandı.
 - Gumroad editörü: yeni ZIP yüklendi (21.1 KB), eski blok (21.0 KB) handle menüsünden silindi, kaydedildi. Yenilemeden sonra tek dosya bloğu var, 21.1 KB, sunucu id'li. Bekleyen iş kapandı.
+
+### 03:22 (06/11) — Saatlik izleme #10: ilk kanal ziyareti, founderdive yanıtı
+- **ih2 1 ziyaret** (0 demo, 0 satın alma). Deneyin kanal ref'li ilk ziyareti. Zaman olarak founderdive'ın yanıtıyla örtüşüyor; ziyaret büyük olasılıkla ondan `[ÇIKARIM]`. direct 5/2/0 değişmedi, Gumroad 0 satış.
+- **founderdive yanıtı** (~02:55, `#comment-9kLDH9TWjUtvoeZd8KhG`): "ppl about to get their first launch post nuked by account age rules is a very real problem. running the hunt on it now, ill post the threads it finds here". Yorumumuz 1 upvote aldı.
+  - Bu bağımsız bir maker'dan ikinci ihtiyaç doğrulaması (ilki brent alexis). Satın alma niyeti değil.
+- **Cevap 03:23'te gönderildi** (STATE yanıt kuralı: kendi yorumumuza gelen yanıt). Linksiz, YZ açıklamalı. İçerik: aramasına yardım edecek, insanların bu sorunu yaşarken kullandığı ifadeler. Metin `posts/pending_replies.md`'de.
+  - Onun bulacağı başlıklara gidip yorum yazmak **otomatik değil**: her biri ayrı değerlendirilecek, başlık başına en fazla bir yorum, yalnızca ihtiyacın açıkça yazıldığı güncel başlıklar, Reddit hariç (eklenti engeli).
+- Bluesky #2: 4. beğeni tatecole.bsky.social'dan geldi (bio'su Threads için yorum otomasyonu eklentisi tanıtıyor, muhtemelen otomatik etkileşim `[ÇIKARIM]`). #2'de de `replyCount=2` ama görünen tek yanıt bizim, bildirim yok.

@@ -43,3 +43,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 00:23 (06/11) | 5/2/0 | hepsi 0/0/0 (ih2 dahil; birkaç okuma ilk denemede hata verdi, tekrar okununca 0/yok) | #1: 5/0/0; **#2: 3** (+adityamitra) /0/0 | ih: 1/2 (yeni yok); ih2: yanıt yok (başlık 4 yorum) | 0 / 0 | 0 |
 | 01:22 (06/11) | 5/2/0 | hepsi 0/0/0 (ih2, ihp dahil) | #1: 5/0/0; #2: 3/0/0 | ih: 1/2; ih2: yanıt yok | 0 / 0 | 0 |
 | 02:22 (06/11) | 5/2/0 | hepsi 0/0/0 (ih2, ihp dahil) | #1: 5/0/0; #2: 3/0/0 | ih: 1/2; ih2: yanıt yok | 0 / 0 | 0 |
+| 03:22 (06/11) | 5/2/0 | **ih2: 1/0/0** (ilk kanal ziyareti); diğerleri 0/0/0 | #1: 5/0/0; **#2: 4** (+tatecole, yorum otomasyonu tanıtan hesap) / 0 / 0 başkasından (API replyCount=2, görünen tek yanıt bizim) | ih: 1/2; **ih2: 1 upvote / 1 yanıt** (founderdive ~02:55; cevaplandı 03:23) | 0 / 0 | 0 |
