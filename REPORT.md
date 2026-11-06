@@ -30,16 +30,17 @@
 **Etiket:** —
 
 ## 3. Kanal bazında huni `[KESİNLEŞMEDİ]`
-Ara durum, 05/11 23:22 (abacus + platform sayıları). Final tablo 06/11 15:21'de METRICS.md'den güncellenecek.
+Ara durum, 06/11 10:06 (abacus + platform sayıları). Final tablo 06/11 15:21'de METRICS.md'den güncellenecek.
 
 | Kanal | Erişim | Ziyaret | Demo | Satın alma tıklaması | Satış |
 |---|---|---|---|---|---|
 | r/SideProject (`rsp`) | Filtre kaldırdı. ~5 saat sonra kontrol edildiğinde görünüyordu, 1 oy (yazarın kendi oyu), yorum yok | 0 | 0 | 0 | 0 |
 | r/indiehackers | Paylaşılamadı: hesap yaşı + topluluk karması gerekiyor | — | — | — | — |
 | Launching Next (`ln`) | Kuyrukta, tahmini 4 ay | 0 | 0 | 0 | 0 |
-| Bluesky #1 (`bsky`) | 5 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
-| Bluesky #2 (`bsky2`) | 2 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
-| IH yorumu (`ih`) | Başlık sahibinden 2 yanıt | 0 | 0 | 0 | 0 |
+| Bluesky #1 (`bsky`) | 6 beğeni (1'i bot), 1 takip | 0 | 0 | 0 | 0 |
+| Bluesky #2 (`bsky2`) | 5 beğeni (1'i bot, 1'i otomasyon tanıtım hesabı) | 0 | 0 | 0 | 0 |
+| IH yorumu (`ih`) | Başlık sahibinden 2 yanıt, ikisi de cevaplandı | 0 | 0 | 0 | 0 |
+| IH Products sayfası (`ihp`) | 06/11 00:30-01:04 arasında açıldı, sayfadaki gönderi kutusu kilitli | 0 | 0 | 0 | 0 |
 | IH yorumu #2 (`ih2`) | 23:39'da yayımlandı. 1 upvote, başlık sahibinden (founderdive) 1 yanıt, cevaplandı | 1 (06/11 03:22) | 0 | 0 | 0 |
 | Ref'siz (`direct`) | — | 5 | 2 | 0 | 0 |
 
@@ -47,6 +48,10 @@ Okuma notları:
 - Sayaçlar sayfa yüklemesini sayıyor ve reklam engelleyiciler isteği engelleyebilir. Ölçülen değer gerçek ziyaretin alt sınırı.
 - Ref'siz ziyaretlerin kaynağı bilinmiyor. Olası kaynaklar: GitHub repo ana sayfası, Gumroad sayfası ya da link ref'i silinerek paylaşılmış olabilir.
 - GitHub traffic API'si deney boyunca 0 gösterdi. GitHub bu veriyi gecikmeli güncelliyor.
+- **Ölçüm kesintileri:**
+  - Bilgisayar iki kez Modern Standby'a girdi: 06:16-07:44 ve ~09:1x-10:02 (Windows Kernel-Power 506/507). Bu aralıklarda saatlik izleme çalışmadı. Sayaçlar kümülatif olduğu için toplam kaybolmadı, yalnızca saatlik çözünürlük kayboldu.
+  - 06/11 ~09:xx'ten itibaren `abacus.jasoncameron.dev` alan adı NXDOMAIN verdi, sunucu ise ayaktaydı. Arıza sürerken ziyaretçilerin sayaç istekleri de başarısız olur, o aralıktaki ziyaretler sayılmamış olabilir.
+  - Satın alma akışı bundan etkilenmedi: sayaç çağrısı fire-and-forget, buy butonu düz Gumroad linki. Satışın kesin kaynağı Gumroad paneli.
 
 ## 4. Alıcının bağımsızlığı `[KESİNLEŞMEDİ]`
 —
