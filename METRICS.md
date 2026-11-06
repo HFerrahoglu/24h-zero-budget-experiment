@@ -51,3 +51,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 08:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 |
 | 09:1x (06/11) | **ölçülmedi** (bilgisayar uykudaydı, bkz. LOG 10:02) | — | — | — | — | — |
 | 10:05 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 (abacus DNS arızası; IP ile okundu) | #1: 6/0/0; #2: 5/0/0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 |
+| 10:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 (abacus DNS yeniden çözülüyor) | #1: 6/0/0; #2: 5/0/0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 |

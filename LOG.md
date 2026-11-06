@@ -492,3 +492,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - **Sonuç:** Arıza sürdükçe ziyaretçilerin tarayıcıları da sayaca ulaşamaz. Bu sürede gelen ziyaret, demo ve satın alma tıklamaları **sayılmaz**, sayaçlar alt sınır olarak okunmalı.
   - **Satın alma etkilenmiyor:** track.js'teki çağrı fire-and-forget (`fetch(...).catch(()=>{})`). Buy butonu düz bir Gumroad linki. Sayfa 200 ve Gumroad 200 döndü. Satışın kesin kaynağı Gumroad paneli.
 - Değerler: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0. ihp ve selftest ilk denemede okunamadı; monitor.sh'ye IP yedeği eklendi, sonra okundu: ihp 0/0/0, selftest 3/1/0. Gumroad 0 satış. IH ve Bluesky'da yeni bildirim yok, founderdive listesi gelmedi.
+
+### 10:22 (06/11) — Saatlik izleme #16
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0, Gumroad 0 satış. IH'de ve Bluesky'da yeni bildirim yok, founderdive başlığı 11 yorum.
+- abacus alan adı yeniden çözülüyor (modem DNS → 66.241.125.167). NXDOMAIN arızası en geç 10:06 ile 10:21 arasında bitti. Başlangıcı bilinmiyor (07:47'de çalışıyordu).
