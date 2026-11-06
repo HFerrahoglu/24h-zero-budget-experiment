@@ -484,3 +484,11 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
   - IH "I've shipped four small products and sold nothing…" (74 yorum): genel dağıtım sorusu, yeni hesapla nereye paylaşılır sorusu değil. Atlandı.
   - IH founderdive'ın 04/11 gönderisi (57 yorum): yorum yazılmadı. Not edilen veri noktası (ikincil): Denis Omerovic "several of the local SEO subreddits ban AI-drafted comments… so we skip most of the threads we find". Bu, YZ metni yasaklarının yalnızca gönderileri değil yorumları da etkilediğini gösteriyor. Ürün kapsamı gönderiler olduğu için veriye eklenmedi.
   - Gözlem `[ÇIKARIM]`: founderdive neredeyse her yoruma UTM'li link ve "run the free hunt" çağrısıyla cevap veriyor. Bize söz verdiği başlık listesinin gelmemesi bu kalıpla uyumlu.
+
+### 10:02-10:08 (06/11) — Saatlik izleme #15: bilgisayar uykusu ve abacus DNS arızası
+- **Kaçan/geciken izlemelerin nedeni doğrulandı.** Windows System günlüğü (Kernel-Power 506/507) bilgisayarın Modern Standby'a girdiğini gösteriyor: 06:16:33'te uykuya girdi, 07:44:17'de ve 10:02:17'de uyandı. 06:17 ve 09:17 izlemeleri bu yüzden çalışmadı ya da uyanınca geç başladı. Cron'lar oturum içinde, uyku sırasında çalışmıyor.
+  - **Risk:** 15:21 final rapor cron'u da uyku yüzünden gecikebilir. Önlem: Güç ayarlarına dokunulmadı (sistem ayarı). Bunun yerine REPORT.md sonraki izlemelerde nihai hale yaklaştırılacak. Böylece 15:21'de, ya da geç uyanırsa ilk fırsatta, yalnızca final sayılar eklenecek.
+- **abacus DNS arızası:** `abacus.jasoncameron.dev` hem modemin DNS'inde hem 1.1.1.1'de NXDOMAIN veriyor. Sunucu ayakta: 07:47'de çözülen IP'ye (66.241.125.167) `--resolve` ile istek atınca sayaçlar okundu.
+  - **Sonuç:** Arıza sürdükçe ziyaretçilerin tarayıcıları da sayaca ulaşamaz. Bu sürede gelen ziyaret, demo ve satın alma tıklamaları **sayılmaz**, sayaçlar alt sınır olarak okunmalı.
+  - **Satın alma etkilenmiyor:** track.js'teki çağrı fire-and-forget (`fetch(...).catch(()=>{})`). Buy butonu düz bir Gumroad linki. Sayfa 200 ve Gumroad 200 döndü. Satışın kesin kaynağı Gumroad paneli.
+- Değerler: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0 (ihp ve selftest okunamadı). Gumroad 0 satış. IH ve Bluesky'da yeni bildirim yok, founderdive listesi gelmedi.
