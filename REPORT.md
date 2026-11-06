@@ -1,6 +1,11 @@
 # REPORT: Final rapor
 
-> **Durum: final, 06/11 15:22 (TR).** Sayılar 06/11 15:21'deki son ölçüme dayanıyor (abacus, Bluesky, GitHub traffic, IH, Gumroad paneli). 13:20'deki ön-final sürümden bu yana hiçbir sayı değişmedi. Deney 16:00'da bitiyor; 15:21 ile 16:00 arasında gelebilecek bir satış bu raporda yok, kesin kaynak Gumroad paneli. Ölçülmemiş değerler `—`, çıkarımlar `[ÇIKARIM]` etiketli.
+> **Durum: final.** Rapor 06/11 15:21'deki son ölçümle yazıldı. Deney bittikten sonra 06/11 19:03'te yapılan kapanış kontrolü sonucu değiştirmedi:
+> - Gumroad paneli hâlâ "Totals 0 $0" gösteriyor. Toplam kümülatif olduğu için deney sonunda (16:00) da satış 0. Bu kesin.
+> - abacus sayaçları 15:21'den beri aynı: 15:21-16:00 arasında ziyaret, demo ya da satın alma tıklaması yok.
+> - IH, Bluesky ve GitHub'da yeni hareket yok.
+> 
+> Ölçülmemiş değerler `—`, çıkarımlar `[ÇIKARIM]` etiketli.
 
 ## 1. Özet
 - **Ürün:** Where Can I Post?
@@ -65,8 +70,8 @@ Okuma notları:
   - Satın alma akışı bundan etkilenmedi: sayaç çağrısı fire-and-forget, buy butonu düz Gumroad linki. Satışın kesin kaynağı Gumroad paneli.
 
 ## 4. Alıcının bağımsızlığı
-- **06/11 15:21 itibarıyla satış yok,** dolayısıyla değerlendirilecek bir alıcı da yok. Gumroad panelinde 0 satış, sitede 0 satın alma tıklaması.
-- 15:21-16:00 arasında satış çıkarsa operatörün kontrol etmesi gerekenler:
+- **Deney sonunda (16:00) satış yok** (19:03'te Gumroad'dan doğrulandı), dolayısıyla değerlendirilecek bir alıcı da yok. Gumroad panelinde 0 satış, sitede 0 satın alma tıklaması.
+- 19:03 kapanış kontrolünde de satış yok. Deneyden sonra bir satış gelirse, bunun deney dışı olduğu not edilip şu kontroller yapılmalı:
   - Alıcının Gumroad kaydındaki e-posta ve isim operatörle, operatörün çevresiyle ya da ajanın yazıştığı kişilerle (brent alexis, founderdive) eşleşiyor mu?
   - Satış hangi ref'ten geldi (abacus `buy_<ref>`)?
   - Satış iade edildi mi?
