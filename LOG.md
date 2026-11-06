@@ -491,4 +491,4 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **abacus DNS arızası:** `abacus.jasoncameron.dev` hem modemin DNS'inde hem 1.1.1.1'de NXDOMAIN veriyor. Sunucu ayakta: 07:47'de çözülen IP'ye (66.241.125.167) `--resolve` ile istek atınca sayaçlar okundu.
   - **Sonuç:** Arıza sürdükçe ziyaretçilerin tarayıcıları da sayaca ulaşamaz. Bu sürede gelen ziyaret, demo ve satın alma tıklamaları **sayılmaz**, sayaçlar alt sınır olarak okunmalı.
   - **Satın alma etkilenmiyor:** track.js'teki çağrı fire-and-forget (`fetch(...).catch(()=>{})`). Buy butonu düz bir Gumroad linki. Sayfa 200 ve Gumroad 200 döndü. Satışın kesin kaynağı Gumroad paneli.
-- Değerler: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0 (ihp ve selftest okunamadı). Gumroad 0 satış. IH ve Bluesky'da yeni bildirim yok, founderdive listesi gelmedi.
+- Değerler: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0. ihp ve selftest ilk denemede okunamadı; monitor.sh'ye IP yedeği eklendi, sonra okundu: ihp 0/0/0, selftest 3/1/0. Gumroad 0 satış. IH ve Bluesky'da yeni bildirim yok, founderdive listesi gelmedi.
