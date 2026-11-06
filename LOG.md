@@ -504,3 +504,6 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 12:21-13:21 (06/11) — Saatlik izleme #18
 - 12:17 cron'u 12:21'de başladı, bilgisayar hemen ardından Modern Standby'a girdi, ölçüm 13:20'de uyanınca tamamlandı (Kernel-Power 506/507 13:20:18). monitor.sh'nin GitHub traffic adımı ilk denemede boş yanıt aldı (JSONDecodeError), tekrar okundu: 0 görüntülenme, referrer yok.
 - Değişim yok: direct 5/2/0, ih2 1/0/0, buy 0, Gumroad Totals 0 $0, Bluesky beğeniler 6 ve 5, takipçi 3. founderdive başlığı 12 yorum; yeni yorum başka bir kullanıcının founderdive'a yazdığı yorum, liste hâlâ gelmedi.
+
+### 13:25 (06/11) — Saatlik izleme #19
+- 13:17 cron'u 13:24'te tetiklendi, #18'in 13:20 ölçümünden 4 dk sonra. Yalnızca sayaçlar, Bluesky ve GitHub tekrar okundu (monitor.sh); IH ve Gumroad 13:20-13:21 okumasıyla aynı kabul edildi. Değişim yok.
