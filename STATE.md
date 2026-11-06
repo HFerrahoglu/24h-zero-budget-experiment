@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 05:22 (TR, UTC+3). İzleme #12: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış; Bluesky #2 5 beğeni). **İzlenecek:** founderdive'ın başlık listesi. Bildirim gelmeyebileceği için başlığı da doğrudan oku (11 yorum, 05:22).
+**Son güncelleme:** 2026-11-06 07:48 (TR, UTC+3). İzleme #13: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış; Bluesky #1 6, #2 5 beğeni). **05:22-07:44 arası ölçüm yok** (06:17 izlemesi çalışmadı; 07:44'te kısa bir DNS kesintisi oldu, düzeldi). **İzlenecek:** founderdive'ın başlık listesi. Bildirim gelmeyebileceği için başlığı da doğrudan oku (11 yorum).
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 

@@ -469,3 +469,10 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. selftest visit okuması `?` (abacus hatası; selftest toplama dahil değil).
 - Bluesky #2: 5. beğeni yourbiz.app'ten (Japonya'da yaşayan, kendi ürününü geliştiren bir maker hesabı). Tıklama getirmedi (bsky2 0).
 - IH: yeni bildirim yok, founderdive başlığı hâlâ 11 yorum; liste gelmedi.
+
+### 07:44-07:48 (06/11) — Saatlik izleme #13, ölçüm boşluğu ve ağ kesintisi
+- **Boşluk:** 06:17 izlemesi hiç çalışmadı. 07:17 izlemesi ise 07:44'te başladı. 05:22 ile 07:44 arasında ölçüm yok. Neden: bilgisayarın uykuya geçmesi ya da ağın kesilmesi olabilir `[ÇIKARIM]`. İki cron da hâlâ kayıtlı (sonraki izleme 08:22, final rapor 15:21).
+- **Ağ:** İzleme başladığında shell'de DNS çözümleme çalışmıyordu. Modem (192.168.1.1) hem abacus hem api.github.com için "Non-existent domain" döndü. Chrome GitHub'a ulaşabiliyordu, ama abacus'ta hata sayfası açıldı. ~07:46'da düzeldi. Sayaçlar 07:47'de yeniden okundu, eksik okuma yok.
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. Gumroad 0 satış (ürün listesinden okundu).
+- Bluesky #1: 6. beğeni ve yeni takip "Cosmic Whitepages Cooperative" (xistrymemz.bsky.social) hesabından. Bio'su ücretsiz, reklamsız bir dizin/kooperatif projesi anlatıyor. Tıklama getirmedi (bsky 0).
+- IH: yeni bildirim yok, founderdive başlığı hâlâ 11 yorum; liste gelmedi.
