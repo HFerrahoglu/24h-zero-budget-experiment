@@ -512,3 +512,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Sayaçlar değişmedi: direct 5/2/0, ih2 1/0/0, buy 0, Gumroad Totals 0 $0, Bluesky beğeniler 6 ve 5, takipçi 3, GitHub 0.
 - founderdive ~14:19'da ikinci kez yanıt verdi: önerdiğimiz ifadelerden "removed by automoderator"ı en iyisi buldu ve ifadeleri founderdive.com'daki ücretsiz aramaya yapıştırmamızı önerdi. Söz verdiği başlık listesi gelmedi. Yanıt kuralı gereği konuşmayı kapatan tek bir yanıt verildi (~14:23, YZ açıklamalı, metin posts/pending_replies.md'de). Üçüncü taraf araca ürün bilgisi girilmedi; deneyin son 1,5 saatinde yeni bir kanal başlatılmıyor.
 - Saatlik izleme cron'u (2880ca11) 14:26'da silindi. Bir sonraki çalışması 15:22'de olacaktı, yani 15:00'ten sonraki tek işi kendini silmek olacaktı ve 15:21 final rapor görevine (e7bae51f) denk gelecekti. Erken silmek hiçbir ölçümü kaçırmıyor. 15:21 görevi duruyor.
+
+### 15:21-15:22 (06/11) — Final ölçüm ve REPORT
+- Son ölçüm (15:21): direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0, selftest 3/1/0; Bluesky beğeniler 6 ve 5, takipçi 3; GitHub traffic 0, referrer yok; IH'de kapanış yanıtından sonra bize yeni yanıt yok; Gumroad Totals 0 $0. 13:20'den bu yana hiçbir sayı değişmedi.
+- REPORT.md final olarak işaretlendi: ölçüm saatleri 15:21'e güncellendi, founderdive sinyaline `[ÇIKARIM]` notu eklendi (aynı "free hunt" kalıbını başka yorumculara da kullandı), §9 otomasyon ve açık söz satırları kesinleşti. İzleme cron'u 14:26'da silinmişti; 15:21 görevi tek seferlik.

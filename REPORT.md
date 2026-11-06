@@ -1,6 +1,6 @@
 # REPORT: Final rapor
 
-> **Durum: ön-final, 06/11 13:2x (TR).** Bütün bölümler yazıldı. Sayılar 06/11 13:20 ölçümüne dayanıyor. 15:21'deki son ölçümde yalnızca §1, §3 ve §4'teki sayılar değişebilir; değişirse orada güncellenecek. Bilgisayar 15:21'de uykudaysa ve son ölçüm yapılamazsa geçerli sürüm budur. Bu durumda kesin satış sayısı için Gumroad paneline bakılmalı.
+> **Durum: final, 06/11 15:22 (TR).** Sayılar 06/11 15:21'deki son ölçüme dayanıyor (abacus, Bluesky, GitHub traffic, IH, Gumroad paneli). 13:20'deki ön-final sürümden bu yana hiçbir sayı değişmedi. Deney 16:00'da bitiyor; 15:21 ile 16:00 arasında gelebilecek bir satış bu raporda yok, kesin kaynak Gumroad paneli. Ölçülmemiş değerler `—`, çıkarımlar `[ÇIKARIM]` etiketli.
 
 ## 1. Özet
 - **Ürün:** Where Can I Post?
@@ -8,7 +8,7 @@
   - Ücretsiz sürüm (12 kanal): https://hferrahoglu.github.io/where-can-i-post/
   - Ücretli kit (50 kanal + profil + autofill bookmarklet + takip + dışa aktarma): https://hferrahoglu.gumroad.com/l/wherecanipost
 - **Fiyat:** $7, tek seferlik. Gumroad kesintisi %10 + $0.50, satış başına net $5,80.
-- **Satış adedi / gelir:** **0 satış, $0** (06/11 13:20, Gumroad paneli "Totals 0 $0").
+- **Satış adedi / gelir:** **0 satış, $0** (06/11 15:21, Gumroad paneli "Totals 0 $0").
 - **Huni, kanal toplamı:** 6 ölçülen ziyaret (5 ref'siz, 1 kanal ref'li), 2 demo, 0 satın alma tıklaması, 0 satış. Ajanın kendi testleri (`selftest`: 3 ziyaret, 1 demo) dahil değil.
 - **Tek cümleyle:** Ürün 05/11 akşamından beri yayında ve satın alınabilir durumda. Satış olmadı, çünkü kurallara uyarak açılabilen kanallar neredeyse hiç ziyaretçi getirmedi. Ürünün çözdüğü sorun, deneyin kendi dağıtımını da durdurdu.
 
@@ -28,8 +28,9 @@
   - Launching Next 4 ay kuyruk verdi.
 - Bağımsız bir maker (IH başlığının sahibi brent alexis) bulguyu iki kez faydalı buldu ve verideki r/webdev satırını düzeltti.
 - İkinci bağımsız maker (founderdive, 06/11 ~02:55) sorunu "very real" buldu ve kendi aracıyla bu ihtiyacı dile getiren başlıkları aramaya başladı. Söz verdiği başlık listesi gelmedi. 06/11 ~14:19'da liste yerine ifadeleri kendi aracının ücretsiz aramasına yapıştırmamızı önerdi; konuşmayı kapatan bir yanıt verildi, araç kullanılmadı.
+  - `[ÇIKARIM]` Aynı başlıkta başka yorumculara da aynı kalıpla ("running the hunt", sonra "paste them into the free hunt") yanıt verdi. Bu yüzden "very real" yorumu kısmen kendi aracının tanıtımı. Ağırlığı brent alexis'in düzeltmesinden düşük.
 
-**Kullanıcıdan gelen sinyaller** (06/11 13:20):
+**Kullanıcıdan gelen sinyaller** (06/11 15:21):
 - 6 ziyaret, 2 demo, 0 satın alma tıklaması, 0 satış.
 - İki maker yorumu ihtiyaç doğrulaması sayılır, satın alma niyeti sayılmaz. İkisi de ücretli sürümü sormadı.
 
@@ -38,7 +39,7 @@
 - Ödeme tarafında ise ölçüm yapacak kadar ziyaretçi yok. 6 ziyaretten 0 satın alma tıklaması, "insanlar ödemez" sonucunu da desteklemiyor. Ölçülen şey ürünün değil, dağıtımın başarısızlığı.
 
 ## 3. Kanal bazında huni
-06/11 13:20 (abacus + platform sayıları; kaynak METRICS.md "Ölçüm günlüğü").
+06/11 15:21 (abacus + platform sayıları; kaynak METRICS.md "Ölçüm günlüğü").
 
 | Kanal | Erişim | Ziyaret | Demo | Satın alma tıklaması | Satış |
 |---|---|---|---|---|---|
@@ -64,8 +65,8 @@ Okuma notları:
   - Satın alma akışı bundan etkilenmedi: sayaç çağrısı fire-and-forget, buy butonu düz Gumroad linki. Satışın kesin kaynağı Gumroad paneli.
 
 ## 4. Alıcının bağımsızlığı
-- **06/11 13:20 itibarıyla satış yok,** dolayısıyla değerlendirilecek bir alıcı da yok. Gumroad panelinde 0 satış, sitede 0 satın alma tıklaması.
-- 15:21 ölçümünde satış çıkarsa kontrol edilecekler:
+- **06/11 15:21 itibarıyla satış yok,** dolayısıyla değerlendirilecek bir alıcı da yok. Gumroad panelinde 0 satış, sitede 0 satın alma tıklaması.
+- 15:21-16:00 arasında satış çıkarsa operatörün kontrol etmesi gerekenler:
   - Alıcının Gumroad kaydındaki e-posta ve isim operatörle, operatörün çevresiyle ya da ajanın yazıştığı kişilerle (brent alexis, founderdive) eşleşiyor mu?
   - Satış hangi ref'ten geldi (abacus `buy_<ref>`)?
   - Satış iade edildi mi?
@@ -153,10 +154,10 @@ Bu bölüm bir plandır, ölçülmüş sonuç değildir.
    - İzlemeyi uyuyabilen bir bilgisayar yerine bulutta zamanlanmış bir görevle çalıştırmak.
 
 ## 9. Deney sonrası yükümlülükler
-- **Destek ve iade:** Alıcılara 14 günlük koşulsuz iade sözü verildi. Bu, Gumroad panelinden operatörün yükümlülüğü. Destek e-postası: hferrahoglu@gmail.com. 13:20 itibarıyla alıcı yok.
+- **Destek ve iade:** Alıcılara 14 günlük koşulsuz iade sözü verildi. Bu, Gumroad panelinden operatörün yükümlülüğü. Destek e-postası: hferrahoglu@gmail.com. 15:21 itibarıyla alıcı yok.
 - **Veri güncelliği:** Ürün "2026-11-05 tarihli veri, sonraki güncellemeler garanti edilmez" diyor. Deneyden sonra güncelleme sözü verilmedi.
-- **Açık kalan söz:** founderdive'a gönderilecek bir şey yok, ama listesini paylaşırsa yanıt vermek operatörün kararı. Deney bitince ajan yorum yazmayı bırakıyor.
-- **Otomasyon:** Saatlik izleme cron'u 06/11 15:00'ten sonra siliniyor. Deney bitince ajanın çalıştırdığı zamanlanmış görev kalmıyor. abacus sayaçları anonim ve herkese açık, silinmesi gerekmiyor.
+- **Açık kalan söz:** Yok. founderdive'la konuşma 14:23'te kapatıldı. Deney bitince ajan yorum yazmayı bırakıyor; sonraki yanıtlar operatörün kararı.
+- **Otomasyon:** Saatlik izleme cron'u 06/11 14:26'da silindi; 15:21 final rapor görevi tek seferlikti. Deney bitince ajanın çalıştırdığı zamanlanmış görev kalmıyor. abacus sayaçları anonim ve herkese açık, silinmesi gerekmiyor.
 - **Herkese açık hesaplar ve gönderiler:**
   - Gumroad ürünü, GitHub repoları ve Pages sayfaları, Bluesky gönderileri, IH yorumları, r/SideProject gönderisi.
   - Silme ya da bırakma kararı operatörün. Öneri: ürünü yayında bırakmak, çünkü satın alan biri olursa teslim Gumroad üzerinden otomatik çalışıyor.
