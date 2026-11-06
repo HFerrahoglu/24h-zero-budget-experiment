@@ -45,3 +45,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 02:22 (06/11) | 5/2/0 | hepsi 0/0/0 (ih2, ihp dahil) | #1: 5/0/0; #2: 3/0/0 | ih: 1/2; ih2: yanıt yok | 0 / 0 | 0 |
 | 03:22 (06/11) | 5/2/0 | **ih2: 1/0/0** (ilk kanal ziyareti); diğerleri 0/0/0 | #1: 5/0/0; **#2: 4** (+tatecole, yorum otomasyonu tanıtan hesap) / 0 / 0 başkasından (API replyCount=2, görünen tek yanıt bizim) | ih: 1/2; **ih2: 1 upvote / 1 yanıt** (founderdive ~02:55; cevaplandı 03:23) | 0 / 0 | 0 |
 | 04:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 5/0/0; #2: 4/0/0 | ih: 1/2; ih2: 1/1 (founderdive listesi henüz gelmedi; başlık 11 yorum) | 0 / 0 | 0 |
+| 05:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 5/0/0; **#2: 5** (+yourbiz.app, maker hesabı) / 0 / 0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 (buy sayacı 0) |

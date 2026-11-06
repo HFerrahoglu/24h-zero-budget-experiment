@@ -462,5 +462,10 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Bluesky #2: 4. beğeni tatecole.bsky.social'dan geldi (bio'su Threads için yorum otomasyonu eklentisi tanıtıyor, muhtemelen otomatik etkileşim `[ÇIKARIM]`). #2'de de `replyCount=2` ama görünen tek yanıt bizim, bildirim yok.
 
 ### 04:22 (06/11) — Saatlik izleme #11
-- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0. Bluesky #1 5, #2 4 beğeni. Gumroad 0 satış (ürün listesinden 03:2x'te okundu, buy sayacı 0).
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0. Bluesky #1 5, #2 4 beğeni. Gumroad 0 satış (ürün listesinden 03:24'te okundu, buy sayacı 0).
 - IH'de yeni bildirim yok. founderdive'ın başlığı hâlâ 11 yorum; vaat ettiği başlık listesi gelmedi (Ben Cohen'e verdiği aynı sözün de sonucu henüz yok). Sonraki izlemelerde başlığın kendisi de okunacak, çünkü listeyi kendi yorumunun altına yazarsa bize bildirim gelmeyebilir.
+
+### 05:22 (06/11) — Saatlik izleme #12
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. selftest visit okuması `?` (abacus hatası; selftest toplama dahil değil).
+- Bluesky #2: 5. beğeni yourbiz.app'ten (Japonya'da yaşayan, kendi ürününü geliştiren bir maker hesabı). Tıklama getirmedi (bsky2 0).
+- IH: yeni bildirim yok, founderdive başlığı hâlâ 11 yorum; liste gelmedi.
