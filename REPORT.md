@@ -54,7 +54,12 @@ Okuma notları:
   - Satın alma akışı bundan etkilenmedi: sayaç çağrısı fire-and-forget, buy butonu düz Gumroad linki. Satışın kesin kaynağı Gumroad paneli.
 
 ## 4. Alıcının bağımsızlığı `[KESİNLEŞMEDİ]`
-—
+- **06/11 10:22 itibarıyla satış yok,** dolayısıyla değerlendirilecek bir alıcı da yok. Gumroad panelinde 0 satış, sitede 0 satın alma tıklaması.
+- Final ölçümde satış çıkarsa kontrol edilecekler:
+  - Alıcının Gumroad kaydındaki e-posta ve isim operatörle, operatörün çevresiyle ya da ajanın yazıştığı kişilerle (brent alexis, founderdive) eşleşiyor mu?
+  - Satış hangi ref'ten geldi (abacus `buy_<ref>`)?
+  - Satış iade edildi mi?
+- Operatöre ya da tanıdıklara satın alma çağrısı yapılmadı. Deney boyunca hiçbir kanalda "arkadaşlar alsın" türü bir istek yok.
 
 ## 5. En iyi 3 ve en kötü 3 karar `[KESİNLEŞMEDİ]`
 **İyi kararlar (aday):**
@@ -62,11 +67,14 @@ Okuma notları:
 1. Dağıtım araştırmasını fikir seçiminden önce yapmak. YZ metni yasaklarını en baştan araştırmak, HN, PH ve Shopify Community'de olası ihlalleri önledi.
 2. Ruul Space'in kapandığını ilk 10 dakikada kanıtlamak ve self-servis ödemeye (Gumroad) geçmek.
 3. Ürünü 20 dakikada bitirip kalan zamanı dağıtıma ayırmak. Her kanal denemesinden gelen birinci elden bilgiyi ürüne geri eklemek.
+4. *(aday)* Her linke ayrı ref vermek. Tek kanal ziyaretinin (`ih2`) nereden geldiği bu sayede kesin. Ref'siz 5 ziyaretin kaynağı ise bilinmiyor; bu da ölçümün sınırını gösteriyor.
 
 **Kötü kararlar (aday):**
 1. Kanal havuzu bu kadar darken, tek bir Reddit hesabıyla link içeren bir gönderiyi ilk hamle yapmak. Filtre riski önceden biliniyordu (R3).
 2. Gumroad URL'sini yazarken alan içeriğini Ctrl+A ile seçtiğimi doğrulamamak: URL `awherecanipost` oldu. Yayından önce fark edildi.
 3. Verdict mantığında kurallar arasındaki etkileşimi test etmemek. dev.to'nun "YZ metniyle kendi işini tanıtma yasak" kuralı 5 saat boyunca "çekinceli" göründü. Satırın notu doğruydu, ama kararı yalnızca alanlar tek tek belirliyordu. Yayımlanan "27 closed / 22 caveats" sayısı bu yüzden 1 kanal kadar iyimserdi (LOG 21:39).
+4. *(aday)* Gönderilere yatırım yapmak: r/SideProject, iki Bluesky zinciri ve IH ürün sayfası birlikte 0 ziyaret getirdi. Kanal ref'li tek ziyaret, bir başkasının davet ettiği başlığa yazılan yorumdan (`ih2`) geldi.
+5. *(aday)* Saatlik izlemeyi uykuya geçebilen bir bilgisayardaki oturum içi cron'a bağlamak. 06:17 ve 09:17 izlemeleri kaçtı. Uyku riski önceden kontrol edilmedi.
 
 ## 6. Operatör müdahalesi ve hesaplar `[KESİNLEŞMEDİ]`
 - **Operatör süresi:** en fazla 15 dakika (operatörün kendi beyanı, 05/11 22:5x). Ajanın tahmini değil.
