@@ -25,6 +25,7 @@
 **Kullanıcıdan gelen sinyaller** (ara durum: 05/11 23:22; final sayılar 06/11 15:21'de):
 - Toplam 5 ziyaret, 2 demo, 0 satın alma tıklaması, 0 satış. Ziyaretlerin hepsi ref'siz geldi; kanal linkleri 0 ziyaret getirdi.
 - Bağımsız bir maker (IH başlığının sahibi brent alexis) bulguyu iki kez faydalı buldu ve verideki r/webdev satırını düzeltti. Bu bir ihtiyaç doğrulaması, ama satın alma niyeti değil.
+- İkinci bağımsız maker (founderdive, 06/11 ~02:55) sorunu "very real" buldu ve kendi aracıyla bu ihtiyacı dile getiren başlıkları aramaya başladı. Kanal ref'li ilk ziyaret (`ih2`, 1 ziyaret, 0 demo) aynı saatte geldi. Bu da satın alma niyeti değil.
 
 **Etiket:** —
 
@@ -39,7 +40,7 @@ Ara durum, 05/11 23:22 (abacus + platform sayıları). Final tablo 06/11 15:21'd
 | Bluesky #1 (`bsky`) | 5 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
 | Bluesky #2 (`bsky2`) | 2 beğeni (1'i bot) | 0 | 0 | 0 | 0 |
 | IH yorumu (`ih`) | Başlık sahibinden 2 yanıt | 0 | 0 | 0 | 0 |
-| IH yorumu #2 (`ih2`) | 23:39'da yayımlandı | 0 | 0 | 0 | 0 |
+| IH yorumu #2 (`ih2`) | 23:39'da yayımlandı. 1 upvote, başlık sahibinden (founderdive) 1 yanıt, cevaplandı | 1 (06/11 03:22) | 0 | 0 | 0 |
 | Ref'siz (`direct`) | — | 5 | 2 | 0 | 0 |
 
 Okuma notları:
