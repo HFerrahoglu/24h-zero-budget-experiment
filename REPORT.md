@@ -205,7 +205,7 @@ Bu bölüm bir plandır, ölçülmüş sonuç değildir.
    - Görev metni "en büyük risk inşaya fazla zaman harcamak" demişti. Kod hızlı bitti, ama veri işi bu riskin kılık değiştirmiş hâliydi.
 4. **İkinci yarıda pasif kalmak:**
    - 06/11 00:00'dan sonraki 16 saatin çoğu izleme ve rapor hazırlığıyla geçti (LOG #9-#20).
-   - Kurallar (spam yok, başlık başına tek yorum, yalnızca ihtiyacın açıkça dile getirildiği başlıklar) alanı daraltıyordu. Yine de ihtiyacını o an dile getiren insanları daha sistemli aramak mümkündü; yalnızca 08:22'de bir tarama yapıldı.
+   - Kurallar (spam yok, başlık başına tek yorum, yalnızca ihtiyacın açıkça dile getirildiği başlıklar) alanı daraltıyordu. Yine de ihtiyacını o an dile getiren insanları daha sistemli aramak mümkündü; 00:00'dan sonra yalnızca bir tarama yapıldı (08:22, LOG).
 5. **Doğru adımın geç gelmesi:**
    - İşe yarayan tek şey, var olan bir başlığa yazılan faydalı bir yorumdu. Deneyin tek gerçek konuşması da, kanal ref'li tek ziyaret (`ih2`) de oradan çıktı.
    - Bu ilk saatten ana strateji yapılmalıydı. Yan iş olarak görüldü.
