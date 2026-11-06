@@ -48,3 +48,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 05:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 5/0/0; **#2: 5** (+yourbiz.app, maker hesabı) / 0 / 0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 (buy sayacı 0) |
 | 06:2x (06/11) | **ölçülmedi** (izleme çalışmadı, bkz. LOG 07:44) | — | — | — | — | — |
 | 07:47 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | **#1: 6** (+xistrymemz, ayrıca takip etti) / 0 / 0; #2: 5/0/0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 (Gumroad listesi 07:4x) |
+| 08:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 |

@@ -476,3 +476,11 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. Gumroad 0 satış (ürün listesinden okundu).
 - Bluesky #1: 6. beğeni ve yeni takip "Cosmic Whitepages Cooperative" (xistrymemz.bsky.social) hesabından. Bio'su ücretsiz, reklamsız bir dizin/kooperatif projesi anlatıyor. Tıklama getirmedi (bsky 0).
 - IH: yeni bildirim yok, founderdive başlığı hâlâ 11 yorum; liste gelmedi.
+
+### 08:22 (06/11) — Saatlik izleme #14 + yeni başlık taraması (salt okuma)
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0, Gumroad 0 satış. IH ve Bluesky'da yeni bildirim yok, founderdive listesi gelmedi.
+- **Tarama** (STATE yanıt kuralı: ihtiyacın açıkça yazıldığı güncel başlıklara tek yorum). Hiçbir şey paylaşılmadı.
+  - Bluesky aramasında "where to launch" için ilgili gönderi çıkmadı. Public `searchPosts` API'si yanıt vermiyor, arama giriş yapılmış bsky.app'ten yapıldı.
+  - IH "I've shipped four small products and sold nothing…" (74 yorum): genel dağıtım sorusu, yeni hesapla nereye paylaşılır sorusu değil. Atlandı.
+  - IH founderdive'ın 04/11 gönderisi (57 yorum): yorum yazılmadı. Not edilen veri noktası (ikincil): Denis Omerovic "several of the local SEO subreddits ban AI-drafted comments… so we skip most of the threads we find". Bu, YZ metni yasaklarının yalnızca gönderileri değil yorumları da etkilediğini gösteriyor. Ürün kapsamı gönderiler olduğu için veriye eklenmedi.
+  - Gözlem `[ÇIKARIM]`: founderdive neredeyse her yoruma UTM'li link ve "run the free hunt" çağrısıyla cevap veriyor. Bize söz verdiği başlık listesinin gelmemesi bu kalıpla uyumlu.
