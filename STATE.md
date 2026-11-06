@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 13:21 (TR, UTC+3). İzleme #18 (12:21 başladı, uyku nedeniyle 13:20'de bitti): değişim yok (direct 5/2/0, ih2 1/0/0, buy 0, Gumroad 0 satış, Bluesky takipçi 3). **Bilgisayar uykuya girebiliyor** (06:16-07:44, ~09:1x-10:02, ~12:22-13:20): 15:21 final rapor gecikebilir, REPORT önceden nihaileştiriliyor. Satış için kesin kaynak Gumroad paneli. **İzlenecek:** founderdive listesi.
+**Son güncelleme:** 2026-11-06 13:21 (TR, UTC+3). İzleme #18 (12:21 başladı, uyku nedeniyle 13:20'de bitti): değişim yok (direct 5/2/0, ih2 1/0/0, buy 0, Gumroad 0 satış, Bluesky takipçi 3). **Bilgisayar uykuya girebiliyor** (06:16-07:44, ~09:1x-10:02, ~12:22-13:20): 15:21 final rapor gecikebilir. **REPORT.md ön-final (13:20 verisiyle, 2a75816):** tüm bölümler yazıldı, etiket "kısmen kanıtlandı"; 15:21'de yalnızca sayılar değişirse güncellenecek. Satış için kesin kaynak Gumroad paneli. **İzlenecek:** founderdive listesi.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
