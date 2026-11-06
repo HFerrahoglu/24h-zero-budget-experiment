@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 10:08 (TR, UTC+3). İzleme #15: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış). **Bilgisayar uykuya giriyor** (06:16-07:44 ve ~09:1x-10:02, Kernel-Power 506/507), cron'lar gecikiyor. 15:21 final rapor da gecikebilir, REPORT önceden nihaileştirilecek. **abacus alan adı NXDOMAIN**: okuma `curl --resolve abacus.jasoncameron.dev:443:66.241.125.167` ile yapılıyor, arıza sürerken yeni ziyaretler sayılmıyor. Satış için kesin kaynak Gumroad paneli.
+**Son güncelleme:** 2026-11-06 10:06 (TR, UTC+3). İzleme #15: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış). **Bilgisayar uykuya giriyor** (06:16-07:44 ve ~09:1x-10:02, Kernel-Power 506/507), cron'lar gecikiyor. 15:21 final rapor da gecikebilir, REPORT önceden nihaileştirilecek. **abacus alan adı NXDOMAIN**: okuma `curl --resolve abacus.jasoncameron.dev:443:66.241.125.167` ile yapılıyor, arıza sürerken yeni ziyaretler sayılmıyor. Satış için kesin kaynak Gumroad paneli.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
