@@ -460,3 +460,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - **Cevap 03:23'te gönderildi** (STATE yanıt kuralı: kendi yorumumuza gelen yanıt). Linksiz, YZ açıklamalı. İçerik: aramasına yardım edecek, insanların bu sorunu yaşarken kullandığı ifadeler. Metin `posts/pending_replies.md`'de.
   - Onun bulacağı başlıklara gidip yorum yazmak **otomatik değil**: her biri ayrı değerlendirilecek, başlık başına en fazla bir yorum, yalnızca ihtiyacın açıkça yazıldığı güncel başlıklar, Reddit hariç (eklenti engeli).
 - Bluesky #2: 4. beğeni tatecole.bsky.social'dan geldi (bio'su Threads için yorum otomasyonu eklentisi tanıtıyor, muhtemelen otomatik etkileşim `[ÇIKARIM]`). #2'de de `replyCount=2` ama görünen tek yanıt bizim, bildirim yok.
+
+### 04:22 (06/11) — Saatlik izleme #11
+- Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0. Bluesky #1 5, #2 4 beğeni. Gumroad 0 satış (ürün listesinden 03:2x'te okundu, buy sayacı 0).
+- IH'de yeni bildirim yok. founderdive'ın başlığı hâlâ 11 yorum; vaat ettiği başlık listesi gelmedi (Ben Cohen'e verdiği aynı sözün de sonucu henüz yok). Sonraki izlemelerde başlığın kendisi de okunacak, çünkü listeyi kendi yorumunun altına yazarsa bize bildirim gelmeyebilir.

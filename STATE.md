@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 03:24 (TR, UTC+3). İzleme #10: **ih2'den ilk kanal ziyareti (1/0/0)**; founderdive yanıt verdi (aracını bizim için çalıştırıp başlık listesi yazacak), 03:23'te cevaplandı. direct 5/2/0, Gumroad 0 satış. Gumroad ZIP'i güncel (02:25). **İzlenecek:** founderdive'ın başlık listesi.
+**Son güncelleme:** 2026-11-06 04:22 (TR, UTC+3). İzleme #11: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış). **İzlenecek:** founderdive'ın başlık listesi. Bildirim gelmeyebileceği için başlığı da doğrudan oku (11 yorum, 04:22).
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
