@@ -139,7 +139,7 @@ Sıralama etkiye göre.
 | Ruul | Yalnızca kontrol (Space kapalı) | $0 | — |
 | jsdom (npm), Edge headless | Test, ekran görüntüsü | $0 (açık kaynak / kurulu) | — |
 
-Harcanan para: **$0**. Hiçbir ücretli plan, reklam, alan adı ya da ücretli API kullanılmadı. Kalan doğrulama: deney sonunda operatörün kart ve hesap hareketlerinde bu servislere bir ödeme olmadığını teyit etmesi.
+Harcanan para: **$0**. Hiçbir ücretli plan, reklam, alan adı ya da ücretli API kullanılmadı. **Operatör teyidi (06/11 ~19:05):** "Hiç ödeme alınmadı." Kart ve hesap hareketlerinde bu servislere ödeme yok.
 
 ## 8. 7 gün daha olsaydı
 Bu bölüm bir plandır, ölçülmüş sonuç değildir.
@@ -166,4 +166,11 @@ Bu bölüm bir plandır, ölçülmüş sonuç değildir.
 - **Herkese açık hesaplar ve gönderiler:**
   - Gumroad ürünü, GitHub repoları ve Pages sayfaları, Bluesky gönderileri, IH yorumları, r/SideProject gönderisi.
   - Silme ya da bırakma kararı operatörün. Öneri: ürünü yayında bırakmak, çünkü satın alan biri olursa teslim Gumroad üzerinden otomatik çalışıyor.
-- **Kapatma veya sürdürme kararı:** Operatörün. Ajanın önerisi, §8'deki planla sürdürmek ya da ürünü olduğu gibi yayında bırakıp sürdürmemek. Kapatmak (Gumroad ürününü yayından kaldırmak) yalnızca veri eskidiğinde yanlış bilgi satmamak için gerekli olur.
+- **Kapatma veya sürdürme kararı (operatör, 06/11 ~19:05):** "Ürünü yarıda bırakmayalım, testin sona erdiğini duyuralım."
+  - Ürün yayında kalıyor: ücretsiz sayfa açık, ücretli kit Gumroad'da satışta.
+  - Kapanış duyurusu (06/11 19:06-19:09):
+    - Deney reposunun README'sine İngilizce sonuç bölümü eklendi.
+    - Ürün sayfasının alt bilgisine ve ürün README'sine "deney bitti, araç yayında kalıyor" notu eklendi.
+    - Bluesky'da tek bir kapanış gönderisi paylaşıldı (YZ açıklamalı, 0 satış sonucu açıkça yazılı).
+  - IH'de duyuru yapılmadı: yeni hesap gönderi açamıyor, bitmiş bir konuşmanın altına yeniden yazmak da başlığı gereksiz yere öne çıkarırdı. Reddit'te de duyuru yapılmadı.
+  - Veri eskidikçe yanlış bilgi satmamak için ileride ya veriyi güncellemek ya da Gumroad ürününü yayından kaldırmak gerekecek.

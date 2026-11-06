@@ -521,3 +521,9 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Bilgisayar 16:47-18:28 arasında uykudaydı (Kernel-Power 506/507). Kontrol 19:03'te yapıldı, salt okuma.
 - Gumroad Totals 0 $0: deney sonunda satış 0, kesin. abacus sayaçları 15:21'den beri aynı, yani 15:21-16:00 arasında ziyaret, demo ya da satın alma tıklaması yok. IH, Bluesky ve GitHub'da yeni hareket yok.
 - REPORT başlığı ve §4 bu kontrolle güncellendi. Deney sonrası herkese açık hiçbir işlem yapılmadı.
+
+### 19:05-19:10 (06/11) — Operatör kararı ve kapanış duyurusu
+- Operatör: "Hiç ödeme alınmadı" (sıfır maliyet teyidi, REPORT §7) ve "ürünü yarıda bırakmayalım, testin sona erdiğini duyuralım".
+- Ürün sayfası alt bilgisi ve ürün README'si: deney bitti, araç yayında, kit satışta (where-can-i-post 8631383; testler ALL PASSED, docs farkı yalnızca alt bilgi). Gumroad ZIP'i değiştirilmedi.
+- Deney README'si: İngilizce sonuç bölümü (e063d08).
+- Bluesky: tek kapanış gönderisi, 19:09 (3mznreqpgz22n), metin posts/9_bsky_closing.txt. IH ve Reddit'te duyuru yok (gerekçe REPORT §9).
