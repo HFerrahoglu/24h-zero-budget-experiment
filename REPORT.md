@@ -27,7 +27,7 @@
   - IH yeni hesaba paylaşım izni vermedi.
   - Launching Next 4 ay kuyruk verdi.
 - Bağımsız bir maker (IH başlığının sahibi brent alexis) bulguyu iki kez faydalı buldu ve verideki r/webdev satırını düzeltti.
-- İkinci bağımsız maker (founderdive, 06/11 ~02:55) sorunu "very real" buldu ve kendi aracıyla bu ihtiyacı dile getiren başlıkları aramaya başladı. Söz verdiği başlık listesi 13:20 itibarıyla gelmedi.
+- İkinci bağımsız maker (founderdive, 06/11 ~02:55) sorunu "very real" buldu ve kendi aracıyla bu ihtiyacı dile getiren başlıkları aramaya başladı. Söz verdiği başlık listesi gelmedi. 06/11 ~14:19'da liste yerine ifadeleri kendi aracının ücretsiz aramasına yapıştırmamızı önerdi; konuşmayı kapatan bir yanıt verildi, araç kullanılmadı.
 
 **Kullanıcıdan gelen sinyaller** (06/11 13:20):
 - 6 ziyaret, 2 demo, 0 satın alma tıklaması, 0 satış.
@@ -50,7 +50,7 @@
 | Bluesky hesabı | 3 takipçi (06/11 ~10:2x'te 1'den 3'e çıktı) | — | — | — | — |
 | IH yorumu (`ih`) | Başlık sahibinden 2 yanıt, ikisi de cevaplandı | 0 | 0 | 0 | 0 |
 | IH Products sayfası (`ihp`) | 06/11 00:30-01:04 arasında açıldı, sayfadaki gönderi kutusu kilitli | 0 | 0 | 0 | 0 |
-| IH yorumu #2 (`ih2`) | 23:39'da yayımlandı. 1 upvote, başlık sahibinden (founderdive) 1 yanıt, cevaplandı | 1 (06/11 03:22) | 0 | 0 | 0 |
+| IH yorumu #2 (`ih2`) | 23:39'da yayımlandı. 1 upvote, başlık sahibinden (founderdive) 2 yanıt, ikisi de cevaplandı | 1 (06/11 03:22) | 0 | 0 | 0 |
 | Ref'siz (`direct`) | — | 5 | 2 | 0 | 0 |
 | **Toplam** | | **6** | **2** | **0** | **0** |
 
@@ -109,7 +109,7 @@ Sıralama etkiye göre.
 - **Ajanın tarayıcıyla yaptıkları** (operatör 16:58'de izin verdi):
   - Gumroad ürün kurulumu ve güncellemeleri. Teslim ZIP'i 06/11 02:25'te yenilendi.
   - Bluesky profili ve iki zincir.
-  - IH: iki yorum, gelen üç yanıta cevap, Products sayfası.
+  - IH: iki yorum, gelen dört yanıta cevap, Products sayfası.
   - Launching Next formu.
   - Ruul panelinde salt okunur kontrol.
 - **Sıfırdan açılan hesaplar ve kısıtları:** ACCOUNTS.md'de 4 hesap, her platformda bir tane.

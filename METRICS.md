@@ -55,3 +55,4 @@ Not: abacus sayaçları sayfa yüklemesini sayıyor, tekil ziyaretçi değil. `s
 | 11:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0; takipçi 3 (+2) | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 11 yorum) | 0 / 0 | 0 |
 | 13:20 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0; takipçi 3 | ih: 1/2; ih2: 1/1 (liste gelmedi; başlık 12 yorum, yeni yorum bizimle ilgisiz) | 0 / 0 | 0 |
 | 13:25 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0 | (13:20'de okundu) | 0 / 0 | (13:20'de 0) |
+| 14:22 (06/11) | 5/2/0 | ih2: 1/0/0; diğerleri 0/0/0 | #1: 6/0/0; #2: 5/0/0; takipçi 3 | ih: 1/2; ih2: 1/2 (founderdive 2. yanıt ~14:19, liste yerine kendi aracını önerdi; cevaplandı) | 0 / 0 | 0 |

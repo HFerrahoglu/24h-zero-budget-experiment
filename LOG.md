@@ -507,3 +507,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 
 ### 13:25 (06/11) — Saatlik izleme #19
 - 13:17 cron'u 13:24'te tetiklendi, #18'in 13:20 ölçümünden 4 dk sonra. Yalnızca sayaçlar, Bluesky ve GitHub tekrar okundu (monitor.sh); IH ve Gumroad 13:20-13:21 okumasıyla aynı kabul edildi. Değişim yok.
+
+### 14:22 (06/11) — Saatlik izleme #20
+- Sayaçlar değişmedi: direct 5/2/0, ih2 1/0/0, buy 0, Gumroad Totals 0 $0, Bluesky beğeniler 6 ve 5, takipçi 3, GitHub 0.
+- founderdive ~14:19'da ikinci kez yanıt verdi: önerdiğimiz ifadelerden "removed by automoderator"ı en iyisi buldu ve ifadeleri founderdive.com'daki ücretsiz aramaya yapıştırmamızı önerdi. Söz verdiği başlık listesi gelmedi. Yanıt kuralı gereği konuşmayı kapatan tek bir yanıt verildi (~14:25, YZ açıklamalı, metin posts/pending_replies.md'de). Üçüncü taraf araca ürün bilgisi girilmedi; deneyin son 1,5 saatinde yeni bir kanal başlatılmıyor.
