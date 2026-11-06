@@ -174,3 +174,43 @@ Bu bölüm bir plandır, ölçülmüş sonuç değildir.
     - Bluesky'da tek bir kapanış gönderisi paylaşıldı (YZ açıklamalı, 0 satış sonucu açıkça yazılı).
   - IH'de duyuru yapılmadı: yeni hesap gönderi açamıyor, bitmiş bir konuşmanın altına yeniden yazmak da başlığı gereksiz yere öne çıkarırdı. Reddit'te de duyuru yapılmadı.
   - Veri eskidikçe yanlış bilgi satmamak için ileride ya veriyi güncellemek ya da Gumroad ürününü yayından kaldırmak gerekecek.
+
+## Ek: Başarısızlık nedenleri, dış ve iç etkenler
+*Deney bittikten sonra, 06/11 ~19:15'te operatörün sorusu üzerine yazıldı. Ajanın kendi değerlendirmesi; ölçülmemiş yargılar `[ÇIKARIM]` etiketli.*
+
+**Kısa sonuç:** Dış engellerin hepsi önceden biliniyordu, birçoğu RESEARCH §2'de ajanın kendisi tarafından yazılmıştı. Belirleyici olan, bu engellerin içinden geçemeyecek bir ürün ve dağıtım planının seçilmesiydi. Bu yüzden başarısızlığın büyük kısmı ajanın kendi kararlarına ait.
+
+### Dış etkenler
+- **Platformların spam savunması:**
+  - Yeni hesap, YZ ile yazılmış metin ve link içeren tanıtım, Reddit ve IH filtrelerinin tam olarak engellemek için kurulduğu şey.
+  - Bu kötü şans değildi: sistemler tasarlandığı gibi çalıştı (§3: r/SideProject filtresi, r/indiehackers kapısı, IH paylaşım kilidi).
+- **Sıfır kitle ve güven:** Takipçi ve itibar yoktu. Dizin kuyrukları aylar sürüyor (Launching Next 4 ay). 24 saat güven biriktirmeye yetmiyor.
+- **Erişim kısıtları:**
+  - Tarayıcı eklentisi reddit.com'u engelliyordu. Operatöre yalnızca 05/11 16:00-00:00 arasında ulaşılabiliyordu.
+  - `[ÇIKARIM]` Satın alacak kişinin en olası olduğu an, Reddit'teki gönderisinin silindiği an. Ajan oraya hiç erişemedi.
+- **Pazar:** Ücretsiz lansman listesi çok. `[ÇIKARIM]` Tanınmayan bir satıcıya $7 ödemek için güçlü bir aciliyet gerekir.
+- **Teknik aksaklıklar:** Bilgisayarın uykuya geçmesi ve abacus alan adı arızası ölçümü bozdu, satışı etkilemedi (satın alma butonu düz Gumroad linki). Başarısızlık nedeni olarak sayılmıyor.
+
+### İç etkenler
+1. **Ürün ve kanal uyumsuzluğu (en büyük hata):**
+   - Ürünün tezi şuydu: yeni hesap ve YZ metniyle kanalların çoğu kapalı.
+   - Buna rağmen satış tam o kapalı kanallardaki gönderilere dayandırıldı. Fikir seçiminin "ulaşılabilirlik" gerekçesi (RESEARCH §4.1) r/SideProject'in açık olduğu varsayımına dayanıyordu.
+   - Toplanan veri bu sonucu önceden söylüyordu. Bu bir uyarı olarak okunmadı.
+2. **Teklif zayıf olabilir** `[ÇIKARIM]`:
+   - Gönderisi silinen birinin istediği bir kural listesi değil, gönderisinin yayında olması. Acı gerçek, ama "liste" o acının çözümü değil.
+   - Ücretsiz sürüm ana soruyu zaten cevaplıyordu. Ücretli kısım (38 kanal daha + kit) "olsa iyi olur" düzeyinde kaldı.
+   - Bu ölçülemedi: 6 ziyaret bir sonuç çıkarmaya yetmiyor.
+3. **Ürüne fazla, alıcıya az emek:**
+   - 50 kanal, kaynaklar, testler, gece boyu veri düzeltmeleri. Kaliteli bir ürün oldu, ama neredeyse kimse görmedi.
+   - Görev metni "en büyük risk inşaya fazla zaman harcamak" demişti. Kod hızlı bitti, ama veri işi bu riskin kılık değiştirmiş hâliydi.
+4. **İkinci yarıda pasif kalmak:**
+   - 06/11 00:00'dan sonraki 16 saatin çoğu izleme ve rapor hazırlığıyla geçti (LOG #9-#20).
+   - Kurallar (spam yok, başlık başına tek yorum, yalnızca ihtiyacın açıkça dile getirildiği başlıklar) alanı daraltıyordu. Yine de ihtiyacını o an dile getiren insanları daha sistemli aramak mümkündü; yalnızca 08:22'de bir tarama yapıldı.
+5. **Doğru adımın geç gelmesi:**
+   - İşe yarayan tek şey, var olan bir başlığa yazılan faydalı bir yorumdu. Deneyin tek gerçek konuşması da, kanal ref'li tek ziyaret (`ih2`) de oradan çıktı.
+   - Bu ilk saatten ana strateji yapılmalıydı. Yan iş olarak görüldü.
+
+### Hangisi belirleyiciydi
+- Dış koşullar değiştirilemezdi, ama hepsi önceden biliniyordu.
+- Hata, bu koşullarda satışın nereden gelebileceğine göre ürün seçmek yerine, iyi bir ürün seçip dağıtımın bir şekilde çözüleceğini varsaymaktı.
+- **Yeniden yapılsaydı:** Önce alıcı seçilirdi: ihtiyacını şu an dile getiren ve ajana açık bir kanalda ulaşılabilecek on kişi. Ürün ya da "senin yerine yapayım" türünden bir hizmet, ondan sonra onlara göre kurulurdu.

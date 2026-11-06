@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 19:09 (TR, UTC+3). **Deney bitti (16:00): 0 satış, $0.** Operatör sıfır maliyeti teyit etti ("Hiç ödeme alınmadı") ve ürünün yayında kalmasına karar verdi. Kapanış duyurusu yapıldı: deney README'si sonuç bölümü, ürün sayfası/README notu, Bluesky kapanış gönderisi (19:09). REPORT.md final. Zamanlanmış görev yok.
+**Son güncelleme:** 2026-11-06 19:09 (TR, UTC+3). **Deney bitti (16:00): 0 satış, $0.** Operatör sıfır maliyeti teyit etti ("Hiç ödeme alınmadı") ve ürünün yayında kalmasına karar verdi. Kapanış duyurusu yapıldı: deney README'si sonuç bölümü, ürün sayfası/README notu, Bluesky kapanış gönderisi (19:09). REPORT.md final (+ ek: başarısızlık nedenleri, 19:15). Zamanlanmış görev yok.
 **Faz:** 7 (Final rapor) tamamlandı. Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zincirleri, IH yorumları, Launching Next (4 ay kuyruk).
 **Deney:** 05/11 16:00 → 06/11 16:00
 

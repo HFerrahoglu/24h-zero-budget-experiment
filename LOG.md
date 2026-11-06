@@ -527,3 +527,6 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 - Ürün sayfası alt bilgisi ve ürün README'si: deney bitti, araç yayında, kit satışta (where-can-i-post 8631383; testler ALL PASSED, docs farkı yalnızca alt bilgi). Gumroad ZIP'i değiştirilmedi.
 - Deney README'si: İngilizce sonuç bölümü (e063d08).
 - Bluesky: tek kapanış gönderisi, 19:09 (3mznreqpgz22n), metin posts/9_bsky_closing.txt. IH ve Reddit'te duyuru yok (gerekçe REPORT §9).
+
+### 19:15 (06/11) — REPORT ek bölümü
+- Operatörün sorusu üzerine REPORT.md'ye "Ek: Başarısızlık nedenleri, dış ve iç etkenler" bölümü eklendi. Görev metnindeki 9 numaralı bölüm değişmedi.
