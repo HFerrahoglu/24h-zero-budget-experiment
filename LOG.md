@@ -500,3 +500,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 11:22 (06/11) — Saatlik izleme #17
 - Sayaçlar değişmedi: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. Gumroad Totals 0 $0. IH'de yeni bildirim yok, founderdive başlığı hâlâ 11 yorum (liste gelmedi).
 - Bluesky: beğeniler aynı (6 ve 5), takipçi 1'den 3'e çıktı (~10:2x, 2 yeni takip). Yanıt ya da tıklama yok; satın alma sinyali sayılmaz.
+
+### 12:21-13:21 (06/11) — Saatlik izleme #18
+- 12:17 cron'u 12:21'de başladı, bilgisayar hemen ardından Modern Standby'a girdi, ölçüm 13:20'de uyanınca tamamlandı (Kernel-Power 506/507 13:20:18). monitor.sh'nin GitHub traffic adımı ilk denemede boş yanıt aldı (JSONDecodeError), tekrar okundu: 0 görüntülenme, referrer yok.
+- Değişim yok: direct 5/2/0, ih2 1/0/0, buy 0, Gumroad Totals 0 $0, Bluesky beğeniler 6 ve 5, takipçi 3. founderdive başlığı 12 yorum; yeni yorum başka bir kullanıcının founderdive'a yazdığı yorum, liste hâlâ gelmedi.
