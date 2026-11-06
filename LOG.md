@@ -496,3 +496,7 @@ Neden: Ulaşılabilirliğin ağırlığı ×3. Kurallara uyan kanallar yalnızca
 ### 10:22 (06/11) — Saatlik izleme #16
 - Değişim yok: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0, Gumroad 0 satış. IH'de ve Bluesky'da yeni bildirim yok, founderdive başlığı 11 yorum.
 - abacus alan adı yeniden çözülüyor (modem DNS → 66.241.125.167). NXDOMAIN arızası en geç 10:06 ile 10:21 arasında bitti. Başlangıcı bilinmiyor (07:47'de çalışıyordu).
+
+### 11:22 (06/11) — Saatlik izleme #17
+- Sayaçlar değişmedi: direct 5/2/0, ih2 1/0/0, diğer ref'ler 0, buy 0. Gumroad Totals 0 $0. IH'de yeni bildirim yok, founderdive başlığı hâlâ 11 yorum (liste gelmedi).
+- Bluesky: beğeniler aynı (6 ve 5), takipçi 1'den 3'e çıktı (~10:2x, 2 yeni takip). Yanıt ya da tıklama yok; satın alma sinyali sayılmaz.

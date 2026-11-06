@@ -1,6 +1,6 @@
 # STATE — Şu anki durum
 
-**Son güncelleme:** 2026-11-06 10:22 (TR, UTC+3). İzleme #16: değişim yok (direct 5/2/0, ih2 1/0/0, Gumroad 0 satış). abacus DNS düzeldi (monitor.sh'de IP yedeği duruyor). **Bilgisayar uykuya girebiliyor** (06:16-07:44, ~09:1x-10:02): 15:21 final rapor gecikebilir, REPORT önceden nihaileştiriliyor. Satış için kesin kaynak Gumroad paneli. **İzlenecek:** founderdive listesi.
+**Son güncelleme:** 2026-11-06 11:23 (TR, UTC+3). İzleme #17: sayaçlarda değişim yok (direct 5/2/0, ih2 1/0/0, buy 0, Gumroad 0 satış). Bluesky takipçi 3 (+2), yanıt yok. **Bilgisayar uykuya girebiliyor** (06:16-07:44, ~09:1x-10:02): 15:21 final rapor gecikebilir, REPORT önceden nihaileştiriliyor. Satış için kesin kaynak Gumroad paneli. **İzlenecek:** founderdive listesi.
 **Faz:** 6 (Dağıtım). Yayında olanlar: Gumroad ($7), ücretsiz sayfa, Bluesky zinciri, IH yorumu, Launching Next (4 ay kuyruk). Reddit filtrelendi. İzleme cron'u saat başı :17'de.
 **Deney:** 05/11 16:00 → 06/11 16:00
 
